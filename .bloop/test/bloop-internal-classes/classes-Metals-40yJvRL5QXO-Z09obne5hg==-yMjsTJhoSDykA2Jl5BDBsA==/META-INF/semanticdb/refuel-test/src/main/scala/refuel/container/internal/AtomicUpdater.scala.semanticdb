@@ -1,0 +1,125 @@
+
+�3Hrefuel-refuel.test/src/main/scala/refuel/container/internal/AtomicUpdater.scala*>
+(refuel/container/internal/AtomicUpdater#*
+AtomicUpdater�*E
+3refuel/container/internal/AtomicUpdater#`<init>`(). �@*<init>�*
+local0*self�*5
++refuel/container/internal/AtomicUpdater#[U]	*U�*5
++refuel/container/internal/AtomicUpdater#[W]	*W�*C
+0refuel/container/internal/AtomicUpdater#updater. �*updater�*N
+7refuel/container/internal/AtomicUpdater#atomicUpdate(). *atomicUpdate�*D
+:refuel/container/internal/AtomicUpdater#atomicUpdate().(f)*f�*
+local1 �*ref�*
+local2 �*nw�*D
+3refuel/container/internal/AtomicUpdater#snapshot().*snapshot�*@
+6refuel/container/internal/AtomicUpdater#snapshot().(w)*w�*N
+8refuel/container/internal/AtomicUpdater#compareAndSet().*
+compareAndSet�*E
+;refuel/container/internal/AtomicUpdater#compareAndSet().(o)*o�*E
+;refuel/container/internal/AtomicUpdater#compareAndSet().(n)*n�*:
+.refuel/container/internal/AtomicUpdater#get().*get�*@
+1refuel/container/internal/AtomicUpdater#getRef().*getRef�*:
+.refuel/container/internal/AtomicUpdater#set().*set�*;
+1refuel/container/internal/AtomicUpdater#set().(n)*n�*F
+4refuel/container/internal/AtomicUpdater#getAndSet().*	getAndSet�*A
+7refuel/container/internal/AtomicUpdater#getAndSet().(n)*n�*L
+7refuel/container/internal/AtomicUpdater#getAndUpdate().*getAndUpdate�*F
+;refuel/container/internal/AtomicUpdater#getAndUpdate().(nf)*nf�2$
+ !refuel/container/internal/2
+ refuel/container/2
+ refuel/2F
+# >8java/util/concurrent/atomic/AtomicReferenceFieldUpdater#2*
+ "java/util/concurrent/atomic/2#
+ java/util/concurrent/2
+ 
+java/util/2
+ java/2/
+ '!java/util/function/UnaryOperator.2/
+ '!java/util/function/UnaryOperator#2!
+ java/util/function/2
+ 
+java/util/2
+ java/2'
+ scala/annotation/tailrec#2
+
+ scala/annotation/2
+ scala/26
+ (refuel/container/internal/AtomicUpdater#2A
+ 3refuel/container/internal/AtomicUpdater#`<init>`().2
+ local029
+ 	+refuel/container/internal/AtomicUpdater#[U]29
+ +refuel/container/internal/AtomicUpdater#[U]29
+ +refuel/container/internal/AtomicUpdater#[W]2>
+ 
+0refuel/container/internal/AtomicUpdater#updater.2F
+ *8java/util/concurrent/atomic/AtomicReferenceFieldUpdater#29
++ ,+refuel/container/internal/AtomicUpdater#[U]29
+. /+refuel/container/internal/AtomicUpdater#[W]2'
+ 
+scala/annotation/tailrec#2E
+ "7refuel/container/internal/AtomicUpdater#atomicUpdate().2H
+# $:refuel/container/internal/AtomicUpdater#atomicUpdate().(f)29
+& '+refuel/container/internal/AtomicUpdater#[W]29
++ ,+refuel/container/internal/AtomicUpdater#[W]29
+/ 0+refuel/container/internal/AtomicUpdater#[W]2
+ local12?
+ 1refuel/container/internal/AtomicUpdater#getRef().2
+ 
+local22&
+ scala/Function1#apply().2H
+
+ :refuel/container/internal/AtomicUpdater#atomicUpdate().(f)2A
+ 3refuel/container/internal/AtomicUpdater#snapshot().2
+ local12F
+ 8refuel/container/internal/AtomicUpdater#compareAndSet().2
+ local12
+ local22
+  "local22E
+( 47refuel/container/internal/AtomicUpdater#atomicUpdate().2H
+5 6:refuel/container/internal/AtomicUpdater#atomicUpdate().(f)2A
+,, 3refuel/container/internal/AtomicUpdater#snapshot().2D
+,, 6refuel/container/internal/AtomicUpdater#snapshot().(w)29
+,, +refuel/container/internal/AtomicUpdater#[W]29
+, , !+refuel/container/internal/AtomicUpdater#[W]26
+,>, >(java/lang/RuntimeException#`<init>`(+1).2-
+,., >scala/package.RuntimeException#2F
+66 8refuel/container/internal/AtomicUpdater#compareAndSet().2I
+66 ;refuel/container/internal/AtomicUpdater#compareAndSet().(o)29
+6!6 "+refuel/container/internal/AtomicUpdater#[W]2I
+6$6 %;refuel/container/internal/AtomicUpdater#compareAndSet().(n)29
+6'6 (+refuel/container/internal/AtomicUpdater#[W]2
+6+6 2scala/Boolean#2V
+6=6 JHjava/util/concurrent/atomic/AtomicReferenceFieldUpdater#compareAndSet().2>
+656 <0refuel/container/internal/AtomicUpdater#updater.2I
+6Q6 R;refuel/container/internal/AtomicUpdater#compareAndSet().(o)2I
+6T6 U;refuel/container/internal/AtomicUpdater#compareAndSet().(n)2<
+== .refuel/container/internal/AtomicUpdater#get().29
+== +refuel/container/internal/AtomicUpdater#[W]2A
+== !3refuel/container/internal/AtomicUpdater#snapshot().2?
+="= (1refuel/container/internal/AtomicUpdater#getRef().2?
+EE 1refuel/container/internal/AtomicUpdater#getRef().29
+EE +refuel/container/internal/AtomicUpdater#[W]2L
+E$E '>java/util/concurrent/atomic/AtomicReferenceFieldUpdater#get().2>
+EE #0refuel/container/internal/AtomicUpdater#updater.2<
+NN .refuel/container/internal/AtomicUpdater#set().2?
+NN 1refuel/container/internal/AtomicUpdater#set().(n)29
+NN +refuel/container/internal/AtomicUpdater#[W]2
+NN scala/Unit#2L
+N*N ->java/util/concurrent/atomic/AtomicReferenceFieldUpdater#set().2>
+N"N )0refuel/container/internal/AtomicUpdater#updater.2?
+N4N 51refuel/container/internal/AtomicUpdater#set().(n)2B
+WW 4refuel/container/internal/AtomicUpdater#getAndSet().2E
+WW 7refuel/container/internal/AtomicUpdater#getAndSet().(n)29
+WW +refuel/container/internal/AtomicUpdater#[W]29
+W!W "+refuel/container/internal/AtomicUpdater#[W]2R
+W-W 6Djava/util/concurrent/atomic/AtomicReferenceFieldUpdater#getAndSet().2>
+W%W ,0refuel/container/internal/AtomicUpdater#updater.2E
+W=W >7refuel/container/internal/AtomicUpdater#getAndSet().(n)2E
+cc 7refuel/container/internal/AtomicUpdater#getAndUpdate().2I
+cc ;refuel/container/internal/AtomicUpdater#getAndUpdate().(nf)2/
+c!c .!java/util/function/UnaryOperator#29
+c/c 0+refuel/container/internal/AtomicUpdater#[W]29
+c4c 5+refuel/container/internal/AtomicUpdater#[W]2U
+c@c LGjava/util/concurrent/atomic/AtomicReferenceFieldUpdater#getAndUpdate().2>
+c8c ?0refuel/container/internal/AtomicUpdater#updater.2I
+cSc U;refuel/container/internal/AtomicUpdater#getAndUpdate().(nf)PZ 322B5E36AC87C1D7AE2A58CD18B5F8BF

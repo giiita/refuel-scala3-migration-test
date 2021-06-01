@@ -1,0 +1,150 @@
+
+�Egrefuel-macro-refuel.test/src/main/scala/refuel/container/macro/internal/tools/LowLevelAPIConversionAlias.scala*d
+Arefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#*LowLevelAPIConversionAlias�*^
+Lrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#`<init>`(). �@*<init>�*c
+Orefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_Expr().*Symbol_Expr�*^
+Rrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_Expr().(q)  *q�*b
+Urefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_Expr().(from)*from�*k
+Srefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeRepr().*Symbol_TypeRepr�*b
+Vrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeRepr().(q)  *q�*f
+Yrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeRepr().(from)*from�*e
+Prefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeT().*Symbol_TypeT�*_
+Srefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeT().(q)  *q�*c
+Vrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeT().(from)*from�*i
+Rrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#TypeT_TypeRepr().*TypeT_TypeRepr�*_
+Urefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#TypeT_TypeRepr().[T]	*T�*a
+Urefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#TypeT_TypeRepr().(q)  *q�*o
+Urefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#ValDefModule_Expr().*ValDefModule_Expr�*d
+Xrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#ValDefModule_Expr().(q)  *q�*h
+[refuel/container/macro/internal/tools/LowLevelAPIConversionAlias#ValDefModule_Expr().(from)*from�*
+local0 �*tree�*
+local1 �*x�20
+* /&refuel/container/macro/internal/tools/2*
+! ) refuel/container/macro/internal/2!
+  refuel/container/macro/2
+ refuel/container/2
+ refuel/2
+
+ 
+scala/quoted/2
+ scala/2O
+  Arefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#2Z
+ Lrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#`<init>`().2]
+ Orefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_Expr().2`
+ Rrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_Expr().(q)2"
+ !scala/quoted/Quotes#2c
+# 'Urefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_Expr().(from)27
+3 9)scala/quoted/Quotes#reflectModule#Symbol#2*
++ 2scala/quoted/Quotes#reflect.2`
+) *Rrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_Expr().(q)2 
+< @scala/quoted/Expr#2
+A D
+scala/Any#2*
+
+ scala/quoted/Quotes#reflect.2`
+ Rrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_Expr().(q)2E
+ 7scala/quoted/Quotes#reflectModule#TreeMethods#asExpr().2E
+ 7scala/quoted/Quotes#reflectModule#SymbolMethods#tree().2c
+ Urefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_Expr().(from)2a
+		 Srefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeRepr().2d
+		 Vrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeRepr().(q)2"
+		 %scala/quoted/Quotes#2g
+	'	 +Yrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeRepr().(from)27
+	7	 =)scala/quoted/Quotes#reflectModule#Symbol#2*
+	/	 6scala/quoted/Quotes#reflect.2d
+	-	 .Vrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeRepr().(q)29
+	J	 R+scala/quoted/Quotes#reflectModule#TypeRepr#2*
+	B	 Iscala/quoted/Quotes#reflect.2d
+	@	 AVrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeRepr().(q)2*
+
+
+
+ scala/quoted/Quotes#reflect.2d
+
+
+ Vrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeRepr().(q)2E
+ 7scala/quoted/Quotes#reflectModule#SymbolMethods#tree().2g
+ Yrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeRepr().(from)2B
+
+
+ 4scala/quoted/Quotes#reflectModule#TermMethods#tpe().29
+
+"
+ (+scala/quoted/Quotes#reflectModule#asTerm().2]
+
+
+ Orefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_Expr().2d
+
+
+ Vrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeRepr().(q)2g
+
+
+  Yrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeRepr().(from)2B
+ 4scala/quoted/Quotes#reflectModule#TermMethods#tpe().29
+ +scala/quoted/Quotes#reflectModule#asTerm().2]
+ Orefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_Expr().2d
+ Vrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeRepr().(q)2g
+ Yrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeRepr().(from)2^
+ Prefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeT().2a
+ Srefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeT().(q)2"
+ "scala/quoted/Quotes#2d
+$ (Vrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeT().(from)27
+4 :)scala/quoted/Quotes#reflectModule#Symbol#2*
+, 3scala/quoted/Quotes#reflect.2a
+* +Srefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeT().(q)2 
+= Ascala/quoted/Type#2*
+
+ scala/quoted/Quotes#reflect.2a
+ Srefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeT().(q)2I
+ ;scala/quoted/Quotes#reflectModule#TypeReprMethods#asType().2a
+ Srefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeRepr().2a
+ Srefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeT().(q)2d
+ Vrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#Symbol_TypeT().(from)2`
+ Rrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#TypeT_TypeRepr().2c
+ Urefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#TypeT_TypeRepr().[T]2
+ !scala/AnyKind#2 
+# 'scala/quoted/Type#2c
+' 'Urefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#TypeT_TypeRepr().[T]2c
+/ 0Urefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#TypeT_TypeRepr().(q)2"
+2 8scala/quoted/Quotes#29
+E M+scala/quoted/Quotes#reflectModule#TypeRepr#2*
+= Dscala/quoted/Quotes#reflect.2c
+; <Urefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#TypeT_TypeRepr().(q)2*
+
+ scala/quoted/Quotes#reflect.2c
+ Urefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#TypeT_TypeRepr().(q)2D
+
+ 6scala/quoted/Quotes#reflectModule#TypeReprModule#of().29
+ +scala/quoted/Quotes#reflectModule#TypeRepr.2c
+ Urefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#TypeT_TypeRepr().[T]2c
+$$ Urefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#ValDefModule_Expr().2f
+$$ Xrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#ValDefModule_Expr().(q)2"
+$!$ 'scala/quoted/Quotes#2i
+$)$ -[refuel/container/macro/internal/tools/LowLevelAPIConversionAlias#ValDefModule_Expr().(from)27
+$9$ ?)scala/quoted/Quotes#reflectModule#Symbol#2*
+$1$ 8scala/quoted/Quotes#reflect.2f
+$/$ 0Xrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#ValDefModule_Expr().(q)2 
+$B$ Fscala/quoted/Expr#2
+$G$ J
+scala/Any#2*
+%
+% scala/quoted/Quotes#reflect.2f
+%% Xrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#ValDefModule_Expr().(q)2E
+&& 7scala/quoted/Quotes#reflectModule#SymbolMethods#tree().2i
+&& [refuel/container/macro/internal/tools/LowLevelAPIConversionAlias#ValDefModule_Expr().(from)2/
+'' !scala/reflect/TypeTest#unapply().2G
+'' 9scala/quoted/Quotes#reflectModule#ValDefModule#unapply().27
+'' )scala/quoted/Quotes#reflectModule#ValDef.2
+'' local02F
+'"' "8scala/quoted/Quotes#reflectModule#TypeTreeMethods#tpe().2
+'"' &local02/
+(( !scala/reflect/TypeTest#unapply().2
+(
+( local12E
+)
+) 
+7scala/quoted/Quotes#reflectModule#TreeMethods#asExpr().2D
+)) 6scala/quoted/Quotes#reflectModule#IdentModule#apply().26
+)
+) (scala/quoted/Quotes#reflectModule#Ident.2
+)) local1PZ A9EAB43728B1374C5228E2D806CE5A2D

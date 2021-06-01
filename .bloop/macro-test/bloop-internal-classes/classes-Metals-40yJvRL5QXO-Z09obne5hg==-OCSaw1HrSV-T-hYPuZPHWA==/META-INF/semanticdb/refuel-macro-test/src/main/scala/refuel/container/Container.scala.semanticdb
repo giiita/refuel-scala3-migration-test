@@ -1,0 +1,135 @@
+
+�+Arefuel-macro-refuel.test/src/main/scala/refuel/container/Container.scala*-
+refuel/container/Container#*	Container�*8
+&refuel/container/Container#`<init>`(). �@*<init>�*4
+"refuel/container/Container#lights. �*lights�*3
+#refuel/container/Container#cache(). *cache�*0
+&refuel/container/Container#cache().[T]	*T�*8
+*refuel/container/Container#cache().(value)*value�*1
+"refuel/container/Container#find(). *find�*/
+%refuel/container/Container#find().[T]	*T�*/
+%refuel/container/Container#find().[A]	*A�*3
+'refuel/container/Container#find().(key)*key�*C
+/refuel/container/Container#find().(requestFrom)*requestFrom�*C
++refuel/container/Container#createIndexer(). *
+createIndexer�*8
+.refuel/container/Container#createIndexer().[T]	*T�*8
+.refuel/container/Container#createIndexer().(k)*k�*8
+.refuel/container/Container#createIndexer().(x)*x�*F
+5refuel/container/Container#createIndexer().(priority)*priority�*B
+3refuel/container/Container#createIndexer().(lights)*lights�*U
+5refuel/container/Container#createIndexer$default$4().*createIndexer$default$4�*B
+8refuel/container/Container#createIndexer$default$4().[T]	*T�*?
+)refuel/container/Container#createScope(). *createScope�*6
+,refuel/container/Container#createScope().[T]	*T�*:
+.refuel/container/Container#createScope().(key)*key�*6
+,refuel/container/Container#createScope().(x)*x�*D
+3refuel/container/Container#createScope().(priority)*priority�*7
+%refuel/container/Container#shading(). *shading�*3
+#refuel/container/Container#fully(). *fully�*0
+&refuel/container/Container#fully().[T]	*T�2
+ refuel/container/2
+ refuel/24
+! ,&refuel/container/provider/restriction/2(
+  refuel/container/provider/2
+ refuel/container/2
+ 
+refuel/2.
+ & refuel/inject/InjectionPriority.2.
+ & refuel/inject/InjectionPriority#2
+ refuel/inject/2
+ 
+refuel/2;
+ "-refuel/container/provider/TypedAcceptContext.2(
+ refuel/container/provider/2"
+ refuel/inject/Types.2
+ refuel/inject/2
+ 
+refuel/2
+
+ 
+scala/quoted/2
+ scala/2)
+ refuel/container/Container#24
+
+
+ &refuel/container/Container#`<init>`().20
+
+
+ "refuel/container/Container#lights.2
+
+
+
+ refuel/2#
+
+
+ $scala/package.Vector#2)
+
+%
+ .refuel/container/Container#21
+ #refuel/container/Container#cache().2
+
+ refuel/24
+ &refuel/container/Container#cache().[T]28
+ $*refuel/container/Container#cache().(value)2F
+& 78refuel/container/provider/restriction/SymbolRestriction#24
+8 9&refuel/container/Container#cache().[T]2F
+= N8refuel/container/provider/restriction/SymbolRestriction#24
+O P&refuel/container/Container#cache().[T]20
+## 
+"refuel/container/Container#find().23
+## %refuel/container/Container#find().[T]23
+## %refuel/container/Container#find().[A]25
+#%# ('refuel/container/Container#find().(key)2
+#*# 0
+scala/Symbol#2=
+#2# =/refuel/container/Container#find().(requestFrom)23
+#?# @%refuel/container/Container#find().[A]2;
+## #-refuel/container/provider/TypedAcceptContext#23
+### #%refuel/container/Container#find().[A]2
+#C# I
+scala/Option#23
+#J# K%refuel/container/Container#find().[T]29
+-- +refuel/container/Container#createIndexer().2<
+-- .refuel/container/Container#createIndexer().[T]2<
+.. .refuel/container/Container#createIndexer().(k)2=
+.	. /refuel/container/IndexedKey$package.IndexedKey#2<
+// .refuel/container/Container#createIndexer().(x)2<
+/	/ 
+.refuel/container/Container#createIndexer().[T]2C
+00 5refuel/container/Container#createIndexer().(priority)2.
+00 ! refuel/inject/InjectionPriority#2A
+11 3refuel/container/Container#createIndexer().(lights)2#
+11 scala/package.Vector#2)
+11 refuel/container/Container#2'
+22 refuel/container/Indexer#2<
+2
+2 .refuel/container/Container#createIndexer().[T]2F
+-- 8refuel/container/Container#createIndexer$default$4().[T]20
+1'1 -"refuel/container/Container#lights.27
+<< !)refuel/container/Container#createScope().2
+<
+< refuel/2:
+<"< #,refuel/container/Container#createScope().[T]2<
+<%< (.refuel/container/Container#createScope().(key)2=
+<*< 4/refuel/container/IndexedKey$package.IndexedKey#2:
+<6< 7,refuel/container/Container#createScope().(x)2:
+<9< :,refuel/container/Container#createScope().[T]2A
+<<< D3refuel/container/Container#createScope().(priority)2.
+<F< W refuel/inject/InjectionPriority#2F
+<Z< k8refuel/container/provider/restriction/SymbolRestriction#2:
+<l< m,refuel/container/Container#createScope().[T]23
+>> %refuel/container/Container#shading().2
+>
+> refuel/2'
+>)> +refuel/inject/Types.`@@`#2)
+>> (refuel/container/Container#2,
+>,> 5refuel/inject/Types.Localized#21
+@@ #refuel/container/Container#fully().2
+@
+@ refuel/24
+@@ &refuel/container/Container#fully().[T]2 
+@@ #scala/quoted/Type#24
+@#@ #&refuel/container/Container#fully().[T]2%
+@&@ .scala/package.Iterable#24
+@/@ 0&refuel/container/Container#fully().[T]PZ A174E41F15606B8A3273CD8F350CABC2

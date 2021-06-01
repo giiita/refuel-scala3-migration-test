@@ -1,0 +1,385 @@
+
+�?refuel-refuel.test/src/main/scala/refuel/container/ContainerImpl.scala*7
+refuel/container/ContainerImpl.
+ *
+ContainerImpl�*a
+=refuel/container/ContainerImpl.$lessinit$greater$default$1().*$lessinit$greater$default$1�*5
+'refuel/container/ContainerImpl.apply().*apply�*>
+/refuel/container/ContainerImpl.apply().(buffer)*buffer�*>
+/refuel/container/ContainerImpl.apply().(lights)*lights�*
+local0 �*r�*I
+1refuel/container/ContainerImpl.apply$default$1().*apply$default$1�*I
+1refuel/container/ContainerImpl.apply$default$2().*apply$default$2�*5
+refuel/container/ContainerImpl#
+*
+ContainerImpl�*<
+*refuel/container/ContainerImpl#`<init>`(). �@*<init>�*D
+2refuel/container/ContainerImpl#`<init>`().(lights) �*lights�*8
+&refuel/container/ContainerImpl#lights. �*lights�*:
+'refuel/container/ContainerImpl#updater. �*updater�*;
+*refuel/container/ContainerImpl#snapshot().*snapshot�*7
+-refuel/container/ContainerImpl#snapshot().(w)*w�*<
+)refuel/container/ContainerImpl#_buffer(). �*_buffer�*B
+-refuel/container/ContainerImpl#`_buffer_=`(). �*	_buffer_=�*>
+2refuel/container/ContainerImpl#`_buffer_=`().(x$1)*x$1�*7
+'refuel/container/ContainerImpl#cache(). *cache�*4
+*refuel/container/ContainerImpl#cache().[T]	*T�*<
+.refuel/container/ContainerImpl#cache().(value)*value�*
+local1 �*x�*3
+&refuel/container/ContainerImpl#find().*find�*3
+)refuel/container/ContainerImpl#find().[T]	*T�*3
+)refuel/container/ContainerImpl#find().[A]	*A�*7
++refuel/container/ContainerImpl#find().(key)*key�*G
+3refuel/container/ContainerImpl#find().(requestFrom)*requestFrom�*
+local2 �*r�*
+local3 �*x�*5
+(refuel/container/ContainerImpl#find(+1).*find�*5
++refuel/container/ContainerImpl#find(+1).[T]	*T�*5
++refuel/container/ContainerImpl#find(+1).[A]	*A�*I
+5refuel/container/ContainerImpl#find(+1).(requestFrom)*requestFrom�*
+local4 �*key�*E
+/refuel/container/ContainerImpl#createIndexer().*
+createIndexer�*<
+2refuel/container/ContainerImpl#createIndexer().[T]	*T�*<
+2refuel/container/ContainerImpl#createIndexer().(k)*k�*<
+2refuel/container/ContainerImpl#createIndexer().(x)*x�*J
+9refuel/container/ContainerImpl#createIndexer().(priority)*priority�*F
+7refuel/container/ContainerImpl#createIndexer().(lights)*lights�*Y
+9refuel/container/ContainerImpl#createIndexer$default$4().*createIndexer$default$4�*F
+<refuel/container/ContainerImpl#createIndexer$default$4().[T]	*T�*A
+-refuel/container/ContainerImpl#createScope().*createScope�*:
+0refuel/container/ContainerImpl#createScope().[T]	*T�*>
+2refuel/container/ContainerImpl#createScope().(key)*key�*:
+0refuel/container/ContainerImpl#createScope().(x)*x�*H
+7refuel/container/ContainerImpl#createScope().(priority)*priority�*9
+)refuel/container/ContainerImpl#shading().*shading�*5
+'refuel/container/ContainerImpl#fully().*fully�*4
+*refuel/container/ContainerImpl#fully().[T]	*T�*
+local5 �*r�2
+ refuel/container/2
+ refuel/23
+  +%refuel/container/indexer/IndexerImpl#2'
+ refuel/container/indexer/2
+ refuel/container/2
+ 
+refuel/2(
+  refuel/container/internal/2
+ refuel/container/2
+ 
+refuel/2;
+! 3-refuel/container/provider/TypedAcceptContext.2(
+  refuel/container/provider/2
+ refuel/container/2
+ 
+refuel/2?
+. 81refuel/container/provider/restriction/OpenSymbol.2?
+. 81refuel/container/provider/restriction/OpenSymbol#2F
+: K8refuel/container/provider/restriction/SymbolRestriction.24
+! ,&refuel/container/provider/restriction/2(
+  refuel/container/provider/2
+ refuel/container/2
+ 
+refuel/2"
+ refuel/inject/Types.2
+ refuel/inject/2
+ 
+refuel/2.
+ ' refuel/inject/InjectionPriority.2.
+ ' refuel/inject/InjectionPriority#2"
+) .refuel/inject/Types.2
+ refuel/inject/2
+ 
+refuel/2"
+ refuel/provider/Tag.2
+ refuel/provider/2
+ 
+refuel/2F
+
+#
+ >8java/util/concurrent/atomic/AtomicReferenceFieldUpdater#2*
+
+
+ "java/util/concurrent/atomic/2#
+
+
+ java/util/concurrent/2
+
+
+ 
+java/util/2
+
+
+ java/22
+# *$scala/collection/concurrent/TrieMap.22
+# *$scala/collection/concurrent/TrieMap#2*
+ "scala/collection/concurrent/2
+
+ scala/collection/2
+ scala/2'
+ scala/collection/mutable/2
+
+ scala/collection/2
+ scala/2
+
+
+
+ 
+scala/quoted/2
+
+
+ scala/2-
+ $refuel/container/ContainerImpl.2
+ refuel/28
+T Y*scala/collection/immutable/Vector.empty().2#
+M Sscala/package.Vector.25
+ 'refuel/container/ContainerImpl.apply().2=
+ /refuel/container/ContainerImpl.apply().(buffer)25
+ !'refuel/container/package.ContainerPool#2=
+3 9/refuel/container/ContainerImpl.apply().(lights)2#
+; Ascala/package.Vector#2)
+B Krefuel/container/Container#2-
+^ krefuel/container/ContainerImpl#2
+ 	local028
+ *refuel/container/ContainerImpl#`<init>`().2-
+ refuel/container/ContainerImpl#2=
+ $/refuel/container/ContainerImpl.apply().(lights)2;
+ 
+-refuel/container/ContainerImpl#`_buffer_=`().2
+ local02=
+ /refuel/container/ContainerImpl.apply().(buffer)2
+ local02:
+, 1,scala/collection/concurrent/TrieMap.empty().22
+$ +$scala/collection/concurrent/TrieMap.28
+V [*scala/collection/immutable/Vector.empty().2#
+O Uscala/package.Vector.2-
+ #refuel/container/ContainerImpl#2
+ refuel/28
+# #*refuel/container/ContainerImpl#`<init>`().2#
+9 ?scala/package.Vector#2)
+@ Irefuel/container/Container#26
+
+ (refuel/container/internal/AtomicUpdater#2-
+ %refuel/container/ContainerImpl#25
+' 4'refuel/container/package.ContainerPool#2)
+	 refuel/container/Container#2"
+	 refuel/provider/Tag#2,
+! *refuel/inject/Types.Localized#2"
+  refuel/inject/Types.2
+ refuel/inject/2
+
+ refuel/24
+1 7&refuel/container/ContainerImpl#lights.25
+ 
+'refuel/container/ContainerImpl#updater.2F
+ *8java/util/concurrent/atomic/AtomicReferenceFieldUpdater#2-
++ 8refuel/container/ContainerImpl#25
+: G'refuel/container/package.ContainerPool#2S
+  *Ejava/util/concurrent/atomic/AtomicReferenceFieldUpdater#newUpdater().2F
+ 8java/util/concurrent/atomic/AtomicReferenceFieldUpdater#2%
++ 2scala/Predef.classOf().2-
+3 @refuel/container/ContainerImpl#2%
+C Jscala/Predef.classOf().25
+K X'refuel/container/package.ContainerPool#28
+   *refuel/container/ContainerImpl#snapshot().2;
+   -refuel/container/ContainerImpl#snapshot().(w)25
+   ('refuel/container/package.ContainerPool#25
+ +  8'refuel/container/package.ContainerPool#2=
+ =  E/scala/collection/concurrent/TrieMap#snapshot().2;
+ ;  <-refuel/container/ContainerImpl#snapshot().(w)2
+"" scala/volatile#27
+" " ')refuel/container/ContainerImpl#_buffer().2
+"" refuel/25
+")" 6'refuel/container/package.ContainerPool#2:
+"A" F,scala/collection/concurrent/TrieMap.empty().22
+"9" @$scala/collection/concurrent/TrieMap.25
+++ !'refuel/container/ContainerImpl#cache().2
++
++ refuel/28
++"+ #*refuel/container/ContainerImpl#cache().[T]2<
++%+ *.refuel/container/ContainerImpl#cache().(value)2F
++,+ =8refuel/container/provider/restriction/SymbolRestriction#28
++>+ ?*refuel/container/ContainerImpl#cache().[T]2F
++C+ T8refuel/container/provider/restriction/SymbolRestriction#28
++U+ V*refuel/container/ContainerImpl#cache().[T]2,
+,, "scala/collection/MapOps#get().2E
+,, 7scala/collection/concurrent/TrieMap#readOnlySnapshot().27
+,, )refuel/container/ContainerImpl#_buffer().2J
+,), ,<refuel/container/provider/restriction/SymbolRestriction#key.2<
+,#, (.refuel/container/ContainerImpl#cache().(value)2
+-- scala/None.27
+--  )scala/collection/mutable/Growable#`+=`().27
+-- )refuel/container/ContainerImpl#_buffer().2-
+-+- -scala/Predef.ArrowAssoc#`->`().2(
+-!- !scala/Predef.ArrowAssoc().2J
+-'- *<refuel/container/provider/restriction/SymbolRestriction#key.2<
+-!- &.refuel/container/ContainerImpl#cache().(value)27
+-D- F)scala/collection/mutable/Growable#`+=`().2<
+-A- A.scala/collection/mutable/HashSet#`<init>`(+1).2'
+-2- 9scala/collection/mutable/2<
+-G- L.refuel/container/ContainerImpl#cache().(value)2#
+.. scala/Some.unapply().2
+.. scala/Some.2
+.. local12;
+.. $-scala/collection/concurrent/TrieMap#update().27
+.. )refuel/container/ContainerImpl#_buffer().2J
+.+. .<refuel/container/provider/restriction/SymbolRestriction#key.2<
+.%. *.refuel/container/ContainerImpl#cache().(value)27
+.2. 4)scala/collection/mutable/Growable#`+=`().2
+.0. 1local12<
+.5. :.refuel/container/ContainerImpl#cache().(value)2<
+00 	.refuel/container/ContainerImpl#cache().(value)24
+:: 
+&refuel/container/ContainerImpl#find().27
+:: )refuel/container/ContainerImpl#find().[T]27
+:: )refuel/container/ContainerImpl#find().[A]29
+:%: (+refuel/container/ContainerImpl#find().(key)2=
+:*: 4/refuel/container/IndexedKey$package.IndexedKey#2A
+:6: A3refuel/container/ContainerImpl#find().(requestFrom)27
+:C: D)refuel/container/ContainerImpl#find().[A]2;
+:: #-refuel/container/provider/TypedAcceptContext#27
+:#: #)refuel/container/ContainerImpl#find().[A]2
+:G: M
+scala/Option#27
+:N: O)refuel/container/ContainerImpl#find().[T]28
+;; *scala/collection/concurrent/TrieMap#get().2=
+;; /scala/collection/concurrent/TrieMap#snapshot().27
+;; )refuel/container/ContainerImpl#_buffer().29
+;; +refuel/container/ContainerImpl#find().(key)2
+<< scala/None.2
+<< scala/None.2#
+== scala/Some.unapply().2
+== scala/Some.2
+== local227
+>*> /)scala/collection/IterableOnceOps#toSeq().2C
+>
+> 5scala/collection/StrictOptimizedIterableOps#filter().2
+>> 	local22Q
+>> Crefuel/container/provider/restriction/SymbolRestriction#accepted().2A
+>> '3refuel/container/ContainerImpl#find().(requestFrom)2 
+?? scala/package.Nil.2
+?? scala/None.2
+@@ local32!
+@2@ 5scala/Option#map().2!
+@@ scala/Some.apply().2
+@@ scala/Some.27
+@@ ")scala/collection/IterableOnceOps#minBy().2
+@@ local320
+@.@ /"refuel/inject/InjectionPriority#v.2O
+@%@ -Arefuel/container/provider/restriction/SymbolRestriction#priority.2&
+@0@ 0scala/math/Ordering.Int.2'
+@>@ Jscala/Any#asInstanceOf().2L
+@8@ =>refuel/container/provider/restriction/SymbolRestriction#value.27
+@K@ L)refuel/container/ContainerImpl#find().[T]26
+LL 
+(refuel/container/ContainerImpl#find(+1).29
+LL +refuel/container/ContainerImpl#find(+1).[T]29
+LL +refuel/container/ContainerImpl#find(+1).[A]2C
+L+L 65refuel/container/ContainerImpl#find(+1).(requestFrom)29
+L8L 9+refuel/container/ContainerImpl#find(+1).[A]2 
+LL scala/quoted/Type#29
+LL +refuel/container/ContainerImpl#find(+1).[T]2;
+LL )-refuel/container/provider/TypedAcceptContext#29
+L)L )+refuel/container/ContainerImpl#find(+1).[A]2
+L<L B
+scala/Option#29
+LCL D+refuel/container/ContainerImpl#find(+1).[T]2
+MM local42D
+MM 6refuel/container/IndexedKey$package.IndexedKey.from().2=
+MM /refuel/container/IndexedKey$package.IndexedKey.29
+MM +refuel/container/ContainerImpl#find(+1).[T]2$
+N!N 'scala/Option#orElse().24
+NN &refuel/container/ContainerImpl#find().29
+N	N 
++refuel/container/ContainerImpl#find(+1).[T]29
+NN 
++refuel/container/ContainerImpl#find(+1).[A]2
+NN local42C
+NN 5refuel/container/ContainerImpl#find(+1).(requestFrom)2%
+N:N Ascala/Option#flatMap().28
+N/N 9*scala/collection/IterableOps#lastOption().24
+N(N .&refuel/container/ContainerImpl#lights.20
+NDN H"refuel/container/Container#find().29
+NIN J+refuel/container/ContainerImpl#find(+1).[T]29
+NLN M+refuel/container/ContainerImpl#find(+1).[A]2
+NON Rlocal42C
+NTN _5refuel/container/ContainerImpl#find(+1).(requestFrom)2=
+YY /refuel/container/ContainerImpl#createIndexer().2@
+YY 2refuel/container/ContainerImpl#createIndexer().[T]2@
+YY 2refuel/container/ContainerImpl#createIndexer().(k)2=
+YY $/refuel/container/IndexedKey$package.IndexedKey#2@
+Y&Y '2refuel/container/ContainerImpl#createIndexer().(x)2@
+Y)Y *2refuel/container/ContainerImpl#createIndexer().[T]2G
+Y,Y 49refuel/container/ContainerImpl#createIndexer().(priority)2.
+Y6Y G refuel/inject/InjectionPriority#2E
+YIY O7refuel/container/ContainerImpl#createIndexer().(lights)2#
+YQY Wscala/package.Vector#2)
+YXY arefuel/container/Container#2'
+YtY {refuel/container/Indexer#2@
+Y|Y }2refuel/container/ContainerImpl#createIndexer().[T]2>
+ZZ 0refuel/container/indexer/IndexerImpl#`<init>`().23
+ZZ %refuel/container/indexer/IndexerImpl#2@
+ZZ 2refuel/container/ContainerImpl#createIndexer().[T]2;
+ZZ "-refuel/container/ContainerImpl#createScope().2@
+Z#Z $2refuel/container/ContainerImpl#createIndexer().[T]2@
+Z&Z '2refuel/container/ContainerImpl#createIndexer().(k)2@
+Z)Z *2refuel/container/ContainerImpl#createIndexer().(x)2G
+Z,Z 49refuel/container/ContainerImpl#createIndexer().(priority)2-
+Z>Z @scala/collection/SeqOps#`:+`().2E
+Z7Z =7refuel/container/ContainerImpl#createIndexer().(lights)2J
+YY <refuel/container/ContainerImpl#createIndexer$default$4().[T]28
+YlY q*scala/collection/immutable/Vector.empty().2#
+YeY kscala/package.Vector.2;
+ee *-refuel/container/ContainerImpl#createScope().2
+e
+e refuel/2>
+e+e ,0refuel/container/ContainerImpl#createScope().[T]2@
+ff 2refuel/container/ContainerImpl#createScope().(key)2=
+f	f /refuel/container/IndexedKey$package.IndexedKey#2>
+gEg F0refuel/container/ContainerImpl#createScope().(x)2>
+gHg I0refuel/container/ContainerImpl#createScope().[T]2E
+hEh M7refuel/container/ContainerImpl#createScope().(priority)2.
+hOh ` refuel/inject/InjectionPriority#2F
+iFi W8refuel/container/provider/restriction/SymbolRestriction#2>
+iXi Y0refuel/container/ContainerImpl#createScope().[T]2G
+jj 9refuel/container/provider/restriction/OpenSymbol.apply().2?
+jj 1refuel/container/provider/restriction/OpenSymbol.2>
+jj 0refuel/container/ContainerImpl#createScope().[T]2@
+jj 2refuel/container/ContainerImpl#createScope().(key)2>
+jj 0refuel/container/ContainerImpl#createScope().(x)2E
+jj "7refuel/container/ContainerImpl#createScope().(priority)27
+mm &)refuel/container/ContainerImpl#shading().2
+m
+m refuel/2'
+m(m *refuel/inject/Types.`@@`#2)
+m+m 4refuel/container/Container#2,
+m<m Erefuel/inject/Types.Localized#2"
+m6m ;refuel/inject/Types.28
+nn *refuel/container/ContainerImpl#`<init>`().2-
+nn refuel/container/ContainerImpl#2@
+oo 2refuel/container/ContainerImpl#`<init>`().(lights)2-
+oo scala/collection/SeqOps#`:+`().24
+oo &refuel/container/ContainerImpl#lights.25
+ss $'refuel/container/ContainerImpl#fully().2
+ss refuel/28
+s%s &*refuel/container/ContainerImpl#fully().[T]2 
+s(s ,scala/quoted/Type#28
+s,s ,*refuel/container/ContainerImpl#fully().[T]2%
+s/s 7scala/package.Iterable#28
+s8s 9*refuel/container/ContainerImpl#fully().[T]28
+tt *scala/collection/concurrent/TrieMap#get().2=
+tt /scala/collection/concurrent/TrieMap#snapshot().27
+tt )refuel/container/ContainerImpl#_buffer().2D
+t&t *6refuel/container/IndexedKey$package.IndexedKey.from().2=
+tt %/refuel/container/IndexedKey$package.IndexedKey.28
+t+t ,*refuel/container/ContainerImpl#fully().[T]2
+uu scala/None.2-
+uu scala/Option.option2Iterable().2
+uu scala/None.2#
+vv scala/Some.unapply().2
+vv scala/Some.2
+vv local52@
+vv 2scala/collection/StrictOptimizedIterableOps#map().2
+vv local52'
+v$v 0scala/Any#asInstanceOf().2L
+vv #>refuel/container/provider/restriction/SymbolRestriction#value.28
+v1v 2*refuel/container/ContainerImpl#fully().[T]PZ 23A22CB22E028538D46DB0E74C307BBA

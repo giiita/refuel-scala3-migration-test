@@ -1,0 +1,42 @@
+
+�
+Crefuel-refuel.test/src/main/scala/refuel/inject/HiddenContainerScope.scala*@
+#refuel/inject/HiddenContainerScope#
+*HiddenContainerScope�*@
+.refuel/inject/HiddenContainerScope#`<init>`(). �@*<init>�*@
+2refuel/inject/HiddenContainerScope#`<init>`().(fx) �*fx�*;
+1refuel/inject/HiddenContainerScope#`<init>`().(c)*c�*
+local0*it�*0
+&refuel/inject/HiddenContainerScope#[T]	*T�*4
+&refuel/inject/HiddenContainerScope#fx. �*fx�*2
+%refuel/inject/HiddenContainerScope#c. �*c�*F
+0refuel/inject/HiddenContainerScope#__refuel_c(). �*
+__refuel_c�*L
+4refuel/inject/HiddenContainerScope#`__refuel_c_=`(). �*__refuel_c_=�*E
+9refuel/inject/HiddenContainerScope#`__refuel_c_=`().(x$1)*x$1�2
+ refuel/inject/2
+ refuel/21
+ )#refuel/container/DependencyPoolRef.2
+ refuel/container/2
+ 
+refuel/2"
+ refuel/inject/Types.2
+ refuel/inject/2
+ 
+refuel/21
+ *#refuel/inject/HiddenContainerScope#2
+ refuel/2<
+* *.refuel/inject/HiddenContainerScope#`<init>`().25
+6 H'refuel/inject/Types.LocalizedContainer#24
+L M&refuel/inject/HiddenContainerScope#[T]25
+R d'refuel/inject/Types.LocalizedContainer#21
+
+ #refuel/container/DependencyPoolRef#25
+ .'refuel/inject/Types.LocalizedContainer#2
+ local024
++ ,&refuel/inject/HiddenContainerScope#[T]24
+2 4&refuel/inject/HiddenContainerScope#fx.23
+O P%refuel/inject/HiddenContainerScope#c.2>
+ 0refuel/inject/HiddenContainerScope#__refuel_c().25
+ -'refuel/inject/Types.LocalizedContainer#23
+0 1%refuel/inject/HiddenContainerScope#c.PZ 91EDA303CAAADD4CDFCA0543C30CEF5B

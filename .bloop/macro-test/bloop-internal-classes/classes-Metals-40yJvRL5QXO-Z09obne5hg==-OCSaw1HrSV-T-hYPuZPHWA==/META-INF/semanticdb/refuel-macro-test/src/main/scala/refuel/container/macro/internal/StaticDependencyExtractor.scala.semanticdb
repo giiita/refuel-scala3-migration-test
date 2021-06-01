@@ -1,0 +1,905 @@
+
+��`refuel-macro-refuel.test/src/main/scala/refuel/container/macro/internal/StaticDependencyExtractor.scala*^
+:refuel/container/macro/internal/StaticDependencyExtractor.
+ *StaticDependencyExtractor�*U
+Crefuel/container/macro/internal/StaticDependencyExtractor.buffer(). �*buffer�*x
+Vrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().*searchInjectionCandidates�*c
+Yrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().[T]	*T�*e
+Yrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().(q)  *q�*"
+local0 �*allowRuntimeRepr�*
+local1 �*x�*'
+local2 �*compileTimeCandidates�*
+local3 �*annos�*
+local4 �*anno�*T
+Drefuel/container/macro/internal/StaticDependencyExtractor.getList().*getList�*S
+Grefuel/container/macro/internal/StaticDependencyExtractor.getList().(q)  *q�*
+local5 �*x�*
+local6 �*x�*b
+Krefuel/container/macro/internal/StaticDependencyExtractor.unloadPackages().*unloadPackages�*Z
+Nrefuel/container/macro/internal/StaticDependencyExtractor.unloadPackages().(q)  *q�*
+local7 �*config�*
+local8*x$1�*
+local9 �*p�*
+local10 �*x�*L
+@refuel/container/macro/internal/StaticDependencyExtractor.run().*run�*O
+Crefuel/container/macro/internal/StaticDependencyExtractor.run().(q)  *q�*`
+Irefuel/container/macro/internal/StaticDependencyExtractor.nealyPackage(). *nealyPackage�*X
+Lrefuel/container/macro/internal/StaticDependencyExtractor.nealyPackage().(q)  *q�*b
+Rrefuel/container/macro/internal/StaticDependencyExtractor.nealyPackage().(current)*current�*
+local11 �*x�*
+local12 �*x�*b
+Jrefuel/container/macro/internal/StaticDependencyExtractor.joinSymbolSet(). *
+joinSymbolSet�*Y
+Mrefuel/container/macro/internal/StaticDependencyExtractor.joinSymbolSet().(q)  *q�*W
+Mrefuel/container/macro/internal/StaticDependencyExtractor.joinSymbolSet().(a)*a�*W
+Mrefuel/container/macro/internal/StaticDependencyExtractor.joinSymbolSet().(b)*b�*v
+Trefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore(). *recursivePackageExplore�*c
+Wrefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(q)  *q�*m
+]refuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(unloads)*unloads�*w
+brefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(selfPackages)*selfPackages�*�
+grefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(injectableSymbols)*injectableSymbols�*
+local13 �*x�*
+local14*x$1�*
+local15 �*x�*
+local16 �*x�*
+local17 �*x�*
+local18 �*x�*
+local19 �*packages�*
+local20 �*modules�*�
+^refuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore$default$4().*!recursivePackageExplore$default$4�*m
+arefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore$default$4().(q)  *q�*d
+Lrefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().*maybeCandidates�*[
+Orefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().(q)  *q�*Y
+Orefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().(x)*x�*T
+Drefuel/container/macro/internal/StaticDependencyExtractor.isClass().*isClass�*S
+Grefuel/container/macro/internal/StaticDependencyExtractor.isClass().(q)  *q�*[
+Lrefuel/container/macro/internal/StaticDependencyExtractor.isClass().(symbol)*symbol�*V
+Erefuel/container/macro/internal/StaticDependencyExtractor.isModule().*isModule�*T
+Hrefuel/container/macro/internal/StaticDependencyExtractor.isModule().(q)  *q�*\
+Mrefuel/container/macro/internal/StaticDependencyExtractor.isModule().(symbol)*symbol�*t
+Srefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore(). *recursiveModuleExplore�*b
+Vrefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(q)  *q�*`
+Vrefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(n)*n�*�
+frefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(injectableSymbols)*injectableSymbols�*#
+local21 �*accessibleSymbol�*#
+local22 �*accessibleSymbol�*
+local23 �*	selection�*
+local24*x�*
+local25 �*log�*
+local26 �*ttree�*
+local27*symbol�*
+local28*x$1�*
+local29 �*r�*�
+]refuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore$default$3().* recursiveModuleExplore$default$3�*l
+`refuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore$default$3().(q)  *q�2*
+" * refuel/container/macro/internal/2!
+ !refuel/container/macro/2
+ refuel/container/2
+	 refuel/28
+  1*refuel/container/Config.AdditionalPackage.28
+  1*refuel/container/Config.AdditionalPackage#2&
+ refuel/container/Config.2
+ refuel/container/2
+ refuel/2R
+E LDrefuel/container/macro/internal/StaticDependencyExtractor.isClass().2S
+N VErefuel/container/macro/internal/StaticDependencyExtractor.isModule().2H
+* C:refuel/container/macro/internal/StaticDependencyExtractor.2.
+! ) refuel/container/macro/internal/2%
+  refuel/container/macro/2
+ refuel/container/2
+ refuel/2O
+0 JArefuel/container/macro/internal/tools/LowLevelAPIConversionAlias.24
+* /&refuel/container/macro/internal/tools/2.
+! ) refuel/container/macro/internal/2%
+  refuel/container/macro/2
+ refuel/container/2
+ refuel/2&
+  refuel/container/Config.2)
+" +refuel/container/Container.2
+ refuel/container/2
+ refuel/24
+' >&refuel/inject/InjectableSymbolHandler.2*
+@ Mrefuel/inject/InjectableTag.2
+ refuel/inject/2
+ refuel/2'
+  scala/annotation/tailrec#2
+ scala/annotation/2
+ 
+scala/2
+		 
+scala/quoted/2
+		 
+scala/2H
+ !:refuel/container/macro/internal/StaticDependencyExtractor.2O
+* DArefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#2Q
+ Crefuel/container/macro/internal/StaticDependencyExtractor.buffer().2
+ #
+scala/Option#2
+$ '
+scala/Any#2
++ /scala/None.2d
+  Vrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().2g
+! "Yrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().[T]2 
+$ (scala/quoted/Type#2g
+( (Yrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().[T]2g
+0 1Yrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().(q)2"
+3 9scala/quoted/Quotes#2%
+= Escala/package.Iterable#29
+P X+scala/quoted/Quotes#reflectModule#TypeTree#2*
+H Oscala/quoted/Quotes#reflect.2g
+F GYrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().(q)2
+[ bscala/Boolean#2*
+ scala/quoted/Quotes#reflect.2g
+ 
+Yrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().(q)2
+	 local02D
+% '6scala/quoted/Quotes#reflectModule#TypeReprModule#of().29
+ $+scala/quoted/Quotes#reflectModule#TypeRepr.2)
+6 Brefuel/inject/AllowRuntime#2
+/ 5refuel/inject/2
+( .refuel/2%
+C Cscala/quoted/Type.of().2g
+C CYrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().(q)2
+	 
+local12R
+! (Drefuel/container/macro/internal/StaticDependencyExtractor.getList().2g
+( (Yrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().(q)2
+	 local22J
+9 L<refuel/inject/InjectableSymbolHandler.filterTargetSymbols().24
+! 8&refuel/inject/InjectableSymbolHandler.2g
+M NYrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().[T]2g
+O OYrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().(q)2
+P Qlocal12
+	 local322
+t v$scala/collection/IterableOps#`++`().22
+E G$scala/collection/IterableOps#`++`().25
+' .'scala/collection/IterableOps#flatMap().2
+ &local22L
+/ />scala/quoted/Quotes#reflectModule#SymbolMethods#annotations().2E
+/ /7scala/quoted/Quotes#reflectModule#TreeMethods#symbol().2L
+H H>scala/quoted/Quotes#reflectModule#SymbolMethods#annotations().2E
+H H7scala/quoted/Quotes#reflectModule#TreeMethods#symbol().2D
+[ ]6scala/quoted/Quotes#reflectModule#TypeTreeModule#of().29
+R Z+scala/quoted/Quotes#reflectModule#TypeTree.2*
+J Qscala/quoted/Quotes#reflect.2g
+H IYrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().(q)2g
+^ _Yrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().[T]2F
+ 8scala/quoted/Quotes#reflectModule#TypeTreeMethods#tpe().2D
+ 6scala/quoted/Quotes#reflectModule#TypeTreeModule#of().29
+ +scala/quoted/Quotes#reflectModule#TypeTree.2*
+	 scala/quoted/Quotes#reflect.2g
+ Yrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().(q)2g
+ Yrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().[T]2/
+% %!scala/reflect/TypeTest#unapply().2N
+ @scala/quoted/Quotes#reflectModule#AnnotatedTypeModule#unapply().2>
+ 0scala/quoted/Quotes#reflectModule#AnnotatedType.2
+  $local42!
+- -scala/Some.apply().2
+) -scala/Some.2
+/ 3local42
+   scala/None.28
+## *scala/collection/IterableOnceOps#exists().2
+#	# local32H
+## :scala/quoted/Quotes#reflectModule#TypeReprMethods#`=:=`().2B
+## 4scala/quoted/Quotes#reflectModule#TermMethods#tpe().2
+# # 0local02-
+%% scala/Predef.ArrowAssoc#`->`().2(
+%% scala/Predef.ArrowAssoc().2
+%% local229
+&&& -+scala/collection/IterableOnceOps#isEmpty().2
+&& %local22E
+(( 7scala/quoted/Quotes#reflectModule#reportModule#error().27
+(( 
+)scala/quoted/Quotes#reflectModule#report.2(
+
+)�) �scala/StringContext#s().2*
+)) scala/StringContext.apply().2I
+)5) 5;scala/quoted/Quotes#reflectModule#SymbolMethods#fullName().2E
+)5) 57scala/quoted/Quotes#reflectModule#TreeMethods#symbol().2D
+)H) J6scala/quoted/Quotes#reflectModule#TypeTreeModule#of().29
+)?) G+scala/quoted/Quotes#reflectModule#TypeTree.2*
+)7) >scala/quoted/Quotes#reflect.2g
+)5) 6Yrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().(q)2g
+)K) LYrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().[T]2-
+++ scala/Predef.ArrowAssoc#`->`().2(
+++ scala/Predef.ArrowAssoc().28
+++ *scala/collection/immutable/Vector.empty().2#
+++ 
+scala/package.Vector.2-
+.. scala/Predef.ArrowAssoc#`->`().2(
+.. scala/Predef.ArrowAssoc().2
+.. local22R
+22 Drefuel/container/macro/internal/StaticDependencyExtractor.getList().2U
+2#2 $Grefuel/container/macro/internal/StaticDependencyExtractor.getList().(q)2"
+2&2 ,scala/quoted/Quotes#2%
+2/2 7scala/package.Iterable#29
+2B2 J+scala/quoted/Quotes#reflectModule#TypeTree#2*
+2:2 Ascala/quoted/Quotes#reflect.2U
+282 9Grefuel/container/macro/internal/StaticDependencyExtractor.getList().(q)2Q
+33 Crefuel/container/macro/internal/StaticDependencyExtractor.buffer().2
+44 scala/None.2N
+5	5 @refuel/container/macro/internal/StaticDependencyExtractor.run().2U
+55 Grefuel/container/macro/internal/StaticDependencyExtractor.getList().(q)2
+66 local52Q
+7
+7 Crefuel/container/macro/internal/StaticDependencyExtractor.buffer().2!
+77 scala/Some.apply().2
+77 scala/Some.2
+77 local52
+8
+8 local52#
+:: scala/Some.unapply().2
+:: scala/Some.2
+:: local62'
+:: %scala/Any#asInstanceOf().2
+:: local62%
+:&: .scala/package.Iterable#29
+:9: A+scala/quoted/Quotes#reflectModule#TypeTree#2*
+:1: 8scala/quoted/Quotes#reflect.2U
+:/: 0Grefuel/container/macro/internal/StaticDependencyExtractor.getList().(q)2Y
+>> #Krefuel/container/macro/internal/StaticDependencyExtractor.unloadPackages().2\
+>*> +Nrefuel/container/macro/internal/StaticDependencyExtractor.unloadPackages().(q)2"
+>-> 3scala/quoted/Quotes#2 
+>6> 9scala/package.Seq#2"
+>:> @scala/Predef.String#2
+?	? local720
+?? ""refuel/container/Config.blackList.2&
+?? refuel/container/Config.28
+@@ *scala/collection/immutable/List#collect().2
+@@ local72
+AA local82B
+AA 4refuel/container/Config.AdditionalPackage.unapply().28
+AA *refuel/container/Config.AdditionalPackage.2
+AA local92
+A$A %local92
+CC 
+local102:
+CC ,scala/collection/IterableOnceOps#nonEmpty().2
+CC local102D
+DD 6scala/quoted/Quotes#reflectModule#reportModule#info().27
+DD )scala/quoted/Quotes#reflectModule#report.2*
+DD scala/quoted/Quotes#reflect.2\
+D	D 
+Nrefuel/container/macro/internal/StaticDependencyExtractor.unloadPackages().(q)2&
+DbD cscala/StringContext#s().2*
+D!D !scala/StringContext.apply().2<
+DKD S.scala/collection/IterableOnceOps#mkString(+1).2
+DID Jlocal1024
+GG &scala/collection/immutable/List#map().2
+GG local72;
+GG -refuel/container/Config.SkippedPackage#value.2N
+JJ @refuel/container/macro/internal/StaticDependencyExtractor.run().2Q
+JJ  Crefuel/container/macro/internal/StaticDependencyExtractor.run().(q)2"
+J"J (scala/quoted/Quotes#2%
+J+J 3scala/package.Iterable#29
+J>J F+scala/quoted/Quotes#reflectModule#TypeTree#2*
+J6J =scala/quoted/Quotes#reflect.2Q
+J4J 5Crefuel/container/macro/internal/StaticDependencyExtractor.run().(q)2b
+KK Trefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().2Q
+KK Crefuel/container/macro/internal/StaticDependencyExtractor.run().(q)2Y
+LL Krefuel/container/macro/internal/StaticDependencyExtractor.unloadPackages().2Q
+LL Crefuel/container/macro/internal/StaticDependencyExtractor.run().(q)27
+M
+M 
+)scala/collection/IterableFactory#apply().2#
+MM 
+scala/package.Vector.2W
+MM Irefuel/container/macro/internal/StaticDependencyExtractor.nealyPackage().2Q
+MM Crefuel/container/macro/internal/StaticDependencyExtractor.run().(q)2E
+MM 7scala/quoted/Quotes#reflectModule#TreeMethods#symbol().2D
+M.M 06scala/quoted/Quotes#reflectModule#TypeTreeModule#of().29
+M%M -+scala/quoted/Quotes#reflectModule#TypeTree.2*
+MM $scala/quoted/Quotes#reflect.2Q
+MM Crefuel/container/macro/internal/StaticDependencyExtractor.run().(q)2)
+M1M :refuel/container/Container#2%
+M;M ;scala/quoted/Type.of().2Q
+M;M ;Crefuel/container/macro/internal/StaticDependencyExtractor.run().(q)2'
+QQ scala/annotation/tailrec#2W
+RR 'Irefuel/container/macro/internal/StaticDependencyExtractor.nealyPackage().2Z
+R.R /Lrefuel/container/macro/internal/StaticDependencyExtractor.nealyPackage().(q)2"
+R1R 7scala/quoted/Quotes#2`
+R9R @Rrefuel/container/macro/internal/StaticDependencyExtractor.nealyPackage().(current)27
+RLR R)scala/quoted/Quotes#reflectModule#Symbol#2*
+RDR Kscala/quoted/Quotes#reflect.2Z
+RBR CLrefuel/container/macro/internal/StaticDependencyExtractor.nealyPackage().(q)27
+R_R e)scala/quoted/Quotes#reflectModule#Symbol#2*
+RWR ^scala/quoted/Quotes#reflect.2Z
+RUR VLrefuel/container/macro/internal/StaticDependencyExtractor.nealyPackage().(q)2F
+SS 8scala/quoted/Quotes#reflectModule#SymbolMethods#owner().2`
+SS Rrefuel/container/macro/internal/StaticDependencyExtractor.nealyPackage().(current)2
+TT 
+local112#
+T T "scala/Boolean#`&&`().2M
+TT ?scala/quoted/Quotes#reflectModule#SymbolMethods#isPackageDef().2
+TT local112
+T*T ,scala/Any#`==`().2E
+T#T #7scala/quoted/Quotes#reflectModule#SymbolMethods#name().2
+T#T $local112
+T9T :local112
+UU 
+local122'
+V	V scala/Predef.println(+1).2&
+V1V 2scala/StringContext#s().2*
+VV scala/StringContext.apply().2E
+VV 7scala/quoted/Quotes#reflectModule#SymbolMethods#name().2
+VV local122M
+V"V "?scala/quoted/Quotes#reflectModule#SymbolMethods#isPackageDef().2
+V"V #local122W
+W	W Irefuel/container/macro/internal/StaticDependencyExtractor.nealyPackage().2Z
+WW Lrefuel/container/macro/internal/StaticDependencyExtractor.nealyPackage().(q)2
+WW local122X
+[[ (Jrefuel/container/macro/internal/StaticDependencyExtractor.joinSymbolSet().2[
+[/[ 0Mrefuel/container/macro/internal/StaticDependencyExtractor.joinSymbolSet().(q)2"
+[2[ 8scala/quoted/Quotes#2[
+[:[ ;Mrefuel/container/macro/internal/StaticDependencyExtractor.joinSymbolSet().(a)2%
+[=[ Escala/package.Iterable#29
+[P[ X+scala/quoted/Quotes#reflectModule#TypeTree#2*
+[H[ Oscala/quoted/Quotes#reflect.2[
+[F[ GMrefuel/container/macro/internal/StaticDependencyExtractor.joinSymbolSet().(q)2[
+[[[ \Mrefuel/container/macro/internal/StaticDependencyExtractor.joinSymbolSet().(b)2%
+[^[ fscala/package.Iterable#29
+[q[ y+scala/quoted/Quotes#reflectModule#TypeTree#2*
+[i[ pscala/quoted/Quotes#reflect.2[
+[g[ hMrefuel/container/macro/internal/StaticDependencyExtractor.joinSymbolSet().(q)2&
+	[}[ �scala/package.Iterable#2;
+
+[�[ �+scala/quoted/Quotes#reflectModule#TypeTree#2,
+
+[�[ �scala/quoted/Quotes#reflect.2]
+
+[�[ �Mrefuel/container/macro/internal/StaticDependencyExtractor.joinSymbolSet().(q)22
+\\ 	$scala/collection/IterableOps#`++`().2[
+\\ Mrefuel/container/macro/internal/StaticDependencyExtractor.joinSymbolSet().(a)2[
+\
+\ Mrefuel/container/macro/internal/StaticDependencyExtractor.joinSymbolSet().(b)2'
+__ scala/annotation/tailrec#2b
+`` 2Trefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().2e
+`9` :Wrefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(q)2"
+`<` Bscala/quoted/Quotes#2k
+a.a 5]refuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(unloads)2 
+a7a :scala/package.Seq#2"
+a;a Ascala/Predef.String#2p
+b.b :brefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(selfPackages)2#
+b<b Bscala/package.Vector#27
+bMb S)scala/quoted/Quotes#reflectModule#Symbol#2*
+bEb Lscala/quoted/Quotes#reflect.2e
+bCb DWrefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(q)2u
+c.c ?grefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(injectableSymbols)2%
+cAc Iscala/package.Iterable#29
+cTc \+scala/quoted/Quotes#reflectModule#TypeTree#2*
+cLc Sscala/quoted/Quotes#reflect.2e
+cJc KWrefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(q)2%
+d/d 7scala/package.Iterable#29
+dBd J+scala/quoted/Quotes#reflectModule#TypeTree#2*
+d:d Ascala/quoted/Quotes#reflect.2e
+d8d 9Wrefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(q)2p
+xx brefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(selfPackages)2
+yy 
+local1320
+yy "scala/collection/SeqOps#isEmpty().2
+yy local132u
+yy /grefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(injectableSymbols)2D
+{Q{ X6scala/collection/StrictOptimizedIterableOps#collect().21
+{H{ P#scala/collection/SeqOps#distinct().2D
+{0{ 76scala/collection/StrictOptimizedIterableOps#flatMap().2p
+{#{ /brefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(selfPackages)2M
+{8{ 8?scala/quoted/Quotes#reflectModule#SymbolMethods#declarations().2
+}} local142
+}} local152#
+}.} 0scala/Boolean#`||`().21
+}"} *#scala/collection/SeqOps#contains().2p
+}} !brefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(selfPackages)2
+}+} ,local1521
+}9} A#scala/collection/SeqOps#contains().2k
+}1} 8]refuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(unloads)2I
+}B} B;scala/quoted/Quotes#reflectModule#SymbolMethods#fullName().2
+}B} Clocal152-
+~~ scala/Predef.ArrowAssoc#`->`().2(
+~
+~ 
+scala/Predef.ArrowAssoc().2
+~
+~ scala/None.2
+~~ scala/None.2
+
+�� local162O
+
+�� ?scala/quoted/Quotes#reflectModule#SymbolMethods#isPackageDef().2
+
+�� local162/
+
+�� scala/Predef.ArrowAssoc#`->`().2*
+
+�
+� 
+scala/Predef.ArrowAssoc().2#
+
+�� scala/Some.apply().2
+
+�
+� scala/Some.2
+
+�� local162
+
+�� scala/None.2
+
+�� local172\
+
+�� Lrefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().2g
+
+�� Wrefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(q)2
+
+� � !local172/
+
+�� scala/Predef.ArrowAssoc#`->`().2*
+
+�
+� 
+scala/Predef.ArrowAssoc().2
+
+�
+� scala/None.2#
+
+�� scala/Some.apply().2
+
+�� scala/Some.2
+
+�� local172
+
+�� local182/
+
+�%� 'scala/Predef.ArrowAssoc#`->`().2*
+
+�� scala/Predef.ArrowAssoc().2F
+
+�� 6scala/collection/StrictOptimizedIterableOps#flatMap().2
+
+�� local182 
+
+�!� #scala/Tuple2#_1.2F
+
+�*� 16scala/collection/StrictOptimizedIterableOps#flatMap().2
+
+�(� )local182 
+
+�4� 6scala/Tuple2#_2.2%
+{{ scala/Tuple2.unapply().2
+{{ local192
+{{ local202d
+
+�	�  Trefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().2g
+
+� �  Wrefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(q)2m
+
+�� ]refuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(unloads)2
+
+�� local192Z
+
+�� Jrefuel/container/macro/internal/StaticDependencyExtractor.joinSymbolSet().2g
+
+�� Wrefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(q)2w
+
+�� *grefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(injectableSymbols)2c
+
+�,� BSrefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().2g
+
+�B� BWrefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore().(q)2
+
+�C� Jlocal202o
+`9` :arefuel/container/macro/internal/StaticDependencyExtractor.recursivePackageExplore$default$4().(q)2-
+c`c `scala/Option.option2Iterable().2
+c`c dscala/None.2\
+
+�� $Lrefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().2_
+
+�+� ,Orefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().(q)2$
+
+�.� 4scala/quoted/Quotes#2_
+
+�6� 7Orefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().(x)29
+
+�C� I)scala/quoted/Quotes#reflectModule#Symbol#2,
+
+�;� Bscala/quoted/Quotes#reflect.2_
+
+�9� :Orefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().(q)2
+
+�L� Sscala/Boolean#2%
+
+�� scala/Boolean#`&&`().2%
+
+�� scala/Boolean#`&&`().2%
+
+�� scala/Boolean#`&&`().2%
+
+�� scala/Boolean#`&&`().2%
+
+�� scala/Boolean#`&&`().2%
+
+�� scala/Boolean#`&&`().2!
+
+�X� Zscala/Any#`!=`().2_
+
+�V� WOrefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().(x)2N
+
+�[� [>scala/quoted/Quotes#reflectModule#SymbolMethods#moduleClass().2_
+
+�[� \Orefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().(x)2*
+
+�� scala/Boolean#`unary_!`().2Q
+
+�	� 	Ascala/quoted/Quotes#reflectModule#SymbolMethods#isAbstractType().2_
+
+�	� 
+Orefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().(x)2*
+
+�-� -scala/Boolean#`unary_!`().2D
+
+�	� 	4scala/quoted/Quotes#reflectModule#FlagsMethods#is().2H
+
+�	� 	8scala/quoted/Quotes#reflectModule#SymbolMethods#flags().2_
+
+�	� 
+Orefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().(x)2I
+
+�$� ,9scala/quoted/Quotes#reflectModule#FlagsModule#Abstract().28
+
+�� #(scala/quoted/Quotes#reflectModule#Flags.2,
+
+�� scala/quoted/Quotes#reflect.2_
+
+�� Orefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().(q)2*
+
+�*� *scala/Boolean#`unary_!`().2D
+
+�	� 	4scala/quoted/Quotes#reflectModule#FlagsMethods#is().2H
+
+�	� 	8scala/quoted/Quotes#reflectModule#SymbolMethods#flags().2_
+
+�	� 
+Orefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().(x)2F
+
+�$� )6scala/quoted/Quotes#reflectModule#FlagsModule#Trait().28
+
+�� #(scala/quoted/Quotes#reflectModule#Flags.2,
+
+�� scala/quoted/Quotes#reflect.2_
+
+�� Orefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().(q)2*
+
+�� scala/Boolean#`unary_!`().2M
+
+�	� 	=scala/quoted/Quotes#reflectModule#SymbolMethods#isNoSymbol().2_
+
+�	� 
+Orefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().(x)2!
+
+�� scala/Any#`!=`().2F
+
+�� 6scala/quoted/Quotes#reflectModule#FlagsMethods#show().2H
+
+�� 8scala/quoted/Quotes#reflectModule#SymbolMethods#flags().2_
+
+�� 	Orefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().(x)2%
+
+�� scala/Boolean#`||`().2T
+
+�	� Drefuel/container/macro/internal/StaticDependencyExtractor.isClass().2_
+
+�� Orefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().(q)2_
+
+�� Orefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().(x)2U
+
+�� Erefuel/container/macro/internal/StaticDependencyExtractor.isModule().2_
+
+�� Orefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().(q)2_
+
+� � !Orefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().(x)2T
+
+�� Drefuel/container/macro/internal/StaticDependencyExtractor.isClass().2W
+
+�#� $Grefuel/container/macro/internal/StaticDependencyExtractor.isClass().(q)2$
+
+�&� ,scala/quoted/Quotes#2\
+
+�.� 4Lrefuel/container/macro/internal/StaticDependencyExtractor.isClass().(symbol)29
+
+�@� F)scala/quoted/Quotes#reflectModule#Symbol#2,
+
+�8� ?scala/quoted/Quotes#reflect.2W
+
+�6� 7Grefuel/container/macro/internal/StaticDependencyExtractor.isClass().(q)2
+
+�I� Pscala/Boolean#2%
+
+�a� cscala/Boolean#`&&`().2I
+
+�S� S9scala/quoted/Quotes#reflectModule#SymbolMethods#isType().2\
+
+�S� YLrefuel/container/macro/internal/StaticDependencyExtractor.isClass().(symbol)2M
+
+�d� d=scala/quoted/Quotes#reflectModule#SymbolMethods#isClassDef().2\
+
+�d� jLrefuel/container/macro/internal/StaticDependencyExtractor.isClass().(symbol)2U
+
+�� Erefuel/container/macro/internal/StaticDependencyExtractor.isModule().2X
+
+�$� %Hrefuel/container/macro/internal/StaticDependencyExtractor.isModule().(q)2$
+
+�'� -scala/quoted/Quotes#2]
+
+�/� 5Mrefuel/container/macro/internal/StaticDependencyExtractor.isModule().(symbol)29
+
+�A� G)scala/quoted/Quotes#reflectModule#Symbol#2,
+
+�9� @scala/quoted/Quotes#reflect.2X
+
+�7� 8Hrefuel/container/macro/internal/StaticDependencyExtractor.isModule().(q)2
+
+�J� Qscala/Boolean#2%
+
+�b� dscala/Boolean#`&&`().2I
+
+�T� T9scala/quoted/Quotes#reflectModule#SymbolMethods#isTerm().2]
+
+�T� ZMrefuel/container/macro/internal/StaticDependencyExtractor.isModule().(symbol)2K
+
+�e� e;scala/quoted/Quotes#reflectModule#SymbolMethods#isValDef().2]
+
+�e� kMrefuel/container/macro/internal/StaticDependencyExtractor.isModule().(symbol)2)
+
+�� scala/annotation/tailrec#2c
+
+�� 2Srefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().2f
+
+�9� :Vrefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(q)2$
+
+�<� Bscala/quoted/Quotes#2f
+
+�-� .Vrefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(n)2%
+
+�0� 6scala/package.Vector#29
+
+�A� G)scala/quoted/Quotes#reflectModule#Symbol#2,
+
+�9� @scala/quoted/Quotes#reflect.2f
+
+�7� 8Vrefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(q)2v
+
+�-� >frefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(injectableSymbols)2'
+
+�@� Hscala/package.Iterable#2;
+
+�S� [+scala/quoted/Quotes#reflectModule#TypeTree#2,
+
+�K� Rscala/quoted/Quotes#reflect.2f
+
+�I� JVrefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(q)2'
+
+�.� 6scala/package.Iterable#2;
+
+�A� I+scala/quoted/Quotes#reflectModule#TypeTree#2,
+
+�9� @scala/quoted/Quotes#reflect.2f
+
+�7� 8Vrefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(q)2,
+
+�� scala/quoted/Quotes#reflect.2f
+
+�� 
+Vrefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(q)2f
+
+�� Vrefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(n)2
+
+�� local2122
+
+�1� 8"scala/collection/SeqOps#isEmpty().2
+
+� � 0local212v
+
+�<� Mfrefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(injectableSymbols)2
+
+�� local222
+
+�
+� local232'
+
+��  scala/package.Iterable#2;
+
+�+� 3+scala/quoted/Quotes#reflectModule#TypeTree#2,
+
+�#� *scala/quoted/Quotes#reflect.2f
+
+�!� "Vrefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(q)2F
+
+�H� O6scala/collection/StrictOptimizedIterableOps#flatMap().2
+
+�7� Glocal222
+
+�R� Slocal242
+
+�� local252(
+
+�\� ]scala/StringContext#s().2,
+
+�� scala/StringContext.apply().2K
+
+�� ;scala/quoted/Quotes#reflectModule#SymbolMethods#fullName().2
+
+�� local242D
+
+�'� '4scala/quoted/Quotes#reflectModule#FlagsMethods#is().2H
+
+�'� '8scala/quoted/Quotes#reflectModule#SymbolMethods#flags().2
+
+�'� (local242F
+
+�B� G6scala/quoted/Quotes#reflectModule#FlagsModule#Trait().28
+
+�<� A(scala/quoted/Quotes#reflectModule#Flags.2,
+
+�4� ;scala/quoted/Quotes#reflect.2f
+
+�2� 3Vrefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(q)2F
+
+�O� O6scala/quoted/Quotes#reflectModule#FlagsMethods#show().2H
+
+�O� O8scala/quoted/Quotes#reflectModule#SymbolMethods#flags().2
+
+�O� Plocal242G
+
+�� 7scala/quoted/Quotes#reflectModule#SymbolMethods#tree().2
+
+�� local2421
+
+�%� %!scala/reflect/TypeTest#unapply().2I
+
+�� 9scala/quoted/Quotes#reflectModule#ValDefModule#unapply().29
+
+�� )scala/quoted/Quotes#reflectModule#ValDef.2
+
+�� !local262J
+
+�)� ):scala/quoted/Quotes#reflectModule#TypeReprMethods#`<:<`().2H
+
+�)� )8scala/quoted/Quotes#reflectModule#TypeTreeMethods#tpe().2
+
+�)� .local2624
+
+�D� D$refuel/inject/InjectableTag.apply().2,
+
+�7� Drefuel/inject/InjectableTag.2f
+
+�F� FVrefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(q)2)
+
+�� scala/Predef.println(+1).2(
+
+�@� Ascala/StringContext#s().2,
+
+�� scala/StringContext.apply().2
+
+�� local252F
+
+�(� (6scala/quoted/Quotes#reflectModule#FlagsMethods#show().2H
+
+�(� (8scala/quoted/Quotes#reflectModule#SymbolMethods#flags().2G
+
+�(� (7scala/quoted/Quotes#reflectModule#TreeMethods#symbol().2
+
+�(� -local262#
+
+�� scala/Some.apply().2
+
+�� scala/Some.2
+
+�� local262=
+
+�4� 4-dotty/tools/dotc/ast/Trees.TypeDef.unapply().23
+
+�-� 4#dotty/tools/dotc/ast/Trees.TypeDef.2+
+
+�'� ,dotty/tools/dotc/ast/Trees.2%
+
+�#� &dotty/tools/dotc/ast/2!
+
+�� "dotty/tools/dotc/2
+
+�� dotty/tools/2
+
+�� dotty/2J
+
+�>� >:scala/quoted/Quotes#reflectModule#TypeReprMethods#`<:<`().2H
+
+�>� >8scala/quoted/Quotes#reflectModule#TypeTreeMethods#tpe().2J
+
+�G� G:scala/quoted/Quotes#reflectModule#TypeIdentModule#apply().2<
+
+�>� G,scala/quoted/Quotes#reflectModule#TypeIdent.2
+
+�H� Ilocal2424
+
+�`� `$refuel/inject/InjectableTag.apply().2,
+
+�S� `refuel/inject/InjectableTag.2f
+
+�b� bVrefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(q)2)
+
+�� scala/Predef.println(+1).2(
+
+�H� Iscala/StringContext#s().2,
+
+�� scala/StringContext.apply().2
+
+�� local252F
+
+�)� )6scala/quoted/Quotes#reflectModule#FlagsMethods#show().2H
+
+�)� )8scala/quoted/Quotes#reflectModule#SymbolMethods#flags().2G
+
+�)� )7scala/quoted/Quotes#reflectModule#TreeMethods#symbol().2J
+
+�2� 2:scala/quoted/Quotes#reflectModule#TypeIdentModule#apply().2<
+
+�)� 2,scala/quoted/Quotes#reflectModule#TypeIdent.2
+
+�3� 4local242#
+
+�� scala/Some.apply().2
+
+�� scala/Some.2J
+
+�� :scala/quoted/Quotes#reflectModule#TypeIdentModule#apply().2<
+
+�� ,scala/quoted/Quotes#reflectModule#TypeIdent.2
+
+�� local242
+
+�� scala/None.2c
+
+�	� Srefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().2f
+
+�� Vrefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(q)2F
+
+�I� P6scala/collection/StrictOptimizedIterableOps#collect().26
+
+�1� 8&scala/collection/WithFilter#flatMap().2:
+
+�� &*scala/collection/IterableOps#withFilter().2
+
+�� local222U
+
+�'� /Erefuel/container/macro/internal/StaticDependencyExtractor.isModule().2f
+
+�/� /Vrefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(q)2
+
+�'� 'local272O
+
+�9� 9?scala/quoted/Quotes#reflectModule#SymbolMethods#declarations().2
+
+�
+� 
+local282
+
+�� local292\
+
+�� &Lrefuel/container/macro/internal/StaticDependencyExtractor.maybeCandidates().2f
+
+�&� &Vrefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(q)2
+
+�'� (local292
+
+�-� .local292Z
+
+�� Jrefuel/container/macro/internal/StaticDependencyExtractor.joinSymbolSet().2f
+
+�� Vrefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(q)2v
+
+�� *frefuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore().(injectableSymbols)2
+
+�,� 5local232p
+
+�9� :`refuel/container/macro/internal/StaticDependencyExtractor.recursiveModuleExplore$default$3().(q)2/
+
+�_� _scala/Option.option2Iterable().2
+
+�_� cscala/None.PZ E6AF6C75738E5A10946EBEF3CD85BA53

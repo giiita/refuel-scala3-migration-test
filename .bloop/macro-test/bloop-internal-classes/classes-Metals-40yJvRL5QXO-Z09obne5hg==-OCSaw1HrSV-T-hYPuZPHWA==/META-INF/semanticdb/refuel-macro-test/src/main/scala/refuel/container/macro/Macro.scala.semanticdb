@@ -1,0 +1,124 @@
+
+�Crefuel-macro-refuel.test/src/main/scala/refuel/container/macro/Macro.scala*-
+refuel/container/macro/Macro.
+ *Macro�*5
+&refuel/container/macro/Macro.inject().*inject�*3
+)refuel/container/macro/Macro.inject().[T]	*T�*5
+)refuel/container/macro/Macro.inject().(q)  *q�*
+local0 �	*t�*
+local1*t�*
+local2 �*t$given1�*!
+local3 �*resultExprAlias�2!
+  refuel/container/macro/2
+ refuel/container/2
+ refuel/2-
+ %refuel/container/InjectionPool.2-
+ %refuel/container/InjectionPool#2
+ refuel/container/2
+ 
+refuel/2-
+" &refuel/container/provider/Lazy.2-
+" &refuel/container/provider/Lazy#21
+( 0#refuel/container/provider/Accessor.21
+( 0#refuel/container/provider/Accessor#2(
+  refuel/container/provider/2
+ refuel/container/2
+ 
+refuel/25
+  /'refuel/container/macro/LazyInitializer.2%
+ refuel/container/macro/2
+ refuel/container/2
+ 
+refuel/2
+
+ 
+scala/quoted/2
+ scala/2+
+ refuel/container/macro/Macro.24
+		 &refuel/container/macro/Macro.inject().27
+	
+	 )refuel/container/macro/Macro.inject().[T]2 
+		 scala/quoted/Type#27
+		 )refuel/container/macro/Macro.inject().[T]27
+		 )refuel/container/macro/Macro.inject().(q)2"
+		 %scala/quoted/Quotes#2 
+	(	 ,scala/quoted/Expr#2-
+	-	 1refuel/container/provider/Lazy#27
+	2	 3)refuel/container/macro/Macro.inject().[T]2I
+
+
+ ;scala/quoted/Quotes#reflectModule#TypeReprMethods#asType().2F
+
+
+ 8scala/quoted/Quotes#reflectModule#TypeTreeMethods#tpe().2D
+
+
+ 6scala/quoted/Quotes#reflectModule#TypeTreeModule#of().29
+
+
+ +scala/quoted/Quotes#reflectModule#TypeTree.2*
+
+
+ 
+scala/quoted/Quotes#reflect.27
+
+
+ )refuel/container/macro/Macro.inject().(q)27
+
+
+ )refuel/container/macro/Macro.inject().[T]2K
+ =scala/quoted/runtime/QuoteMatching#TypeMatchModule#unapply().2
+
+ local02%
+
+ 
+scala/quoted/Type.of().2-
+
+ refuel/container/provider/Lazy#27
+ )refuel/container/macro/Macro.inject().(q)2%
+ scala/Tuple1.unapply().2
+ local32-
+
+3
+ 3scala/ContextFunction1#apply().20
+
+
+
+ 
+"scala/quoted/runtime/Expr.quote().25
+
+
+ 'refuel/container/provider/Lazy.apply().2-
+
+
+
+ refuel/container/provider/Lazy.2-
+
+
+ refuel/container/provider/Lazy#2
+
+
+ local027
+ )scala/quoted/runtime/Expr.nestedSplice().27
+ )refuel/container/macro/Macro.inject().(q)2<
+
+*
+ ..refuel/container/macro/LazyInitializer.init().25
+
+
+ )'refuel/container/macro/LazyInitializer.2
+
+/
+ 0local02
+
+1
+ 1local22'
+ $scala/Any#asInstanceOf().2
+ local32 
+% )scala/quoted/Expr#2-
+* .refuel/container/provider/Lazy#27
+/ 0)refuel/container/macro/Macro.inject().[T]2<
+ .refuel/container/macro/LazyInitializer.init().25
+ 'refuel/container/macro/LazyInitializer.27
+ )refuel/container/macro/Macro.inject().[T]27
+ )refuel/container/macro/Macro.inject().(q)PZ B6880B627391FEB8ECC48E27E97B9AC3

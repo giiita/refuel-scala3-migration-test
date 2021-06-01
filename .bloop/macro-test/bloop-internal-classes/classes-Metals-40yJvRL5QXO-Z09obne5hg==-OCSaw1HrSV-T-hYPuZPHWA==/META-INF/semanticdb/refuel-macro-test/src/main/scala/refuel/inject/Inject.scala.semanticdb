@@ -1,0 +1,27 @@
+
+�;refuel-macro-refuel.test/src/main/scala/refuel/inject/Inject.scala*$
+refuel/inject/Inject#
+*Inject�*2
+ refuel/inject/Inject#`<init>`(). �@*<init>�*%
+refuel/inject/Inject#[T]	 �*T�2
+ refuel/inject/2
+ refuel/2-
+ &java/lang/annotation/Retention.2-
+ &java/lang/annotation/Retention#23
+( 7%java/lang/annotation/RetentionPolicy#2#
+ java/lang/annotation/2
+ 
+java/lang/2
+ java/20
+ ("scala/annotation/StaticAnnotation.2
+
+ scala/annotation/2
+ scala/2-
+ 
+java/lang/annotation/Retention#2;
+ "-java/lang/annotation/RetentionPolicy#RUNTIME.23
+ %java/lang/annotation/RetentionPolicy#2#
+ refuel/inject/Inject#2.
+  refuel/inject/Inject#`<init>`().20
+. >"scala/annotation/StaticAnnotation#2&
+ refuel/inject/Inject#[T]PZ A7C9B1C7399072ACA85723077F039C29

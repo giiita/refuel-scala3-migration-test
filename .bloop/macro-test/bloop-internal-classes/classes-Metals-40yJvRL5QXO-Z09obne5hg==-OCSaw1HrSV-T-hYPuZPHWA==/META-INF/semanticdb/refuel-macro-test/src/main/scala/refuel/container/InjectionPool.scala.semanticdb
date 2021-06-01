@@ -1,0 +1,77 @@
+
+�Erefuel-macro-refuel.test/src/main/scala/refuel/container/InjectionPool.scala*7
+refuel/container/InjectionPool.
+ *
+InjectionPool�*S
+5refuel/container/InjectionPool.DependencyConstructor#*DependencyConstructor�*B
+8refuel/container/InjectionPool.DependencyConstructor#[T]	*T�*I
+0refuel/container/InjectionPool.LazyConstruction#*LazyConstruction�*=
+3refuel/container/InjectionPool.LazyConstruction#[T]	*T�*5
+refuel/container/InjectionPool#*
+InjectionPool�*<
+*refuel/container/InjectionPool#`<init>`(). �@*<init>�*;
+)refuel/container/InjectionPool#collect(). *collect�*6
+,refuel/container/InjectionPool#collect().[T]	*T�*>
+0refuel/container/InjectionPool#collect().(clazz)*clazz�2
+ refuel/container/2
+ refuel/2)
+ !refuel/container/Container.2
+ refuel/container/2
+ 
+refuel/2.
+ & refuel/inject/InjectionPriority.2.
+ & refuel/inject/InjectionPriority#2
+ refuel/inject/2
+ 
+refuel/2-
+ %refuel/container/InjectionPool.2
+ refuel/container/2
+ 
+refuel/24
+! ,&refuel/container/provider/restriction/2(
+  refuel/container/provider/2
+ refuel/container/2
+ 
+refuel/2
+
+ 
+scala/quoted/2
+ scala/2-
+		 refuel/container/InjectionPool.2C
+
+
+ 5refuel/container/InjectionPool.DependencyConstructor#2F
+
+
+ 8refuel/container/InjectionPool.DependencyConstructor#[T]2)
+
+"
+ +refuel/container/Container#2 
+
+/
+ 2scala/package.Seq#2>
+
+3
+ C0refuel/container/InjectionPool.LazyConstruction#2F
+
+D
+ E8refuel/container/InjectionPool.DependencyConstructor#[T]2>
+ 0refuel/container/InjectionPool.LazyConstruction#2A
+ 3refuel/container/InjectionPool.LazyConstruction#[T]2.
+# 4 refuel/inject/InjectionPriority#2 
+6 9scala/package.Seq#2.
+: K refuel/inject/InjectionPriority#2F
+O `8refuel/container/provider/restriction/SymbolRestriction#2A
+a b3refuel/container/InjectionPool.LazyConstruction#[T]2-
+ refuel/container/InjectionPool#28
+ *refuel/container/InjectionPool#`<init>`().27
+ 
+)refuel/container/InjectionPool#collect().2:
+ ,refuel/container/InjectionPool#collect().[T]2>
+ 0refuel/container/InjectionPool#collect().(clazz)2!
+ scala/Predef.Class#2)
+# ,refuel/container/Container#2
+0 6
+scala/Option#2>
+7 G0refuel/container/InjectionPool.LazyConstruction#2:
+H I,refuel/container/InjectionPool#collect().[T]PZ D2CA1C69D08DB2D50771C8C5D421C635

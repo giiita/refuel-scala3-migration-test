@@ -1,0 +1,85 @@
+
+�%^refuel-macro-refuel.test/src/main/scala/refuel/container/provider/restriction/SymbolRestriction.scala*T
+8refuel/container/provider/restriction/SymbolRestriction#
+ *SymbolRestriction�*U
+Crefuel/container/provider/restriction/SymbolRestriction#`<init>`(). �@*<init>�*W
+Hrefuel/container/provider/restriction/SymbolRestriction#`<init>`().(key) �*key�*[
+Jrefuel/container/provider/restriction/SymbolRestriction#`<init>`().(value) �*value�*a
+Mrefuel/container/provider/restriction/SymbolRestriction#`<init>`().(priority) �*priority�*E
+;refuel/container/provider/restriction/SymbolRestriction#[T]	*T�*K
+<refuel/container/provider/restriction/SymbolRestriction#key. �*key�*O
+>refuel/container/provider/restriction/SymbolRestriction#value. �*value�*U
+Arefuel/container/provider/restriction/SymbolRestriction#priority. �*priority�*V
+Crefuel/container/provider/restriction/SymbolRestriction#accepted(). *accepted�*P
+Frefuel/container/provider/restriction/SymbolRestriction#accepted().[X]	*X�*d
+Prefuel/container/provider/restriction/SymbolRestriction#accepted().(requestFrom)*requestFrom�*R
+Frefuel/container/provider/restriction/SymbolRestriction#accepted().(x)  *x�*^
+Hrefuel/container/provider/restriction/SymbolRestriction#acceptedClass().*
+acceptedClass�*U
+Krefuel/container/provider/restriction/SymbolRestriction#acceptedClass().[X]	*X�*U
+Krefuel/container/provider/restriction/SymbolRestriction#acceptedClass().(x)*x�*d
+Krefuel/container/provider/restriction/SymbolRestriction#acceptedInstance().*acceptedInstance�*X
+Nrefuel/container/provider/restriction/SymbolRestriction#acceptedInstance().(x)*x�*P
+Arefuel/container/provider/restriction/SymbolRestriction#isOpen().*isOpen�20
+" -&refuel/container/provider/restriction/2$
+ !refuel/container/provider/2
+ refuel/container/2
+ refuel/2=
+ "/refuel/container/IndexedKey$package.IndexedKey.2
+ refuel/container/2
+ 
+refuel/2;
+! 3-refuel/container/provider/TypedAcceptContext.2(
+  refuel/container/provider/2
+ refuel/container/2
+ 
+refuel/2.
+ & refuel/inject/InjectionPriority.2.
+ & refuel/inject/InjectionPriority#2
+ refuel/inject/2
+ 
+refuel/2
+
+ 
+scala/quoted/2
+ scala/2F
+  8refuel/container/provider/restriction/SymbolRestriction#2Q
+   Crefuel/container/provider/restriction/SymbolRestriction#`<init>`().2=
+		 /refuel/container/IndexedKey$package.IndexedKey#2I
+
+
+
+ ;refuel/container/provider/restriction/SymbolRestriction#[T]2.
+ ! refuel/inject/InjectionPriority#2I
+! ";refuel/container/provider/restriction/SymbolRestriction#[T]2J
+		 	<refuel/container/provider/restriction/SymbolRestriction#key.2L
+
+
+ >refuel/container/provider/restriction/SymbolRestriction#value.2O
+ Arefuel/container/provider/restriction/SymbolRestriction#priority.2Q
+ Crefuel/container/provider/restriction/SymbolRestriction#accepted().2T
+ Frefuel/container/provider/restriction/SymbolRestriction#accepted().[X]2^
+ #Prefuel/container/provider/restriction/SymbolRestriction#accepted().(requestFrom)2T
+% &Frefuel/container/provider/restriction/SymbolRestriction#accepted().[X]2T
+. /Frefuel/container/provider/restriction/SymbolRestriction#accepted().(x)2;
+1 C-refuel/container/provider/TypedAcceptContext#2T
+D EFrefuel/container/provider/restriction/SymbolRestriction#accepted().[X]2
+I Pscala/Boolean#2&
+ scala/Function1#apply().2&
+ scala/Function1#apply().2F
+ 8refuel/container/provider/TypedAcceptContext#accepted().2T
+ Frefuel/container/provider/restriction/SymbolRestriction#accepted().(x)2^
+  Prefuel/container/provider/restriction/SymbolRestriction#accepted().(requestFrom)2V
+ Hrefuel/container/provider/restriction/SymbolRestriction#acceptedClass().2Y
+ Krefuel/container/provider/restriction/SymbolRestriction#acceptedClass().[X]2Y
+ Krefuel/container/provider/restriction/SymbolRestriction#acceptedClass().(x)2!
+ scala/Predef.Class#2Y
+  !Krefuel/container/provider/restriction/SymbolRestriction#acceptedClass().[X]2
+% ,scala/Boolean#2Y
+%% Krefuel/container/provider/restriction/SymbolRestriction#acceptedInstance().2\
+%% Nrefuel/container/provider/restriction/SymbolRestriction#acceptedInstance().(x)2
+%% 
+scala/Any#2
+% % 'scala/Boolean#2O
+,, Arefuel/container/provider/restriction/SymbolRestriction#isOpen().2
+,, scala/Boolean#PZ 3A052B79C5AE8A571D214F9C85A32BF1

@@ -1,0 +1,62 @@
+
+�Erefuel-macro-refuel.test/src/main/scala/refuel/container/provider/Lazy.scala*,
+refuel/container/provider/Lazy#*Lazy�*<
+*refuel/container/provider/Lazy#`<init>`(). �@*<init>�*,
+"refuel/container/provider/Lazy#[X]	*X�*=
+*refuel/container/provider/Lazy#_provide(). *_provide�*.
+refuel/container/provider/Lazy.
+ *Lazy�*5
+'refuel/container/provider/Lazy.apply().*apply�*4
+*refuel/container/provider/Lazy.apply().[T]	*T�*4
+*refuel/container/provider/Lazy.apply().(t)*t�*
+local0
+ *$anon�*
+local1*_provide�**
+refuel/container/provider/Mix#*Mix�*;
+)refuel/container/provider/Mix#`<init>`(). �@*<init>�*/
+refuel/container/provider/Body#
+ �*Body�*<
+*refuel/container/provider/Body#`<init>`(). �@*<init>�*:
+-refuel/container/provider/Body#`<init>`().(v) �*v�*.
+!refuel/container/provider/Body#v. �*v�*3
+&refuel/container/provider/Body#copy().*copy�*3
+)refuel/container/provider/Body#copy().(v)*v�*G
+0refuel/container/provider/Body#copy$default$1().*copy$default$1�*/
+$refuel/container/provider/Body#_1().*_1�*.
+refuel/container/provider/Body.
+ *Body�*5
+'refuel/container/provider/Body.apply().*apply�*4
+*refuel/container/provider/Body.apply().(v)*v�*9
+)refuel/container/provider/Body.unapply().*unapply�*:
+.refuel/container/provider/Body.unapply().(x$1)*x$1�*;
+*refuel/container/provider/Body.toString().*toString�2(
+ !refuel/container/provider/2
+ refuel/container/2
+ refuel/2-
+ 
+refuel/container/provider/Lazy#28
+
+ 
+*refuel/container/provider/Lazy#`<init>`().20
+ "refuel/container/provider/Lazy#[X]28
+ *refuel/container/provider/Lazy#_provide().20
+ "refuel/container/provider/Lazy#[X]2-
+"" refuel/container/provider/Lazy.25
+## 'refuel/container/provider/Lazy.apply().28
+## 
+*refuel/container/provider/Lazy.apply().[T]28
+## *refuel/container/provider/Lazy.apply().(t)28
+## *refuel/container/provider/Lazy.apply().[T]2-
+## refuel/container/provider/Lazy#28
+## *refuel/container/provider/Lazy.apply().[T]2-
+#'# +refuel/container/provider/Lazy#28
+#,# -*refuel/container/provider/Lazy.apply().[T]2
+$$ local128
+$$ *refuel/container/provider/Lazy.apply().[T]28
+$$ *refuel/container/provider/Lazy.apply().(t)2,
+(( 	refuel/container/provider/Mix#23
+(()refuel/container/provider/Mix#`<init>`().2-
+)) refuel/container/provider/Body#28
+)) *refuel/container/provider/Body#`<init>`().2"
+)) scala/Predef.String#2/
+)) !refuel/container/provider/Body#v.PZ 1AB36D7457C17A201610CF860701782B

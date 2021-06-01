@@ -1,0 +1,38 @@
+
+�Krefuel-refuel.test/src/main/scala/refuel/inject/runtime/RuntimeInjectionPool.scala*J
++refuel/inject/runtime/RuntimeInjectionPool.
+ *RuntimeInjectionPool�*E
+5refuel/inject/runtime/RuntimeInjectionPool.collect().*collect�*B
+8refuel/inject/runtime/RuntimeInjectionPool.collect().[T]	*T�*J
+<refuel/inject/runtime/RuntimeInjectionPool.collect().(clazz)*clazz�*
+local0*c�2 
+ refuel/inject/runtime/2
+ refuel/inject/2
+ refuel/2)
+ !refuel/container/Container.2
+ refuel/container/2
+ 
+refuel/2-
+ %refuel/container/InjectionPool.2-
+ %refuel/container/InjectionPool#2
+ refuel/container/2
+ 
+refuel/2-
+ %refuel/container/InjectionPool.2
+ refuel/container/2
+ 
+refuel/29
+ +refuel/inject/runtime/RuntimeInjectionPool.2-
+$ 1refuel/container/InjectionPool#2C
+ 
+5refuel/inject/runtime/RuntimeInjectionPool.collect().2F
+ 8refuel/inject/runtime/RuntimeInjectionPool.collect().[T]2J
+ <refuel/inject/runtime/RuntimeInjectionPool.collect().(clazz)2!
+ scala/Predef.Class#2)
+# ,refuel/container/Container#2
+0 6
+scala/Option#2>
+7 G0refuel/container/InjectionPool.LazyConstruction#2F
+H I8refuel/inject/runtime/RuntimeInjectionPool.collect().[T]2
+P Qlocal02
+U Yscala/None.PZ 12F503D246A453B6B3D054F51693D7BB

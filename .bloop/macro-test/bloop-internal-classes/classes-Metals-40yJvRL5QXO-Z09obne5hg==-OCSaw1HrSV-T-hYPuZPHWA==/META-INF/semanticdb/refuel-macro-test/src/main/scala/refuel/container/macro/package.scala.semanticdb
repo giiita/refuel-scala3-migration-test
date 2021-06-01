@@ -1,0 +1,134 @@
+
+�"Erefuel-macro-refuel.test/src/main/scala/refuel/container/macro/package.scala*/
+refuel/container/macro/package. *macro�*]
+9refuel/container/macro/package.AccessorTypeAcceptContext.
+ (*AccessorTypeAcceptContext�*U
+Drefuel/container/macro/package.AccessorTypeAcceptContext.accepted().*accepted�*
+local0*x�*
+local1*y�*W
+6refuel/container/macro/package.ClassTypeAcceptContext.
+ (*ClassTypeAcceptContext�*R
+Arefuel/container/macro/package.ClassTypeAcceptContext.accepted().*accepted�*
+local2*x�*
+local3*y�*C
+,refuel/container/macro/package.SymbolToExpr.
+ (*SymbolToExpr�*B
+4refuel/container/macro/package.SymbolToExpr.apply().*apply�*A
+7refuel/container/macro/package.SymbolToExpr.apply().(x)*x�*C
+7refuel/container/macro/package.SymbolToExpr.apply().(q)  *q�2
+ refuel/container/2
+ refuel/21
+" *#refuel/container/provider/Accessor.21
+" *#refuel/container/provider/Accessor#2;
+, >-refuel/container/provider/TypedAcceptContext.2(
+  refuel/container/provider/2
+ refuel/container/2
+ 
+refuel/2F
+- >8refuel/container/provider/restriction/SymbolRestriction.24
+! ,&refuel/container/provider/restriction/2(
+  refuel/container/provider/2
+ refuel/container/2
+ 
+refuel/2
+
+ 
+scala/quoted/2
+ scala/2-
+ refuel/container/macro/package.2G
+ !9refuel/container/macro/package.AccessorTypeAcceptContext.2;
+# 5-refuel/container/provider/TypedAcceptContext#21
+6 >#refuel/container/provider/Accessor#2R
+		 Drefuel/container/macro/package.AccessorTypeAcceptContext.accepted().2F
+		 ,8refuel/container/provider/restriction/SymbolRestriction#21
+	3	 ;#refuel/container/provider/Accessor#2
+	B	 Iscala/Boolean#2
+	N	 Olocal02
+	S	 Tlocal12#
+
+0
+ 2scala/Boolean#`||`().2#
+
+
+ scala/Boolean#`||`().2O
+
+
+ Arefuel/container/provider/restriction/SymbolRestriction#isOpen().2
+
+
+ local02V
+
+
+ !Hrefuel/container/provider/restriction/SymbolRestriction#acceptedClass().2
+
+
+ local02#
+
+&
+ .scala/Any#getClass().23
+
+$
+ %%refuel/container/provider/Accessor#t.2
+
+"
+ #local12Y
+
+5
+ EKrefuel/container/provider/restriction/SymbolRestriction#acceptedInstance().2
+
+3
+ 4local023
+
+H
+ I%refuel/container/provider/Accessor#t.2
+
+F
+ Glocal12D
+
+
+ 6refuel/container/macro/package.ClassTypeAcceptContext.2;
+
+ 
+ 2-refuel/container/provider/TypedAcceptContext#2!
+
+3
+ 8scala/Predef.Class#2O
+ Arefuel/container/macro/package.ClassTypeAcceptContext.accepted().2F
+ ,8refuel/container/provider/restriction/SymbolRestriction#2!
+3 8scala/Predef.Class#2
+? Fscala/Boolean#2
+K Llocal22
+P Qlocal32#
+^ `scala/Boolean#`||`().2O
+W ]Arefuel/container/provider/restriction/SymbolRestriction#isOpen().2
+U Vlocal22V
+c pHrefuel/container/provider/restriction/SymbolRestriction#acceptedClass().2
+a blocal22
+q rlocal32:
+ ,refuel/container/macro/package.SymbolToExpr.2"
+ scala/quoted/ToExpr#2=
+ '/refuel/container/IndexedKey$package.IndexedKey#2B
+ 
+4refuel/container/macro/package.SymbolToExpr.apply().2E
+ 7refuel/container/macro/package.SymbolToExpr.apply().(x)2=
+ /refuel/container/IndexedKey$package.IndexedKey#2E
+# $7refuel/container/macro/package.SymbolToExpr.apply().(q)2"
+& ,scala/quoted/Quotes#2*
+ scala/quoted/Quotes#reflect.23
+
+ %scala/quoted/Quotes$package.quotes().2E
+ 7refuel/container/macro/package.SymbolToExpr.apply().(q)2-
++ +scala/ContextFunction1#apply().20
+ "scala/quoted/runtime/Expr.quote().2#
+ scala/Symbol.apply().2
+ 
+scala/Symbol.2
+ 
+scala/27
+ )scala/quoted/runtime/Expr.nestedSplice().2E
+ 7refuel/container/macro/package.SymbolToExpr.apply().(q)2(
+ scala/quoted/Expr.apply().2 
+ scala/quoted/Expr.2&
+ &scala/Symbol#toString().2E
+ 7refuel/container/macro/package.SymbolToExpr.apply().(x)21
+) )#scala/quoted/ToExpr.StringToExpr().PZ 837D6D7D0C4AD38004D1FD0849E0040B

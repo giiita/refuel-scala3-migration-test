@@ -1,0 +1,92 @@
+
+�*refuel-refuel.test/src/main/scala/refuel.test/Main.scala*!
+test/Injector.
+ *Injector�*&
+test/Injector.inject().*inject�*$
+test/Injector.inject().[T]	*T�*(
+refuel.test/Injector.inject().(str)*str�*&
+test/Injector.inject().(an)*an�*
+	refuel.test/Foo#
+*Foo�*&
+test/Foo#`<init>`(). �@*<init>�*$
+test/Foo#`<init>`().(v) �*v�*
+refuel.test/Foo#v. �*v�*
+	refuel.test/Mix#*Mix�*&
+test/Mix#`<init>`(). �@*<init>�*!
+test/Main$package. *test�*(
+test/Main$package.hello().*hello�*
+refuel.test/hello#
+ *hello�*(
+test/hello#`<init>`(). �@*<init>�*"
+test/hello#main(). � *main�*%
+test/hello#main().(args)*args�*
+local0 �*error�2
+ test/2-
+! %refuel/container/provider/Lazy.2-
+! %refuel/container/provider/Lazy#2(
+  refuel/container/provider/2
+ refuel/container/2
+ 
+refuel/25
+  /'refuel/container/macro/LazyInitializer.2%
+ refuel/container/macro/2
+ refuel/container/2
+ 
+refuel/2
+		 test/Injector.2%
+
+
+
+ test/Injector.inject().2(
+
+
+ test/Injector.inject().[T]2*
+
+
+ !refuel.test/Injector.inject().(str)2"
+
+#
+ )scala/Predef.String#2)
+
++
+ -test/Injector.inject().(an)2
+
+/
+ 2
+scala/Any#2-
+
+5
+ 9refuel/container/provider/Lazy#2(
+
+:
+ ;test/Injector.inject().[T]21
+ #scala/quoted/runtime/Expr.splice().2<
+ .refuel/container/macro/LazyInitializer.init().25
+ 'refuel/container/macro/LazyInitializer.2(
+ test/Injector.inject().[T]2-
+ scala/ContextFunction1#apply().2-
+% %scala/ContextFunction1#apply().2%
+) )scala/quoted/Type.of().2
+ 		refuel.test/Foo#2"
+	 	test/Foo#`<init>`().2"
+ scala/Predef.String#2
+ refuel.test/Foo#v.2
+ 		refuel.test/Mix#2
+test/Mix#`<init>`().2
+test/Main$package.2
+ scala/main#2(
+
+ test/Main$package.hello().2
+ scala/Unit#2'
+ 	scala/Predef.println(+1).2
+4 5refuel.test/Foo#v.28
+) 1*refuel/container/provider/Lazy#_provide().2%
+ test/Injector.inject().2
+
+ test/Injector.2
+ 	refuel.test/Foo#2
+refuel.test/hello#2
+test/hello#`<init>`().2$
+test/Main$package.hello().23
+)scala/util/CommandLineParser.showError().2
+local0PZ 0A1D01E72A2C263EDA2B9CAD7D6F3DF0

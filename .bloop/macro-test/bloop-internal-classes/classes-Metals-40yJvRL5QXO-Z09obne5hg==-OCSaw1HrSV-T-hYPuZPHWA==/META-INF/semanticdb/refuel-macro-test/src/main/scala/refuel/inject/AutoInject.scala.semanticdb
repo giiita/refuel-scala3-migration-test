@@ -1,0 +1,19 @@
+
+�?refuel-macro-refuel.test/src/main/scala/refuel/inject/AutoInject.scala*,
+refuel/inject/AutoInject#*
+AutoInject�*6
+$refuel/inject/AutoInject#`<init>`(). �@*<init>�2
+ refuel/inject/2
+ refuel/2)
+ !refuel/container/Container.2
+ refuel/container/2
+ 
+refuel/21
+ )#refuel/container/DependencyPoolRef.2
+ refuel/container/2
+ 
+refuel/2'
+ refuel/inject/AutoInject#22
+ $refuel/inject/AutoInject#`<init>`().21
+ *#refuel/container/DependencyPoolRef#2)
++ 4refuel/container/Container#PZ 953B752439B3E7BFC72D4E2799D2D29A

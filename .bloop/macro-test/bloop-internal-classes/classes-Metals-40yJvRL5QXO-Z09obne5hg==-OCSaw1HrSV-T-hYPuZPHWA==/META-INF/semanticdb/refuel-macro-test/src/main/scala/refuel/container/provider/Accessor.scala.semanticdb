@@ -1,0 +1,35 @@
+
+�
+Irefuel-macro-refuel.test/src/main/scala/refuel/container/provider/Accessor.scala*7
+#refuel/container/provider/Accessor#
+ �*Accessor�*@
+.refuel/container/provider/Accessor#`<init>`(). �@*<init>�*>
+1refuel/container/provider/Accessor#`<init>`().(t) �*t�*0
+&refuel/container/provider/Accessor#[T]	*T�*2
+%refuel/container/provider/Accessor#t. �*t�*7
+*refuel/container/provider/Accessor#copy().*copy�*7
+-refuel/container/provider/Accessor#copy().[T]	*T�*7
+-refuel/container/provider/Accessor#copy().(t)*t�*K
+4refuel/container/provider/Accessor#copy$default$1().*copy$default$1�*A
+7refuel/container/provider/Accessor#copy$default$1().[T]	*T�*3
+(refuel/container/provider/Accessor#_1().*_1�*6
+#refuel/container/provider/Accessor.
+ *Accessor�*9
++refuel/container/provider/Accessor.apply().*apply�*8
+.refuel/container/provider/Accessor.apply().[T]	*T�*8
+.refuel/container/provider/Accessor.apply().(t)*t�*=
+-refuel/container/provider/Accessor.unapply().*unapply�*:
+0refuel/container/provider/Accessor.unapply().[T]	*T�*>
+2refuel/container/provider/Accessor.unapply().(x$1)*x$1�*?
+.refuel/container/provider/Accessor.toString().*toString�2$
+ !refuel/container/provider/2
+ refuel/container/2
+ refuel/21
+ #refuel/container/provider/Accessor#2<
+ .refuel/container/provider/Accessor#`<init>`().24
+ &refuel/container/provider/Accessor#[T]2&
++ +scala/AnyVal#`<init>`().2
+% +
+scala/AnyVal#24
+ &refuel/container/provider/Accessor#[T]23
+ %refuel/container/provider/Accessor#t.PZ 669DFB6B8D0C49D82F8E0C9853E7C2FB

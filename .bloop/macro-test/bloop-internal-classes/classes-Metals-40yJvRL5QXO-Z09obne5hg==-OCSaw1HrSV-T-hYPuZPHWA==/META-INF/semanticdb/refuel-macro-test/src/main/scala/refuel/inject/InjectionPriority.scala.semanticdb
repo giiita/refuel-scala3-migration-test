@@ -1,0 +1,168 @@
+
+�<Frefuel-macro-refuel.test/src/main/scala/refuel/inject/InjectionPriority.scala*:
+ refuel/inject/InjectionPriority#*InjectionPriority�*=
++refuel/inject/InjectionPriority#`<init>`(). �@*<init>�*/
+"refuel/inject/InjectionPriority#v. �*v�*<
+ refuel/inject/InjectionPriority.
+ *InjectionPriority�*8
+(refuel/inject/InjectionPriority.Primary#*Primary�*;
+(refuel/inject/InjectionPriority.Primary. �*Primary�*<
+*refuel/inject/InjectionPriority.Secondary#*	Secondary�*?
+*refuel/inject/InjectionPriority.Secondary. �*	Secondary�*.
+#refuel/inject/InjectionPriority._1#*_1�*@
+.refuel/inject/InjectionPriority._1#`<init>`(). �@*<init>�*2
+%refuel/inject/InjectionPriority._1#v. �*v�*.
+#refuel/inject/InjectionPriority._2#*_2�*@
+.refuel/inject/InjectionPriority._2#`<init>`(). �@*<init>�*2
+%refuel/inject/InjectionPriority._2#v. �*v�*.
+#refuel/inject/InjectionPriority._3#*_3�*@
+.refuel/inject/InjectionPriority._3#`<init>`(). �@*<init>�*2
+%refuel/inject/InjectionPriority._3#v. �*v�*.
+#refuel/inject/InjectionPriority._4#*_4�*@
+.refuel/inject/InjectionPriority._4#`<init>`(). �@*<init>�*2
+%refuel/inject/InjectionPriority._4#v. �*v�*.
+#refuel/inject/InjectionPriority._5#*_5�*@
+.refuel/inject/InjectionPriority._5#`<init>`(). �@*<init>�*2
+%refuel/inject/InjectionPriority._5#v. �*v�*.
+#refuel/inject/InjectionPriority._6#*_6�*@
+.refuel/inject/InjectionPriority._6#`<init>`(). �@*<init>�*2
+%refuel/inject/InjectionPriority._6#v. �*v�*.
+#refuel/inject/InjectionPriority._7#*_7�*@
+.refuel/inject/InjectionPriority._7#`<init>`(). �@*<init>�*2
+%refuel/inject/InjectionPriority._7#v. �*v�*.
+#refuel/inject/InjectionPriority._8#*_8�*@
+.refuel/inject/InjectionPriority._8#`<init>`(). �@*<init>�*2
+%refuel/inject/InjectionPriority._8#v. �*v�*.
+#refuel/inject/InjectionPriority._9#*_9�*@
+.refuel/inject/InjectionPriority._9#`<init>`(). �@*<init>�*2
+%refuel/inject/InjectionPriority._9#v. �*v�*0
+$refuel/inject/InjectionPriority._10#*_10�*A
+/refuel/inject/InjectionPriority._10#`<init>`(). �@*<init>�*3
+&refuel/inject/InjectionPriority._10#v. �*v�*<
+*refuel/inject/InjectionPriority.Overwrite#*	Overwrite�*?
+*refuel/inject/InjectionPriority.Overwrite. �*	Overwrite�*8
+(refuel/inject/InjectionPriority.Default#*Default�*;
+(refuel/inject/InjectionPriority.Default. �*Default�*8
+(refuel/inject/InjectionPriority.Finally#*Finally�*;
+(refuel/inject/InjectionPriority.Finally. �*Finally�*0
+#refuel/inject/InjectionPriority._1.
+ (*_1�*0
+#refuel/inject/InjectionPriority._2.
+ (*_2�*0
+#refuel/inject/InjectionPriority._3.
+ (*_3�*0
+#refuel/inject/InjectionPriority._4.
+ (*_4�*0
+#refuel/inject/InjectionPriority._5.
+ (*_5�*0
+#refuel/inject/InjectionPriority._6.
+ (*_6�*0
+#refuel/inject/InjectionPriority._7.
+ (*_7�*0
+#refuel/inject/InjectionPriority._8.
+ (*_8�*0
+#refuel/inject/InjectionPriority._9.
+ (*_9�*2
+$refuel/inject/InjectionPriority._10.
+ (*_10�2
+ refuel/inject/2
+ refuel/2.
+  refuel/inject/InjectionPriority#29
+ +refuel/inject/InjectionPriority#`<init>`().20
+ "refuel/inject/InjectionPriority#v.2
+	 
+scala/Int#2.
+  refuel/inject/InjectionPriority.26
+ (refuel/inject/InjectionPriority.Primary#21
+ #refuel/inject/InjectionPriority._1#26
+ 
+(refuel/inject/InjectionPriority.Primary.21
+ #refuel/inject/InjectionPriority._1.28
+## *refuel/inject/InjectionPriority.Secondary#21
+## #refuel/inject/InjectionPriority._3#28
+$$ *refuel/inject/InjectionPriority.Secondary.21
+$$ #refuel/inject/InjectionPriority._3.21
+&& 
+#refuel/inject/InjectionPriority._1#2<
+&& .refuel/inject/InjectionPriority._1#`<init>`().2.
+&& $ refuel/inject/InjectionPriority#23
+'' 	%refuel/inject/InjectionPriority._1#v.21
+)) 
+#refuel/inject/InjectionPriority._2#2<
+)) .refuel/inject/InjectionPriority._2#`<init>`().21
+)) #refuel/inject/InjectionPriority._1#23
+** %refuel/inject/InjectionPriority._2#v.21
+,, 
+#refuel/inject/InjectionPriority._3#2<
+,, .refuel/inject/InjectionPriority._3#`<init>`().21
+,, #refuel/inject/InjectionPriority._2#23
+-- %refuel/inject/InjectionPriority._3#v.21
+// 
+#refuel/inject/InjectionPriority._4#2<
+// .refuel/inject/InjectionPriority._4#`<init>`().21
+// #refuel/inject/InjectionPriority._3#23
+00 %refuel/inject/InjectionPriority._4#v.21
+22 
+#refuel/inject/InjectionPriority._5#2<
+22 .refuel/inject/InjectionPriority._5#`<init>`().21
+22 #refuel/inject/InjectionPriority._4#23
+33 %refuel/inject/InjectionPriority._5#v.21
+55 
+#refuel/inject/InjectionPriority._6#2<
+55 .refuel/inject/InjectionPriority._6#`<init>`().21
+55 #refuel/inject/InjectionPriority._5#23
+66 %refuel/inject/InjectionPriority._6#v.21
+88 
+#refuel/inject/InjectionPriority._7#2<
+88 .refuel/inject/InjectionPriority._7#`<init>`().21
+88 #refuel/inject/InjectionPriority._6#21
+88 #refuel/inject/InjectionPriority._5#23
+99 %refuel/inject/InjectionPriority._7#v.21
+;; 
+#refuel/inject/InjectionPriority._8#2<
+;; .refuel/inject/InjectionPriority._8#`<init>`().21
+;; #refuel/inject/InjectionPriority._7#23
+<< %refuel/inject/InjectionPriority._8#v.21
+>> 
+#refuel/inject/InjectionPriority._9#2<
+>> .refuel/inject/InjectionPriority._9#`<init>`().21
+>> #refuel/inject/InjectionPriority._8#23
+?? %refuel/inject/InjectionPriority._9#v.22
+AA $refuel/inject/InjectionPriority._10#2=
+AA /refuel/inject/InjectionPriority._10#`<init>`().21
+AA #refuel/inject/InjectionPriority._9#24
+BB &refuel/inject/InjectionPriority._10#v.28
+JJ *refuel/inject/InjectionPriority.Overwrite#21
+JJ #refuel/inject/InjectionPriority._5#28
+KK *refuel/inject/InjectionPriority.Overwrite.21
+KK #refuel/inject/InjectionPriority._5.26
+RR (refuel/inject/InjectionPriority.Default#21
+RR #refuel/inject/InjectionPriority._7#26
+SS 
+(refuel/inject/InjectionPriority.Default.21
+SS #refuel/inject/InjectionPriority._7.26
+YY (refuel/inject/InjectionPriority.Finally#22
+YY $refuel/inject/InjectionPriority._10#26
+ZZ 
+(refuel/inject/InjectionPriority.Finally.22
+ZZ $refuel/inject/InjectionPriority._10.21
+\\ #refuel/inject/InjectionPriority._1.21
+\\  #refuel/inject/InjectionPriority._1#21
+]] #refuel/inject/InjectionPriority._2.21
+]]  #refuel/inject/InjectionPriority._2#21
+^^ #refuel/inject/InjectionPriority._3.21
+^^  #refuel/inject/InjectionPriority._3#21
+__ #refuel/inject/InjectionPriority._4.21
+__  #refuel/inject/InjectionPriority._4#21
+`` #refuel/inject/InjectionPriority._5.21
+``  #refuel/inject/InjectionPriority._5#21
+aa #refuel/inject/InjectionPriority._6.21
+aa  #refuel/inject/InjectionPriority._6#21
+bb #refuel/inject/InjectionPriority._7.21
+bb  #refuel/inject/InjectionPriority._7#21
+cc #refuel/inject/InjectionPriority._8.21
+cc  #refuel/inject/InjectionPriority._8#21
+dd #refuel/inject/InjectionPriority._9.21
+dd  #refuel/inject/InjectionPriority._9#22
+ee $refuel/inject/InjectionPriority._10.22
+ee !$refuel/inject/InjectionPriority._10#PZ 3835EFE622C517FE578626DBE88D454A

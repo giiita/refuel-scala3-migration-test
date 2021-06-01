@@ -1,0 +1,17 @@
+
+�Yrefuel-macro-refuel.test/src/main/scala/refuel/inject/exception/UnExceptedOperateException.scala*V
+3refuel/inject/exception/UnExceptedOperateException#
+*UnExceptedOperateException�*P
+>refuel/inject/exception/UnExceptedOperateException#`<init>`(). �@*<init>�*W
+Grefuel/inject/exception/UnExceptedOperateException#`<init>`().(message)*message�*N
+;refuel/inject/exception/UnExceptedOperateException#message. �*message�2"
+ refuel/inject/exception/2
+ refuel/inject/2
+ refuel/2A
+  3refuel/inject/exception/UnExceptedOperateException#2L
+   >refuel/inject/exception/UnExceptedOperateException#`<init>`().2"
+* 0scala/Predef.String#2/
+C C!java/lang/Exception#`<init>`(+1).2&
+: Cscala/package.Exception#2I
+D K;refuel/inject/exception/UnExceptedOperateException#message.2I
+! (;refuel/inject/exception/UnExceptedOperateException#message.PZ 945B5E4623E561DD75935778829DD03B

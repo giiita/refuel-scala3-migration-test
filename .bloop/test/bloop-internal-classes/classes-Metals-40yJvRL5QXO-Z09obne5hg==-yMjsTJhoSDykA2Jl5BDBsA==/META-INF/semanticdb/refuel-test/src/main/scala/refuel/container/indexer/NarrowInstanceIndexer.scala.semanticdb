@@ -1,0 +1,91 @@
+
+�%Orefuel-refuel.test/src/main/scala/refuel/container/indexer/NarrowInstanceIndexer.scala*M
+/refuel/container/indexer/NarrowInstanceIndexer#
+*NarrowInstanceIndexer�*L
+:refuel/container/indexer/NarrowInstanceIndexer#`<init>`(). �@*<init>�*O
+Arefuel/container/indexer/NarrowInstanceIndexer#`<init>`().(scope)*scope�*K
+?refuel/container/indexer/NarrowInstanceIndexer#`<init>`().(cnt)*cnt�*<
+2refuel/container/indexer/NarrowInstanceIndexer#[T]	*T�*F
+5refuel/container/indexer/NarrowInstanceIndexer#scope. �*scope�*B
+3refuel/container/indexer/NarrowInstanceIndexer#cnt. �*cnt�*K
+:refuel/container/indexer/NarrowInstanceIndexer#indexing().*indexing�*G
+8refuel/container/indexer/NarrowInstanceIndexer#accept().*accept�*E
+;refuel/container/indexer/NarrowInstanceIndexer#accept().[X]	*X�*K
+>refuel/container/indexer/NarrowInstanceIndexer#accept().(claz)*claz�*I
+:refuel/container/indexer/NarrowInstanceIndexer#accept(+1).*accept�*G
+=refuel/container/indexer/NarrowInstanceIndexer#accept(+1).[X]	*X�*G
+=refuel/container/indexer/NarrowInstanceIndexer#accept(+1).(x)*x�* 
+local0 �*acceptedFrom$1�*
+local1 �*key$1�*
+local2 �*value$1�*
+local3 �*
+priority$1�2#
+  refuel/container/indexer/2
+ refuel/container/2
+ refuel/2C
+. <5refuel/container/provider/restriction/InstanceSymbol.2C
+. <5refuel/container/provider/restriction/InstanceSymbol#2F
+> O8refuel/container/provider/restriction/SymbolRestriction.24
+! ,&refuel/container/provider/restriction/2(
+  refuel/container/provider/2
+ refuel/container/2
+ 
+refuel/2)
+ "refuel/container/Container.2'
+$ +refuel/container/Indexer.2
+ refuel/container/2
+ 
+refuel/2%
+ scala/reflect/ClassTag.2%
+ scala/reflect/ClassTag#2
+
+ scala/reflect/2
+ scala/2=
+ /refuel/container/indexer/NarrowInstanceIndexer#2H
+ :refuel/container/indexer/NarrowInstanceIndexer#`<init>`().2C
+& 45refuel/container/provider/restriction/InstanceSymbol#2@
+5 62refuel/container/indexer/NarrowInstanceIndexer#[T]2#
+> Dscala/package.Vector#2)
+E Nrefuel/container/Container#2'
+ refuel/container/Indexer#2@
+ 2refuel/container/indexer/NarrowInstanceIndexer#[T]2@
+ 2refuel/container/indexer/NarrowInstanceIndexer#[T]2C
+ $5refuel/container/indexer/NarrowInstanceIndexer#scope.2A
+9 <3refuel/container/indexer/NarrowInstanceIndexer#cnt.2H
+ :refuel/container/indexer/NarrowInstanceIndexer#indexing().2F
+ ,8refuel/container/provider/restriction/SymbolRestriction#2@
+- .2refuel/container/indexer/NarrowInstanceIndexer#[T]2:
+ ,scala/collection/immutable/Vector#foreach().2A
+ 3refuel/container/indexer/NarrowInstanceIndexer#cnt.21
+ #refuel/container/Container#cache().2C
+ 5refuel/container/indexer/NarrowInstanceIndexer#scope.2C
+ 	5refuel/container/indexer/NarrowInstanceIndexer#scope.2F
+$$ 8refuel/container/indexer/NarrowInstanceIndexer#accept().2I
+$
+$ ;refuel/container/indexer/NarrowInstanceIndexer#accept().[X]2L
+$$ >refuel/container/indexer/NarrowInstanceIndexer#accept().(claz)2!
+$$ scala/Predef.Class#2I
+$$ ;refuel/container/indexer/NarrowInstanceIndexer#accept().[X]2'
+$!$ (refuel/container/Indexer#2@
+$)$ *2refuel/container/indexer/NarrowInstanceIndexer#[T]23
+$.$ 7%refuel/container/Indexer#unsupport().2H
+.. :refuel/container/indexer/NarrowInstanceIndexer#accept(+1).2K
+.
+. =refuel/container/indexer/NarrowInstanceIndexer#accept(+1).[X]2K
+.. =refuel/container/indexer/NarrowInstanceIndexer#accept(+1).(x)2K
+.. =refuel/container/indexer/NarrowInstanceIndexer#accept(+1).[X]2'
+.. refuel/container/Indexer#2@
+..  2refuel/container/indexer/NarrowInstanceIndexer#[T]2H
+.=. =:refuel/container/indexer/NarrowInstanceIndexer#`<init>`().2J
+/
+/ <refuel/container/provider/restriction/InstanceSymbol#copy().2C
+// 	5refuel/container/indexer/NarrowInstanceIndexer#scope.2
+// local12
+// local22
+// local32X
+// Jrefuel/container/provider/restriction/InstanceSymbol#copy().(acceptedFrom)2-
+/1/ 3scala/collection/SeqOps#`+:`().2P
+/$/ 0Brefuel/container/provider/restriction/InstanceSymbol#acceptedFrom.2C
+// #5refuel/container/indexer/NarrowInstanceIndexer#scope.2K
+/4/ 5=refuel/container/indexer/NarrowInstanceIndexer#accept(+1).(x)2A
+00 3refuel/container/indexer/NarrowInstanceIndexer#cnt.PZ D96D33AEC24EC75449805C5D50E2BF2E

@@ -1,0 +1,46 @@
+
+�Hrefuel-macro-refuel.test/src/main/scala/refuel/container/provider/package.scala*5
+"refuel/container/provider/package. *provider�*T
+7refuel/container/provider/package._implicitProviding().  *_implicitProviding�*D
+:refuel/container/provider/package._implicitProviding().[X]	*X�*R
+Arefuel/container/provider/package._implicitProviding().(variable)*variable�*`
+=refuel/container/provider/package._implicitNestedProviding().  *_implicitNestedProviding�*J
+@refuel/container/provider/package._implicitNestedProviding().[X]	*X�*X
+Grefuel/container/provider/package._implicitNestedProviding().(variable)*variable�2
+ refuel/container/2
+ refuel/2-
+! %refuel/container/provider/Lazy.2-
+! %refuel/container/provider/Lazy#2(
+  refuel/container/provider/2
+ refuel/container/2
+ 
+refuel/2)
+ !refuel/container/Container.2
+ refuel/container/2
+ 
+refuel/21
+ )#scala/language.implicitConversions.2
+
+ scala/language.2
+ scala/20
+ "refuel/container/provider/package.2E
+ !7refuel/container/provider/package._implicitProviding().2H
+" #:refuel/container/provider/package._implicitProviding().[X]2O
+% -Arefuel/container/provider/package._implicitProviding().(variable)2-
+/ 3refuel/container/provider/Lazy#2H
+4 5:refuel/container/provider/package._implicitProviding().[X]2H
+9 ::refuel/container/provider/package._implicitProviding().[X]28
+
+ *refuel/container/provider/Lazy#_provide().2O
+ Arefuel/container/provider/package._implicitProviding().(variable)2K
+ '=refuel/container/provider/package._implicitNestedProviding().2N
+( )@refuel/container/provider/package._implicitNestedProviding().[X]2U
++ 3Grefuel/container/provider/package._implicitNestedProviding().(variable)2-
+5 9refuel/container/provider/Lazy#2-
+: >refuel/container/provider/Lazy#2N
+? @@refuel/container/provider/package._implicitNestedProviding().[X]2N
+E F@refuel/container/provider/package._implicitNestedProviding().[X]2E
+ 7refuel/container/provider/package._implicitProviding().28
+
+ *refuel/container/provider/Lazy#_provide().2U
+ Grefuel/container/provider/package._implicitNestedProviding().(variable)PZ DC10F0F6E9F00669091A91E2948B2282

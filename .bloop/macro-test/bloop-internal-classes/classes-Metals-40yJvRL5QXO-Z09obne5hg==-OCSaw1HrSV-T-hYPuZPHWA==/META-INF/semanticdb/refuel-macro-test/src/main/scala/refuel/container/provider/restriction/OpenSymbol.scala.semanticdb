@@ -1,0 +1,89 @@
+
+�*Wrefuel-macro-refuel.test/src/main/scala/refuel/container/provider/restriction/OpenSymbol.scala*G
+1refuel/container/provider/restriction/OpenSymbol#
+ �*
+OpenSymbol�*N
+<refuel/container/provider/restriction/OpenSymbol#`<init>`(). �@*<init>�*P
+Arefuel/container/provider/restriction/OpenSymbol#`<init>`().(key) �*key�*T
+Crefuel/container/provider/restriction/OpenSymbol#`<init>`().(value) �*value�*Z
+Frefuel/container/provider/restriction/OpenSymbol#`<init>`().(priority) �*priority�*>
+4refuel/container/provider/restriction/OpenSymbol#[T]	*T�*D
+5refuel/container/provider/restriction/OpenSymbol#key. �*key�*H
+7refuel/container/provider/restriction/OpenSymbol#value. �*value�*N
+:refuel/container/provider/restriction/OpenSymbol#priority. �*priority�*W
+Arefuel/container/provider/restriction/OpenSymbol#acceptedClass().*
+acceptedClass�*N
+Drefuel/container/provider/restriction/OpenSymbol#acceptedClass().[X]	*X�*N
+Drefuel/container/provider/restriction/OpenSymbol#acceptedClass().(x)*x�*]
+Drefuel/container/provider/restriction/OpenSymbol#acceptedInstance().*acceptedInstance�*Q
+Grefuel/container/provider/restriction/OpenSymbol#acceptedInstance().(x)*x�*I
+:refuel/container/provider/restriction/OpenSymbol#isOpen().*isOpen�*E
+8refuel/container/provider/restriction/OpenSymbol#copy().*copy�*E
+;refuel/container/provider/restriction/OpenSymbol#copy().[T]	*T�*I
+=refuel/container/provider/restriction/OpenSymbol#copy().(key)*key�*M
+?refuel/container/provider/restriction/OpenSymbol#copy().(value)*value�*S
+Brefuel/container/provider/restriction/OpenSymbol#copy().(priority)*priority�*Y
+Brefuel/container/provider/restriction/OpenSymbol#copy$default$1().*copy$default$1�*O
+Erefuel/container/provider/restriction/OpenSymbol#copy$default$1().[T]	*T�*Y
+Brefuel/container/provider/restriction/OpenSymbol#copy$default$2().*copy$default$2�*O
+Erefuel/container/provider/restriction/OpenSymbol#copy$default$2().[T]	*T�*Y
+Brefuel/container/provider/restriction/OpenSymbol#copy$default$3().*copy$default$3�*O
+Erefuel/container/provider/restriction/OpenSymbol#copy$default$3().[T]	*T�*A
+6refuel/container/provider/restriction/OpenSymbol#_1().*_1�*A
+6refuel/container/provider/restriction/OpenSymbol#_2().*_2�*A
+6refuel/container/provider/restriction/OpenSymbol#_3().*_3�*F
+1refuel/container/provider/restriction/OpenSymbol.
+ *
+OpenSymbol�*G
+9refuel/container/provider/restriction/OpenSymbol.apply().*apply�*F
+<refuel/container/provider/restriction/OpenSymbol.apply().[T]	*T�*J
+>refuel/container/provider/restriction/OpenSymbol.apply().(key)*key�*N
+@refuel/container/provider/restriction/OpenSymbol.apply().(value)*value�*T
+Crefuel/container/provider/restriction/OpenSymbol.apply().(priority)*priority�*K
+;refuel/container/provider/restriction/OpenSymbol.unapply().*unapply�*H
+>refuel/container/provider/restriction/OpenSymbol.unapply().[T]	*T�*L
+@refuel/container/provider/restriction/OpenSymbol.unapply().(x$1)*x$1�*M
+<refuel/container/provider/restriction/OpenSymbol.toString().*toString�20
+" -&refuel/container/provider/restriction/2$
+ !refuel/container/provider/2
+ refuel/container/2
+ refuel/2=
+ "/refuel/container/IndexedKey$package.IndexedKey.2
+ refuel/container/2
+ 
+refuel/2.
+ & refuel/inject/InjectionPriority.2.
+ & refuel/inject/InjectionPriority#2
+ refuel/inject/2
+ 
+refuel/2?
+ %1refuel/container/provider/restriction/OpenSymbol#2
+ refuel/2J
+% %<refuel/container/provider/restriction/OpenSymbol#`<init>`().2=
+B L/refuel/container/IndexedKey$package.IndexedKey#2B
+D E4refuel/container/provider/restriction/OpenSymbol#[T]2.
+G X refuel/inject/InjectionPriority#2Q
+v vCrefuel/container/provider/restriction/SymbolRestriction#`<init>`().2F
+b s8refuel/container/provider/restriction/SymbolRestriction#2B
+t u4refuel/container/provider/restriction/OpenSymbol#[T]2C
+w z5refuel/container/provider/restriction/OpenSymbol#key.2F
+	| �7refuel/container/provider/restriction/OpenSymbol#value.2J
+
+� �:refuel/container/provider/restriction/OpenSymbol#priority.2B
+& '4refuel/container/provider/restriction/OpenSymbol#[T]2C
+= @5refuel/container/provider/restriction/OpenSymbol#key.2E
+= B7refuel/container/provider/restriction/OpenSymbol#value.2H
+= E:refuel/container/provider/restriction/OpenSymbol#priority.2O
+ Arefuel/container/provider/restriction/OpenSymbol#acceptedClass().2R
+ Drefuel/container/provider/restriction/OpenSymbol#acceptedClass().[X]2R
+  !Drefuel/container/provider/restriction/OpenSymbol#acceptedClass().(x)2!
+# (scala/Predef.Class#2R
+) *Drefuel/container/provider/restriction/OpenSymbol#acceptedClass().[X]2
+. 5scala/Boolean#2R
+ Drefuel/container/provider/restriction/OpenSymbol#acceptedInstance().2U
+  !Grefuel/container/provider/restriction/OpenSymbol#acceptedInstance().(x)2
+# &
+scala/Any#2
+) 0scala/Boolean#2H
+   :refuel/container/provider/restriction/OpenSymbol#isOpen().2
+   scala/Boolean#PZ 5202294A79098A6865C6B95263DA1BDD

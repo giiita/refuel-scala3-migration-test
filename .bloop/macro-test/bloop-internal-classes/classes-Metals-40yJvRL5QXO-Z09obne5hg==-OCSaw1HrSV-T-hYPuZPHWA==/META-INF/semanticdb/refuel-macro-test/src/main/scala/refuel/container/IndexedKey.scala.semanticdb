@@ -1,0 +1,37 @@
+
+�Brefuel-macro-refuel.test/src/main/scala/refuel/container/IndexedKey.scala*8
+$refuel/container/IndexedKey$package. *	container�*D
+/refuel/container/IndexedKey$package.IndexedKey.
+ *
+IndexedKey�*C
+6refuel/container/IndexedKey$package.IndexedKey.from().*from�*C
+9refuel/container/IndexedKey$package.IndexedKey.from().[T]	*T�*E
+9refuel/container/IndexedKey$package.IndexedKey.from().(t)  *t�*B
+/refuel/container/IndexedKey$package.IndexedKey#*
+IndexedKey�2
+ refuel/container/2
+ refuel/2.
+$refuel/container/IndexedKey$package.2=
+ /refuel/container/IndexedKey$package.IndexedKey.2 
+ scala/quoted/Type.2 
+ scala/quoted/Type#2
+ 
+scala/quoted/2
+	 scala/2D
+ 
+6refuel/container/IndexedKey$package.IndexedKey.from().2G
+ 9refuel/container/IndexedKey$package.IndexedKey.from().[T]2
+ scala/AnyKind#2G
+  9refuel/container/IndexedKey$package.IndexedKey.from().(t)2 
+" &scala/quoted/Type#2G
+' (9refuel/container/IndexedKey$package.IndexedKey.from().[T]2=
+, 6/refuel/container/IndexedKey$package.IndexedKey#2#
+ scala/Symbol.apply().2
+ 
+
+scala/Symbol.2#
+ scala/Any#toString().2G
+ 9refuel/container/IndexedKey$package.IndexedKey.from().(t)2=
+		 /refuel/container/IndexedKey$package.IndexedKey#2
+		 
+scala/Symbol#PZ 9C6F84452E7074DA106B23EEABAC5481

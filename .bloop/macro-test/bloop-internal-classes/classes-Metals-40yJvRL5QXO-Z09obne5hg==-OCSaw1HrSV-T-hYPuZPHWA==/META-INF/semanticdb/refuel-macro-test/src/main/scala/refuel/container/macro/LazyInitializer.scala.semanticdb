@@ -1,0 +1,1033 @@
+
+��Mrefuel-macro-refuel.test/src/main/scala/refuel/container/macro/LazyInitializer.scala*A
+'refuel/container/macro/LazyInitializer.
+ *LazyInitializer�*=
+/refuel/container/macro/LazyInitializer.initi().*initi�*<
+2refuel/container/macro/LazyInitializer.initi().[T]	*T�*>
+3refuel/container/macro/LazyInitializer.initi().(ip)*ip�*F
+7refuel/container/macro/LazyInitializer.initi().(access)*access�*>
+2refuel/container/macro/LazyInitializer.initi().(q)  *q�*
+local0 �	*t�*
+local1*t�*
+local2 �*t$given1�*
+local3 �*symmA�*
+local4 �*symmB�*
+local5 �*iss�*
+local6 �*isf�*
+local7 �*ass�*
+local8*x�*
+local9 �	*t�*
+local10 �*t$given2�*
+local11 �*annos�*
+local12 �*tRepr�*
+local13 �*anno�*;
+.refuel/container/macro/LazyInitializer.init().*init�*;
+1refuel/container/macro/LazyInitializer.init().[T]	*T�*=
+1refuel/container/macro/LazyInitializer.init().(q)  *q�*
+local14 �*ip�*
+local15 �*iss�*
+local16 �*access�*
+local17 �*iss�*
+local18 �*	container�*
+local19 �*iss�*
+local20 �*injectionRf�*
+local21*ctn�*"
+local22 �*__refuel_result�*
+local23 �*value�*
+local24 �*r�*E
+3refuel/container/macro/LazyInitializer.injection().*	injection�*@
+6refuel/container/macro/LazyInitializer.injection().[T]	*T�*D
+8refuel/container/macro/LazyInitializer.injection().(cnt)*cnt�*B
+7refuel/container/macro/LazyInitializer.injection().(ip)*ip�*J
+;refuel/container/macro/LazyInitializer.injection().(access)*access�*H
+:refuel/container/macro/LazyInitializer.injection().(isAll)*isAll�*B
+6refuel/container/macro/LazyInitializer.injection().(q)  *q�*
+local25 �*key�*
+local26 �*exists�*
+local27 �*
+candidates�*
+local28 �*
+isRuntimed�*
+local29 �*priority�*
+local30 �*ranked�*
+local31 �*	rankedOne�*
+local32 �*p�*
+local33 �*f�*Y
+=refuel/container/macro/LazyInitializer.runtimeConstruction().*runtimeConstruction�*J
+@refuel/container/macro/LazyInitializer.runtimeConstruction().[T]	*T�*N
+Brefuel/container/macro/LazyInitializer.runtimeConstruction().(cnt)*cnt�*L
+Arefuel/container/macro/LazyInitializer.runtimeConstruction().(ip)*ip�*L
+@refuel/container/macro/LazyInitializer.runtimeConstruction().(q)  *q�*
+local34 �*name�*
+local35 �	*t�*
+local36 �*t$given3�2!
+  refuel/container/macro/2
+ refuel/container/2
+ refuel/2c
+< MUrefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#ValDefModule_Expr().2A
+) ;3refuel/container/macro/internal/DependencyRankings.2.
+  ( refuel/container/macro/internal/2%
+ refuel/container/macro/2
+ refuel/container/2
+ 
+refuel/2A
+* <3refuel/container/macro/internal/DependencyRankings.2H
+> W:refuel/container/macro/internal/StaticDependencyExtractor.2.
+  ( refuel/container/macro/internal/2%
+ refuel/container/macro/2
+ refuel/container/2
+ 
+refuel/2O
+/ IArefuel/container/macro/internal/tools/LowLevelAPIConversionAlias.24
+) .&refuel/container/macro/internal/tools/2.
+  ( refuel/container/macro/internal/2%
+ refuel/container/macro/2
+ refuel/container/2
+ 
+refuel/2)
+ "refuel/container/Container.21
+$ 5#refuel/container/DependencyPoolRef.2=
+7 A/refuel/container/IndexedKey$package.IndexedKey.2-
+C Prefuel/container/InjectionPool.2-
+C Prefuel/container/InjectionPool#2
+ refuel/container/2
+ 
+refuel/21
+" *#refuel/container/provider/Accessor.21
+" *#refuel/container/provider/Accessor#2-
+, 0refuel/container/provider/Lazy.2-
+, 0refuel/container/provider/Lazy#2;
+2 D-refuel/container/provider/TypedAcceptContext.2(
+  refuel/container/provider/2
+ refuel/container/2
+ 
+refuel/2F
+- >8refuel/container/provider/restriction/SymbolRestriction.24
+! ,&refuel/container/provider/restriction/2(
+  refuel/container/provider/2
+ refuel/container/2
+ 
+refuel/2.
+ & refuel/inject/InjectionPriority.2.
+ & refuel/inject/InjectionPriority#2
+ refuel/inject/2
+ 
+refuel/21
+	!	 )#sun/reflect/generics/tree/TypeTree.21
+	!	 )#sun/reflect/generics/tree/TypeTree#2(
+		  sun/reflect/generics/tree/2#
+		 sun/reflect/generics/2
+		 sun/reflect/2
+		 
+sun/2'
+ scala/annotation/tailrec#2
+
+ scala/annotation/2
+ scala/2
+
+ 
+scala/quoted/2
+ scala/25
+ 'refuel/container/macro/LazyInitializer.2O
+ 9Arefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#2=
+XX /refuel/container/macro/LazyInitializer.initi().2@
+XX 
+2refuel/container/macro/LazyInitializer.initi().[T]2A
+XX 3refuel/container/macro/LazyInitializer.initi().(ip)2 
+XX scala/quoted/Expr#2"
+XX $scala/Predef.String#2E
+X'X -7refuel/container/macro/LazyInitializer.initi().(access)2 
+X/X 3scala/quoted/Expr#2 
+XX scala/quoted/Type#2@
+XX 2refuel/container/macro/LazyInitializer.initi().[T]2@
+X>X ?2refuel/container/macro/LazyInitializer.initi().(q)2"
+XAX Gscala/quoted/Quotes#2 
+XJX Nscala/quoted/Expr#2-
+XOX Srefuel/container/provider/Lazy#2"
+XTX Zscala/Predef.String#2*
+Y
+Y scala/quoted/Quotes#reflect.2@
+YY 2refuel/container/macro/LazyInitializer.initi().(q)2I
+[[ ;scala/quoted/Quotes#reflectModule#TypeReprMethods#asType().2F
+[[ 8scala/quoted/Quotes#reflectModule#TypeTreeMethods#tpe().2D
+[[ 6scala/quoted/Quotes#reflectModule#TypeTreeModule#of().29
+[[ +scala/quoted/Quotes#reflectModule#TypeTree.2*
+[[ 
+scala/quoted/Quotes#reflect.2@
+[[ 2refuel/container/macro/LazyInitializer.initi().(q)2@
+[[ 2refuel/container/macro/LazyInitializer.initi().[T]2K
+\\ =scala/quoted/runtime/QuoteMatching#TypeMatchModule#unapply().2
+\
+\ local02%
+\
+\ 
+scala/quoted/Type.of().2-
+\
+\ refuel/container/provider/Lazy#2@
+\\ 2refuel/container/macro/LazyInitializer.initi().(q)2%
+\\ scala/Tuple1.unapply().2
+aa local32c
+aa %Urefuel/container/macro/internal/tools/LowLevelAPIConversionAlias#ValDefModule_Expr().2@
+a%a %2refuel/container/macro/LazyInitializer.initi().(q)2N
+a&a &@scala/quoted/Quotes#reflectModule#SymbolMethods#declaredField().2P
+a&a &Bscala/quoted/Quotes#reflectModule#SymbolMethods#companionModule().2M
+a&a &?scala/quoted/Quotes#reflectModule#TypeReprMethods#typeSymbol().2D
+a9a ;6scala/quoted/Quotes#reflectModule#TypeReprModule#of().29
+a0a 8+scala/quoted/Quotes#reflectModule#TypeRepr.2*
+a(a /scala/quoted/Quotes#reflect.2@
+a&a '2refuel/container/macro/LazyInitializer.initi().(q)2.
+aJa [ refuel/inject/InjectionPriority#2
+aCa Irefuel/inject/2
+a<a Brefuel/2%
+a\a \scala/quoted/Type.of().2@
+a\a \2refuel/container/macro/LazyInitializer.initi().(q)2
+cc local42N
+cc @scala/quoted/Quotes#reflectModule#SymbolMethods#declaredField().2P
+cc Bscala/quoted/Quotes#reflectModule#SymbolMethods#companionModule().2M
+cc ?scala/quoted/Quotes#reflectModule#TypeReprMethods#typeSymbol().2D
+c'c )6scala/quoted/Quotes#reflectModule#TypeReprModule#of().29
+cc &+scala/quoted/Quotes#reflectModule#TypeRepr.2*
+cc scala/quoted/Quotes#reflect.2@
+cc 2refuel/container/macro/LazyInitializer.initi().(q)2.
+c8c I refuel/inject/InjectionPriority#2
+c1c 7refuel/inject/2
+c*c 0refuel/2%
+cJc Jscala/quoted/Type.of().2@
+cJc J2refuel/container/macro/LazyInitializer.initi().(q)2D
+nn 6scala/quoted/Quotes#reflectModule#reportModule#info().27
+nn )scala/quoted/Quotes#reflectModule#report.2#
+tt scala/Any#toString().2I
+pp ;scala/quoted/Quotes#reflectModule#ImplicitsModule#search().2:
+pp 
+,scala/quoted/Quotes#reflectModule#Implicits.2D
+p(p *6scala/quoted/Quotes#reflectModule#TypeReprModule#of().29
+pp '+scala/quoted/Quotes#reflectModule#TypeRepr.2*
+pp scala/quoted/Quotes#reflect.2@
+pp 2refuel/container/macro/LazyInitializer.initi().(q)2)
+p<p Erefuel/container/Container#2
+p2p ;refuel/container/2
+p+p 1refuel/2%
+pFp Fscala/quoted/Type.of().2@
+pFp F2refuel/container/macro/LazyInitializer.initi().(q)2/
+qq !scala/reflect/TypeTest#unapply().2
+qq local52!
+q7q 7scala/Some.apply().2
+q3q 7scala/Some.2'
+qHq Tscala/Any#asInstanceOf().2E
+q8q 87scala/quoted/Quotes#reflectModule#TreeMethods#asExpr().2T
+q8q 8Fscala/quoted/Quotes#reflectModule#ImplicitSearchSuccessMethods#tree().2
+q8q ;local52 
+qUq Yscala/quoted/Expr#2@
+qZq [2refuel/container/macro/LazyInitializer.initi().[T]2/
+rr !scala/reflect/TypeTest#unapply().2
+rr local62
+r3r 7scala/None.2
+
+�� local72#
+
+�� scala/package.List#29
+
+� � &)scala/quoted/Quotes#reflectModule#Symbol#2,
+
+�� scala/quoted/Quotes#reflect.2B
+
+�� 2refuel/container/macro/LazyInitializer.initi().(q)29
+
+�v� |)scala/collection/immutable/List#filter().2O
+
+�*� *?scala/quoted/Quotes#reflectModule#SymbolMethods#declarations().2H
+
+�*� *8scala/quoted/Quotes#reflectModule#SymbolMethods#owner().2G
+
+�*� *7scala/quoted/Quotes#reflectModule#TreeMethods#symbol().2F
+
+�=� ?6scala/quoted/Quotes#reflectModule#TypeTreeModule#of().2;
+
+�4� <+scala/quoted/Quotes#reflectModule#TypeTree.2,
+
+�,� 3scala/quoted/Quotes#reflect.2B
+
+�*� +2refuel/container/macro/LazyInitializer.initi().(q)2+
+
+�Q� Zrefuel/container/Container#2!
+
+�G� Prefuel/container/2
+
+�@� Frefuel/2'
+
+�[� [scala/quoted/Type.of().2B
+
+�[� [2refuel/container/macro/LazyInitializer.initi().(q)2
+
+�}� ~local82'
+��� �scala/Boolean#`||`().2#
+��� �scala/Any#`==`().2I
+��� �7scala/quoted/Quotes#reflectModule#SymbolMethods#name().2
+��� �local82#
+��� �scala/Any#`==`().2I
+��� �7scala/quoted/Quotes#reflectModule#SymbolMethods#name().2
+��� �local82M
+
+�� =scala/quoted/runtime/QuoteMatching#TypeMatchModule#unapply().2
+
+�
+� local92'
+
+�
+� 
+scala/quoted/Type.of().2B
+
+�� 2refuel/container/macro/LazyInitializer.initi().(q)2'
+
+�
+� 
+scala/Tuple1.unapply().2
+
+�� local1124
+
+�@� B$scala/collection/IterableOps#`++`().2N
+
+�� >scala/quoted/Quotes#reflectModule#SymbolMethods#annotations().2G
+
+�� 7scala/quoted/Quotes#reflectModule#TreeMethods#symbol().2F
+
+�'� )6scala/quoted/Quotes#reflectModule#TypeTreeModule#of().2;
+
+�� &+scala/quoted/Quotes#reflectModule#TypeTree.2,
+
+�� scala/quoted/Quotes#reflect.2B
+
+�� 2refuel/container/macro/LazyInitializer.initi().(q)2B
+
+�*� +2refuel/container/macro/LazyInitializer.initi().[T]2H
+
+�� 8scala/quoted/Quotes#reflectModule#TypeTreeMethods#tpe().2F
+
+�� 6scala/quoted/Quotes#reflectModule#TypeTreeModule#of().2;
+
+�� +scala/quoted/Quotes#reflectModule#TypeTree.2,
+
+�� scala/quoted/Quotes#reflect.2B
+
+�� 2refuel/container/macro/LazyInitializer.initi().(q)2B
+
+�� 2refuel/container/macro/LazyInitializer.initi().[T]21
+
+�(� (!scala/reflect/TypeTest#unapply().2P
+
+�� @scala/quoted/Quotes#reflectModule#AnnotatedTypeModule#unapply().2@
+
+�
+� 0scala/quoted/Quotes#reflectModule#AnnotatedType.2
+
+�� !local122
+
+�#� 'local132#
+
+�0� 0scala/Some.apply().2
+
+�,� 0scala/Some.2
+
+�2� 6local132
+
+�� scala/None.2)
+
+�� scala/Predef.println(+1).2G
+
+�� 7scala/quoted/Quotes#reflectModule#SymbolMethods#tree().2G
+
+�� 7scala/quoted/Quotes#reflectModule#TreeMethods#symbol().2F
+
+�� 6scala/quoted/Quotes#reflectModule#TypeTreeModule#of().2;
+
+�� +scala/quoted/Quotes#reflectModule#TypeTree.2,
+
+�� 
+scala/quoted/Quotes#reflect.2B
+
+�� 2refuel/container/macro/LazyInitializer.initi().(q)2B
+
+�� 2refuel/container/macro/LazyInitializer.initi().[T]21
+
+�� !scala/reflect/TypeTest#unapply().2J
+
+�� :scala/quoted/Quotes#reflectModule#TypeDefModule#unapply().2:
+
+�� *scala/quoted/Quotes#reflectModule#TypeDef.2)
+
+�� scala/Predef.println(+1).2=
+
+�-� --dotty/tools/dotc/ast/Trees.TypeDef.unapply().23
+
+�&� -#dotty/tools/dotc/ast/Trees.TypeDef.2+
+
+� � %dotty/tools/dotc/ast/Trees.2%
+
+�� dotty/tools/dotc/ast/2!
+
+�� dotty/tools/dotc/2
+
+�� dotty/tools/2
+
+�� dotty/2)
+
+�� scala/Predef.println(+1).2)
+
+�� scala/Predef.println(+1).2/
+
+�� scala/ContextFunction1#apply().22
+
+�
+� 
+"scala/quoted/runtime/Expr.quote().27
+
+�� 'refuel/container/provider/Lazy.apply().2/
+
+�
+� refuel/container/provider/Lazy.2$
+
+�� scala/Predef.String#2B
+
+�� 2refuel/container/macro/LazyInitializer.initi().(q)2>
+
+�� 
+.refuel/container/macro/LazyInitializer.init().2A
+
+�� 1refuel/container/macro/LazyInitializer.init().[T]2"
+
+�� scala/quoted/Type#2A
+
+�� 1refuel/container/macro/LazyInitializer.init().[T]2A
+
+�� 1refuel/container/macro/LazyInitializer.init().(q)2$
+
+�� #scala/quoted/Quotes#2"
+
+�&� *scala/quoted/Expr#2/
+
+�+� /refuel/container/provider/Lazy#2A
+
+�0� 11refuel/container/macro/LazyInitializer.init().[T]2,
+
+�
+� scala/quoted/Quotes#reflect.2A
+
+�� 1refuel/container/macro/LazyInitializer.init().(q)2
+
+�� 
+local142"
+
+�� scala/quoted/Expr#2/
+
+�� refuel/container/InjectionPool#2K
+
+�,� 2;scala/quoted/Quotes#reflectModule#ImplicitsModule#search().2<
+
+�"� +,scala/quoted/Quotes#reflectModule#Implicits.2F
+
+�F� H6scala/quoted/Quotes#reflectModule#TypeReprModule#of().2;
+
+�=� E+scala/quoted/Quotes#reflectModule#TypeRepr.2,
+
+�5� <scala/quoted/Quotes#reflect.2A
+
+�3� 41refuel/container/macro/LazyInitializer.init().(q)2/
+
+�I� Vrefuel/container/InjectionPool#2'
+
+�W� Wscala/quoted/Type.of().2A
+
+�W� W1refuel/container/macro/LazyInitializer.init().(q)21
+
+�� !scala/reflect/TypeTest#unapply().2
+
+�� local152)
+
+�9� Escala/Any#asInstanceOf().2G
+
+�)� )7scala/quoted/Quotes#reflectModule#TreeMethods#asExpr().2V
+
+�)� )Fscala/quoted/Quotes#reflectModule#ImplicitSearchSuccessMethods#tree().2
+
+�)� ,local152"
+
+�F� Jscala/quoted/Expr#2/
+
+�K� Xrefuel/container/InjectionPool#21
+
+�� !scala/reflect/TypeTest#unapply().2L
+
+�.� 8<scala/quoted/Quotes#reflectModule#reportModule#throwError().29
+
+�'� -)scala/quoted/Quotes#reflectModule#report.2
+
+�� local162"
+
+�� scala/quoted/Expr#23
+
+�� #refuel/container/provider/Accessor#2K
+
+�.� 4;scala/quoted/Quotes#reflectModule#ImplicitsModule#search().2<
+
+�$� -,scala/quoted/Quotes#reflectModule#Implicits.2F
+
+�H� J6scala/quoted/Quotes#reflectModule#TypeReprModule#of().2;
+
+�?� G+scala/quoted/Quotes#reflectModule#TypeRepr.2,
+
+�7� >scala/quoted/Quotes#reflect.2A
+
+�5� 61refuel/container/macro/LazyInitializer.init().(q)23
+
+�K� S#refuel/container/provider/Accessor#2'
+
+�W� Wscala/quoted/Type.of().2A
+
+�W� W1refuel/container/macro/LazyInitializer.init().(q)21
+
+�� !scala/reflect/TypeTest#unapply().2
+
+�� local172)
+
+�9� Escala/Any#asInstanceOf().2G
+
+�)� )7scala/quoted/Quotes#reflectModule#TreeMethods#asExpr().2V
+
+�)� )Fscala/quoted/Quotes#reflectModule#ImplicitSearchSuccessMethods#tree().2
+
+�)� ,local172"
+
+�F� Jscala/quoted/Expr#23
+
+�K� S#refuel/container/provider/Accessor#21
+
+�� !scala/reflect/TypeTest#unapply().2L
+
+�.� 8<scala/quoted/Quotes#reflectModule#reportModule#throwError().29
+
+�'� -)scala/quoted/Quotes#reflectModule#report.2
+
+�� local182"
+
+�� scala/quoted/Expr#2+
+
+�� !refuel/container/Container#2K
+
+�/� 5;scala/quoted/Quotes#reflectModule#ImplicitsModule#search().2<
+
+�%� .,scala/quoted/Quotes#reflectModule#Implicits.2F
+
+�I� K6scala/quoted/Quotes#reflectModule#TypeReprModule#of().2;
+
+�@� H+scala/quoted/Quotes#reflectModule#TypeRepr.2,
+
+�8� ?scala/quoted/Quotes#reflect.2A
+
+�6� 71refuel/container/macro/LazyInitializer.init().(q)2+
+
+�L� Urefuel/container/Container#2'
+
+�V� Vscala/quoted/Type.of().2A
+
+�V� V1refuel/container/macro/LazyInitializer.init().(q)21
+
+�� !scala/reflect/TypeTest#unapply().2
+
+�� local192)
+
+�9� Escala/Any#asInstanceOf().2G
+
+�)� )7scala/quoted/Quotes#reflectModule#TreeMethods#asExpr().2V
+
+�)� )Fscala/quoted/Quotes#reflectModule#ImplicitSearchSuccessMethods#tree().2
+
+�)� ,local192"
+
+�F� Jscala/quoted/Expr#2+
+
+�K� Trefuel/container/Container#21
+
+�� !scala/reflect/TypeTest#unapply().2L
+
+�.� 8<scala/quoted/Quotes#reflectModule#reportModule#throwError().29
+
+�'� -)scala/quoted/Quotes#reflectModule#report.2
+
+�� local202/
+
+�� scala/ContextFunction1#apply().22
+
+�� "scala/quoted/runtime/Expr.quote().2
+
+�� 
+local212+
+
+�� refuel/container/Container#2
+
+�� local2229
+
+�� )scala/quoted/runtime/Expr.nestedSplice().2A
+
+�� 1refuel/container/macro/LazyInitializer.init().(q)2C
+
+� � )3refuel/container/macro/LazyInitializer.injection().2A
+
+�*� +1refuel/container/macro/LazyInitializer.init().[T]2
+
+�-� 6local182
+
+�8� :local142
+
+�<� Blocal162
+
+�� local222
+
+�� local2323
+
+�� '#refuel/container/DependencyPoolRef#2+
+
+�(� 1refuel/container/Container#2D
+
+�� 4refuel/container/DependencyPoolRef#`__refuel_c_=`().2
+
+�� local232
+
+�� "local212
+
+�� local222
+
+�� 	local242/
+
+�1� 1scala/ContextFunction1#apply().22
+
+�� "scala/quoted/runtime/Expr.quote().27
+
+�
+� 
+'refuel/container/provider/Lazy.apply().2/
+
+�� 
+refuel/container/provider/Lazy.2A
+
+�� 1refuel/container/macro/LazyInitializer.init().[T]2(
+
+�� "scala/Function1#apply().29
+
+�� )scala/quoted/runtime/Expr.nestedSplice().2A
+
+�� 1refuel/container/macro/LazyInitializer.init().(q)2
+
+�� local202
+
+�%� .local182)
+
+�� scala/Predef.println(+1).2+
+
+�� scala/quoted/Quotes#show().2
+
+�� 
+local242
+
+�� local242C
+
+�� 3refuel/container/macro/LazyInitializer.injection().2F
+
+�� 6refuel/container/macro/LazyInitializer.injection().[T]2H
+
+�� 8refuel/container/macro/LazyInitializer.injection().(cnt)2"
+
+�� "scala/quoted/Expr#2+
+
+�#� ,refuel/container/Container#2G
+
+�/� 17refuel/container/macro/LazyInitializer.injection().(ip)2"
+
+�3� 7scala/quoted/Expr#2/
+
+�8� Erefuel/container/InjectionPool#2K
+
+�H� N;refuel/container/macro/LazyInitializer.injection().(access)2"
+
+�P� Tscala/quoted/Expr#23
+
+�U� ]#refuel/container/provider/Accessor#2J
+
+�c� h:refuel/container/macro/LazyInitializer.injection().(isAll)2
+
+�j� qscala/Boolean#2"
+
+�� scala/quoted/Type#2F
+
+�� 6refuel/container/macro/LazyInitializer.injection().[T]2F
+
+�y� z6refuel/container/macro/LazyInitializer.injection().(q)2%
+�|� �scala/quoted/Quotes#2$
+��� �scala/quoted/Expr#2H
+��� �6refuel/container/macro/LazyInitializer.injection().[T]2,
+
+�
+� scala/quoted/Quotes#reflect.2F
+
+�� 6refuel/container/macro/LazyInitializer.injection().(q)2
+
+�� local252F
+
+�� 6refuel/container/IndexedKey$package.IndexedKey.from().2?
+
+�� /refuel/container/IndexedKey$package.IndexedKey.2F
+
+�� 6refuel/container/macro/LazyInitializer.injection().[T]2
+
+�� local262/
+
+�:� :scala/ContextFunction1#apply().22
+
+�� "scala/quoted/runtime/Expr.quote().22
+
+�
+� "refuel/container/Container#find().29
+
+�� )scala/quoted/runtime/Expr.nestedSplice().2F
+
+�� 6refuel/container/macro/LazyInitializer.injection().(q)2H
+
+�� 8refuel/container/macro/LazyInitializer.injection().(cnt)2F
+
+�� 6refuel/container/macro/LazyInitializer.injection().[T]23
+
+�� #refuel/container/provider/Accessor#2*
+
+�(� (scala/quoted/Expr.apply().2"
+
+�$� (scala/quoted/Expr.2
+
+�)� ,local252<
+
+�-� -,refuel/container/macro/package.SymbolToExpr.2K
+
+�2� 8;refuel/container/macro/LazyInitializer.injection().(access)2I
+
+�:� :9refuel/container/macro/package.AccessorTypeAcceptContext.2f
+
+�=� VVrefuel/container/macro/internal/StaticDependencyExtractor.searchInjectionCandidates().2J
+
+�#� <:refuel/container/macro/internal/StaticDependencyExtractor.2F
+
+�W� X6refuel/container/macro/LazyInitializer.injection().[T]2F
+
+�Y� Y6refuel/container/macro/LazyInitializer.injection().(q)2'
+
+�	� 	scala/Tuple2.unapply().2
+
+�	� local272
+
+�� local282*
+
+�� scala/Boolean#`unary_!`().2
+
+�	� local282K
+
+�1� 1;refuel/container/macro/internal/DependencyRankings.apply().2C
+
+�� 13refuel/container/macro/internal/DependencyRankings.2F
+
+�1� 16refuel/container/macro/LazyInitializer.injection().(q)2
+
+�2� <local272'
+
+�� scala/Tuple2.unapply().2
+
+�� local292
+
+�� local302
+
+�
+� local312R
+
+�)� 5Brefuel/container/macro/internal/DependencyRankings.generateExpr().2C
+
+�� (3refuel/container/macro/internal/DependencyRankings.2F
+
+�6� 76refuel/container/macro/LazyInitializer.injection().[T]2F
+
+�8� 86refuel/container/macro/LazyInitializer.injection().(q)2
+
+�9� ?local302/
+
+�	� 	scala/ContextFunction1#apply().22
+
+�� "scala/quoted/runtime/Expr.quote().2)
+
+�� scala/Option#getOrElse().29
+
+�� )scala/quoted/runtime/Expr.nestedSplice().2F
+
+�� 6refuel/container/macro/LazyInitializer.injection().(q)2
+
+�
+� local2620
+
+�� # java/lang/Object#synchronized().2*
+
+�� scala/quoted/Expr.apply().2"
+
+�� scala/quoted/Expr.2
+
+�� local252<
+
+�� ,refuel/container/macro/package.SymbolToExpr.2)
+
+�� scala/Option#getOrElse().2
+
+�� local262N
+
+�� !>refuel/container/provider/restriction/SymbolRestriction#value.24
+
+�� $refuel/container/Indexer#indexing().2H
+
+�� 8refuel/container/macro/LazyInitializer.injection().(cnt)2F
+
+�#� $6refuel/container/macro/LazyInitializer.injection().[T]2*
+
+�,� ,scala/quoted/Expr.apply().2"
+
+�(� ,scala/quoted/Expr.2
+
+�-� 0local252<
+
+�1� 1,refuel/container/macro/package.SymbolToExpr.2
+
+�6� ?local312
+
+�D� Llocal292F
+
+�
+� 6scala/quoted/Quotes#reflectModule#reportModule#info().29
+
+�� )scala/quoted/Quotes#reflectModule#report.2(
+
+�h� iscala/StringContext#s().2,
+
+�� scala/StringContext.apply().2>
+
+�B� J.scala/collection/IterableOnceOps#mkString(+1).23
+
+�/� 2#scala/collection/IterableOps#map().2
+
+�$� .local272G
+
+�3� 37scala/quoted/Quotes#reflectModule#SymbolMethods#name().2G
+
+�3� 37scala/quoted/Quotes#reflectModule#TreeMethods#symbol().2/
+
+�	� 	scala/ContextFunction1#apply().22
+
+�� "scala/quoted/runtime/Expr.quote().2)
+
+�� scala/Option#getOrElse().29
+
+�� )scala/quoted/runtime/Expr.nestedSplice().2F
+
+�� 6refuel/container/macro/LazyInitializer.injection().(q)2
+
+�
+� local262M
+
+�� =refuel/container/macro/LazyInitializer.runtimeConstruction().2F
+
+� � !6refuel/container/macro/LazyInitializer.injection().[T]2H
+
+�#� &8refuel/container/macro/LazyInitializer.injection().(cnt)2G
+
+�(� *7refuel/container/macro/LazyInitializer.injection().(ip)2'
+
+�� scala/Tuple2.unapply().2
+
+�� local322
+
+�� local332#
+
+�"� $scala/Int#`==`(+3).2/
+
+�� !scala/collection/SeqOps#size().2
+
+�� local3320
+
+�� ' java/lang/Object#synchronized().2*
+
+�� scala/quoted/Expr.apply().2"
+
+�� scala/quoted/Expr.2
+
+�� local252<
+
+�� ,refuel/container/macro/package.SymbolToExpr.2)
+
+�� #scala/Option#getOrElse().2
+
+�� local262N
+
+� � %>refuel/container/provider/restriction/SymbolRestriction#value.24
+
+�� $refuel/container/Indexer#indexing().2H
+
+�� 8refuel/container/macro/LazyInitializer.injection().(cnt)2F
+
+�'� (6refuel/container/macro/LazyInitializer.injection().[T]2*
+
+�0� 0scala/quoted/Expr.apply().2"
+
+�,� 0scala/quoted/Expr.2
+
+�1� 4local252<
+
+�5� 5,refuel/container/macro/package.SymbolToExpr.2N
+
+�B� G>refuel/container/provider/restriction/SymbolRestriction#value.2(
+
+�>� >scala/Function1#apply().24
+
+�:� >$scala/collection/IterableOps#head().2
+
+�8� 9local332
+
+�?� @local322
+
+�I� Jlocal322M
+
+�� !=refuel/container/macro/LazyInitializer.runtimeConstruction().2P
+
+�"� #@refuel/container/macro/LazyInitializer.runtimeConstruction().[T]2R
+
+�+� .Brefuel/container/macro/LazyInitializer.runtimeConstruction().(cnt)2"
+
+�0� 4scala/quoted/Expr#2+
+
+�5� >refuel/container/Container#2Q
+
+�A� CArefuel/container/macro/LazyInitializer.runtimeConstruction().(ip)2"
+
+�E� Iscala/quoted/Expr#2/
+
+�J� Wrefuel/container/InjectionPool#2"
+
+�%� )scala/quoted/Type#2P
+
+�)� )@refuel/container/macro/LazyInitializer.runtimeConstruction().[T]2P
+
+�`� a@refuel/container/macro/LazyInitializer.runtimeConstruction().(q)2$
+
+�c� iscala/quoted/Quotes#2"
+
+�l� pscala/quoted/Expr#21
+�r� � refuel/inject/InjectionPriority#2$
+��� �scala/package.Seq#22
+��� � refuel/inject/InjectionPriority#2J
+��� �8refuel/container/provider/restriction/SymbolRestriction#2R
+��� �@refuel/container/macro/LazyInitializer.runtimeConstruction().[T]2
+
+�� local342K
+
+�� ;scala/quoted/Quotes#reflectModule#SymbolMethods#fullName().2G
+
+�� 7scala/quoted/Quotes#reflectModule#TreeMethods#symbol().2F
+
+�"� $6scala/quoted/Quotes#reflectModule#TypeTreeModule#of().2;
+
+�� !+scala/quoted/Quotes#reflectModule#TypeTree.2,
+
+�� scala/quoted/Quotes#reflect.2P
+
+�� @refuel/container/macro/LazyInitializer.runtimeConstruction().(q)2P
+
+�%� &@refuel/container/macro/LazyInitializer.runtimeConstruction().[T]2K
+
+�� ;scala/quoted/Quotes#reflectModule#TypeReprMethods#asType().2H
+
+�� 8scala/quoted/Quotes#reflectModule#TypeTreeMethods#tpe().2F
+
+�� 6scala/quoted/Quotes#reflectModule#TypeTreeModule#of().2;
+
+�� +scala/quoted/Quotes#reflectModule#TypeTree.2,
+
+�� 
+scala/quoted/Quotes#reflect.2P
+
+�� @refuel/container/macro/LazyInitializer.runtimeConstruction().(q)2P
+
+�� @refuel/container/macro/LazyInitializer.runtimeConstruction().[T]2M
+
+�� =scala/quoted/runtime/QuoteMatching#TypeMatchModule#unapply().2
+
+�
+� local352'
+
+�
+� 
+scala/quoted/Type.of().2P
+
+�� @refuel/container/macro/LazyInitializer.runtimeConstruction().(q)2'
+
+�
+� 
+scala/Tuple1.unapply().2/
+
+�� scala/ContextFunction1#apply().22
+
+�
+� 
+"scala/quoted/runtime/Expr.quote().2)
+
+�G� Pscala/Option#getOrElse().2(
+
+�9� >scala/Function1#apply().29
+
+�� )refuel/container/InjectionPool#collect().29
+
+�� )scala/quoted/runtime/Expr.nestedSplice().2P
+
+�� @refuel/container/macro/LazyInitializer.runtimeConstruction().(q)2Q
+
+�� Arefuel/container/macro/LazyInitializer.runtimeConstruction().(ip)2P
+
+�� @refuel/container/macro/LazyInitializer.runtimeConstruction().[T]2*
+
+�!� (java/lang/Class#forName().2 
+
+��  java/lang/Class#2*
+
+�/� /scala/quoted/Expr.apply().2"
+
+�+� /scala/quoted/Expr.2
+
+�0� 4local3423
+
+�5� 5#scala/quoted/ToExpr.StringToExpr().2R
+
+�A� DBrefuel/container/macro/LazyInitializer.runtimeConstruction().(cnt)2M
+
+�G� G=refuel/inject/exception/InjectDefinitionException#`<init>`().2B
+
+�.� G2refuel/inject/exception/InjectDefinitionException#2(
+
+�$� -refuel/inject/exception/2
+
+�� #refuel/inject/2
+
+�� refuel/2'
+
+�i� jjava/lang/String#`+`().2'
+
+�Y� Zjava/lang/String#`+`().2(
+
+�W� Xscala/StringContext#s().2,
+
+�J� Jscala/StringContext.apply().2*
+
+�a� ascala/quoted/Expr.apply().2"
+
+�]� ascala/quoted/Expr.2
+
+�b� flocal3423
+
+�g� g#scala/quoted/ToExpr.StringToExpr().PZ CCA064CC94A7040A0EE8511DE23305D8

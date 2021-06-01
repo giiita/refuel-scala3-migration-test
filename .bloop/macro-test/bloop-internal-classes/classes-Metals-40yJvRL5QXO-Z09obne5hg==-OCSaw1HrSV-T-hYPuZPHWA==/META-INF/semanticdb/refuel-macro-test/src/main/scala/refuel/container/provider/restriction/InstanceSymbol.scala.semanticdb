@@ -1,0 +1,97 @@
+
+�2[refuel-macro-refuel.test/src/main/scala/refuel/container/provider/restriction/InstanceSymbol.scala*O
+5refuel/container/provider/restriction/InstanceSymbol#
+ �*InstanceSymbol�*R
+@refuel/container/provider/restriction/InstanceSymbol#`<init>`(). �@*<init>�*T
+Erefuel/container/provider/restriction/InstanceSymbol#`<init>`().(key) �*key�*X
+Grefuel/container/provider/restriction/InstanceSymbol#`<init>`().(value) �*value�*^
+Jrefuel/container/provider/restriction/InstanceSymbol#`<init>`().(priority) �*priority�*f
+Nrefuel/container/provider/restriction/InstanceSymbol#`<init>`().(acceptedFrom) �*acceptedFrom�*B
+8refuel/container/provider/restriction/InstanceSymbol#[T]	*T�*H
+9refuel/container/provider/restriction/InstanceSymbol#key. �*key�*L
+;refuel/container/provider/restriction/InstanceSymbol#value. �*value�*R
+>refuel/container/provider/restriction/InstanceSymbol#priority. �*priority�*Z
+Brefuel/container/provider/restriction/InstanceSymbol#acceptedFrom. �*acceptedFrom�*[
+Erefuel/container/provider/restriction/InstanceSymbol#acceptedClass().*
+acceptedClass�*R
+Hrefuel/container/provider/restriction/InstanceSymbol#acceptedClass().[X]	*X�*R
+Hrefuel/container/provider/restriction/InstanceSymbol#acceptedClass().(x)*x�*a
+Hrefuel/container/provider/restriction/InstanceSymbol#acceptedInstance().*acceptedInstance�*U
+Krefuel/container/provider/restriction/InstanceSymbol#acceptedInstance().(x)*x�*I
+<refuel/container/provider/restriction/InstanceSymbol#copy().*copy�*I
+?refuel/container/provider/restriction/InstanceSymbol#copy().[T]	*T�*M
+Arefuel/container/provider/restriction/InstanceSymbol#copy().(key)*key�*Q
+Crefuel/container/provider/restriction/InstanceSymbol#copy().(value)*value�*W
+Frefuel/container/provider/restriction/InstanceSymbol#copy().(priority)*priority�*_
+Jrefuel/container/provider/restriction/InstanceSymbol#copy().(acceptedFrom)*acceptedFrom�*]
+Frefuel/container/provider/restriction/InstanceSymbol#copy$default$1().*copy$default$1�*S
+Irefuel/container/provider/restriction/InstanceSymbol#copy$default$1().[T]	*T�*]
+Frefuel/container/provider/restriction/InstanceSymbol#copy$default$2().*copy$default$2�*S
+Irefuel/container/provider/restriction/InstanceSymbol#copy$default$2().[T]	*T�*]
+Frefuel/container/provider/restriction/InstanceSymbol#copy$default$3().*copy$default$3�*S
+Irefuel/container/provider/restriction/InstanceSymbol#copy$default$3().[T]	*T�*]
+Frefuel/container/provider/restriction/InstanceSymbol#copy$default$4().*copy$default$4�*S
+Irefuel/container/provider/restriction/InstanceSymbol#copy$default$4().[T]	*T�*E
+:refuel/container/provider/restriction/InstanceSymbol#_1().*_1�*E
+:refuel/container/provider/restriction/InstanceSymbol#_2().*_2�*E
+:refuel/container/provider/restriction/InstanceSymbol#_3().*_3�*E
+:refuel/container/provider/restriction/InstanceSymbol#_4().*_4�*N
+5refuel/container/provider/restriction/InstanceSymbol.
+ *InstanceSymbol�*K
+=refuel/container/provider/restriction/InstanceSymbol.apply().*apply�*J
+@refuel/container/provider/restriction/InstanceSymbol.apply().[T]	*T�*N
+Brefuel/container/provider/restriction/InstanceSymbol.apply().(key)*key�*R
+Drefuel/container/provider/restriction/InstanceSymbol.apply().(value)*value�*X
+Grefuel/container/provider/restriction/InstanceSymbol.apply().(priority)*priority�*`
+Krefuel/container/provider/restriction/InstanceSymbol.apply().(acceptedFrom)*acceptedFrom�*O
+?refuel/container/provider/restriction/InstanceSymbol.unapply().*unapply�*L
+Brefuel/container/provider/restriction/InstanceSymbol.unapply().[T]	*T�*P
+Drefuel/container/provider/restriction/InstanceSymbol.unapply().(x$1)*x$1�*Q
+@refuel/container/provider/restriction/InstanceSymbol.toString().*toString�20
+" -&refuel/container/provider/restriction/2$
+ !refuel/container/provider/2
+ refuel/container/2
+ refuel/2=
+ "/refuel/container/IndexedKey$package.IndexedKey.2
+ refuel/container/2
+ 
+refuel/2.
+ & refuel/inject/InjectionPriority.2.
+ & refuel/inject/InjectionPriority#2
+ refuel/inject/2
+ 
+refuel/2C
+ )5refuel/container/provider/restriction/InstanceSymbol#2
+ refuel/2N
+) )@refuel/container/provider/restriction/InstanceSymbol#`<init>`().2=
+F P/refuel/container/IndexedKey$package.IndexedKey#2F
+H I8refuel/container/provider/restriction/InstanceSymbol#[T]2.
+K \ refuel/inject/InjectionPriority#2#
+	B	 Hscala/package.Vector#2
+	I	 L
+scala/Any#2Q
+	k	 kCrefuel/container/provider/restriction/SymbolRestriction#`<init>`().2F
+	W	 h8refuel/container/provider/restriction/SymbolRestriction#2F
+	i	 j8refuel/container/provider/restriction/InstanceSymbol#[T]2G
+	l	 o9refuel/container/provider/restriction/InstanceSymbol#key.2I
+	q	 v;refuel/container/provider/restriction/InstanceSymbol#value.2M
+		x	 �>refuel/container/provider/restriction/InstanceSymbol#priority.2F
+* +8refuel/container/provider/restriction/InstanceSymbol#[T]2G
+A D9refuel/container/provider/restriction/InstanceSymbol#key.2I
+A F;refuel/container/provider/restriction/InstanceSymbol#value.2L
+A I>refuel/container/provider/restriction/InstanceSymbol#priority.2P
+	4	 @Brefuel/container/provider/restriction/InstanceSymbol#acceptedFrom.2S
+ Erefuel/container/provider/restriction/InstanceSymbol#acceptedClass().2V
+ Hrefuel/container/provider/restriction/InstanceSymbol#acceptedClass().[X]2V
+  !Hrefuel/container/provider/restriction/InstanceSymbol#acceptedClass().(x)2!
+# (scala/Predef.Class#2V
+) *Hrefuel/container/provider/restriction/InstanceSymbol#acceptedClass().[X]2
+. 5scala/Boolean#2V
+ Hrefuel/container/provider/restriction/InstanceSymbol#acceptedInstance().2Y
+  !Krefuel/container/provider/restriction/InstanceSymbol#acceptedInstance().(x)2
+# &
+scala/Any#2
+) 0scala/Boolean#21
+ #scala/collection/SeqOps#contains().2P
+ Brefuel/container/provider/restriction/InstanceSymbol#acceptedFrom.2Y
+ Krefuel/container/provider/restriction/InstanceSymbol#acceptedInstance().(x)PZ 37255AB3044615CC1FD6929E9F4444A3

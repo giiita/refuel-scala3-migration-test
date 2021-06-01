@@ -1,0 +1,25 @@
+
+�Irefuel-macro-refuel.test/src/main/scala/refuel/container/DependencyPoolRef.scala*=
+#refuel/container/DependencyPoolRef#*DependencyPoolRef�*@
+.refuel/container/DependencyPoolRef#`<init>`(). �@*<init>�*
+local0*me�*0
+&refuel/container/DependencyPoolRef#[C]	*C�*F
+0refuel/container/DependencyPoolRef#__refuel_c(). �*
+__refuel_c�*L
+4refuel/container/DependencyPoolRef#`__refuel_c_=`(). �*__refuel_c_=�*E
+9refuel/container/DependencyPoolRef#`__refuel_c_=`().(x$1)*x$1�2
+ refuel/container/2
+ refuel/21
+ )#scala/language.implicitConversions.2
+
+ scala/language.2
+ scala/21
+ #refuel/container/provider/Accessor.21
+ #refuel/container/provider/Accessor#2(
+ refuel/container/provider/21
+ #refuel/container/DependencyPoolRef#2<
+ .refuel/container/DependencyPoolRef#`<init>`().2
+ local024
+ &refuel/container/DependencyPoolRef#[C]2>
+ 0refuel/container/DependencyPoolRef#__refuel_c().24
+ &refuel/container/DependencyPoolRef#[C]PZ 43566DEE29D69D9107F56E225E212BBB

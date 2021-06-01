@@ -1,0 +1,17 @@
+
+�Xrefuel-macro-refuel.test/src/main/scala/refuel/inject/exception/InjectDefinitionException.scala*T
+2refuel/inject/exception/InjectDefinitionException#
+*InjectDefinitionException�*O
+=refuel/inject/exception/InjectDefinitionException#`<init>`(). �@*<init>�*V
+Frefuel/inject/exception/InjectDefinitionException#`<init>`().(message)*message�*M
+:refuel/inject/exception/InjectDefinitionException#message. �*message�2"
+ refuel/inject/exception/2
+ refuel/inject/2
+ refuel/2@
+ 2refuel/inject/exception/InjectDefinitionException#2K
+ =refuel/inject/exception/InjectDefinitionException#`<init>`().2"
+) /scala/Predef.String#2/
+B B!java/lang/Exception#`<init>`(+1).2&
+9 Bscala/package.Exception#2H
+C J:refuel/inject/exception/InjectDefinitionException#message.2H
+  ':refuel/inject/exception/InjectDefinitionException#message.PZ 2871652017CB7CE08B3C26D4CB364C43

@@ -1,0 +1,23 @@
+
+�
+\refuel-macro-refuel.test/src/main/scala/refuel/inject/exception/DIAutoInitializationException.scala*\
+6refuel/inject/exception/DIAutoInitializationException#
+*DIAutoInitializationException�*S
+Arefuel/inject/exception/DIAutoInitializationException#`<init>`(). �@*<init>�*Z
+Jrefuel/inject/exception/DIAutoInitializationException#`<init>`().(message)*message�*N
+Drefuel/inject/exception/DIAutoInitializationException#`<init>`().(e)*e�*Q
+>refuel/inject/exception/DIAutoInitializationException#message. �*message�*E
+8refuel/inject/exception/DIAutoInitializationException#e. �*e�2"
+ refuel/inject/exception/2
+ refuel/inject/2
+ refuel/2D
+ #6refuel/inject/exception/DIAutoInitializationException#2O
+# #Arefuel/inject/exception/DIAutoInitializationException#`<init>`().2"
+- 3scala/Predef.String#2&
+8 Ascala/package.Throwable#2/
+T T!java/lang/Exception#`<init>`(+2).2&
+K Tscala/package.Exception#2L
+U \>refuel/inject/exception/DIAutoInitializationException#message.2F
+^ _8refuel/inject/exception/DIAutoInitializationException#e.2L
+$ +>refuel/inject/exception/DIAutoInitializationException#message.2F
+5 68refuel/inject/exception/DIAutoInitializationException#e.PZ BC5CB94DE30D25456A99901E5E32195C

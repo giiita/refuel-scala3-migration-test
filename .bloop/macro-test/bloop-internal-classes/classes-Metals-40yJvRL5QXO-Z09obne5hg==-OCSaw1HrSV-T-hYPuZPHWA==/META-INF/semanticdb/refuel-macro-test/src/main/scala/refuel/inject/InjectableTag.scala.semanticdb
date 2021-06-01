@@ -1,0 +1,27 @@
+
+�Brefuel-macro-refuel.test/src/main/scala/refuel/inject/InjectableTag.scala*4
+refuel/inject/InjectableTag.
+ *
+InjectableTag�*2
+$refuel/inject/InjectableTag.apply().*apply�*3
+'refuel/inject/InjectableTag.apply().(q)  *q�2
+ refuel/inject/2
+ refuel/2
+
+ 
+scala/quoted/2
+ scala/2*
+ refuel/inject/InjectableTag.22
+ $refuel/inject/InjectableTag.apply().25
+ 'refuel/inject/InjectableTag.apply().(q)2"
+ scala/quoted/Quotes#2*
+
+ scala/quoted/Quotes#reflect.25
+ 'refuel/inject/InjectableTag.apply().(q)2F
+ 8scala/quoted/Quotes#reflectModule#TypeTreeMethods#tpe().2D
+
+ 6scala/quoted/Quotes#reflectModule#TypeTreeModule#of().29
+ +scala/quoted/Quotes#reflectModule#TypeTree.2+
+ refuel/inject/AutoInjectBase#2%
+ scala/quoted/Type.of().25
+ 'refuel/inject/InjectableTag.apply().(q)PZ E51EF3430326D8E308629F3C2EF2D0EC

@@ -1,0 +1,86 @@
+
+�Nrefuel-macro-refuel.test/src/main/scala/refuel/container/provider/IndexedSymbol.scala*>
+(refuel/container/provider/IndexedSymbol#*
+IndexedSymbol�*E
+3refuel/container/provider/IndexedSymbol#`<init>`(). �@*<init>�*5
++refuel/container/provider/IndexedSymbol#[T]	*T�*?
+.refuel/container/provider/IndexedSymbol#value. �*value�*E
+1refuel/container/provider/IndexedSymbol#priority. �*priority�*=
+-refuel/container/provider/IndexedSymbol#self. �*self�*F
+3refuel/container/provider/IndexedSymbol#accepted(). *accepted�*@
+6refuel/container/provider/IndexedSymbol#accepted().[X]	*X�*T
+@refuel/container/provider/IndexedSymbol#accepted().(requestFrom)*requestFrom�*@
+1refuel/container/provider/IndexedSymbol#isOpen().*isOpen�*P
+8refuel/container/provider/IndexedSymbol#acceptedClass(). *
+acceptedClass�*E
+;refuel/container/provider/IndexedSymbol#acceptedClass().[X]	*X�*E
+;refuel/container/provider/IndexedSymbol#acceptedClass().(x)*x�*V
+;refuel/container/provider/IndexedSymbol#acceptedInstance(). *acceptedInstance�*H
+>refuel/container/provider/IndexedSymbol#acceptedInstance().(x)*x�2$
+ !refuel/container/provider/2
+ refuel/container/2
+ refuel/2)
+ !refuel/container/Container.2
+ refuel/container/2
+ 
+refuel/2.
+ & refuel/inject/InjectionPriority.2.
+ & refuel/inject/InjectionPriority#2
+ refuel/inject/2
+ 
+refuel/2
+
+ 
+scala/quoted/2
+ scala/26
+
+
+ (refuel/container/provider/IndexedSymbol#2A
+
+
+ 3refuel/container/provider/IndexedSymbol#`<init>`().29
+
+
+ +refuel/container/provider/IndexedSymbol#[T]2<
+ .refuel/container/provider/IndexedSymbol#value.29
+
+ +refuel/container/provider/IndexedSymbol#[T]2?
+ 1refuel/container/provider/IndexedSymbol#priority.2.
+ ! refuel/inject/InjectionPriority#2;
+ 
+-refuel/container/provider/IndexedSymbol#self.2 
+ scala/quoted/Type#29
+ +refuel/container/provider/IndexedSymbol#[T]2A
+ 3refuel/container/provider/IndexedSymbol#accepted().2D
+ 6refuel/container/provider/IndexedSymbol#accepted().[X]2N
+, 7@refuel/container/provider/IndexedSymbol#accepted().(requestFrom)2D
+9 :6refuel/container/provider/IndexedSymbol#accepted().[X]2;
+ *-refuel/container/provider/TypedAcceptContext#2D
+* *6refuel/container/provider/IndexedSymbol#accepted().[X]2
+= Dscala/Boolean#2&
+4 4scala/Function1#apply().2&
+. .scala/Function1#apply().2F
+& .8refuel/container/provider/TypedAcceptContext#accepted().2(
+ scala/Predef.implicitly().2;
+ !-refuel/container/provider/TypedAcceptContext#2D
+" #6refuel/container/provider/IndexedSymbol#accepted().[X]2N
+5 @@refuel/container/provider/IndexedSymbol#accepted().(requestFrom)2?
+!! 1refuel/container/provider/IndexedSymbol#isOpen().2
+!
+! refuel/2
+!! %scala/Boolean#2F
+** #8refuel/container/provider/IndexedSymbol#acceptedClass().2
+*
+* refuel/2I
+*$* %;refuel/container/provider/IndexedSymbol#acceptedClass().[X]2I
+*'* (;refuel/container/provider/IndexedSymbol#acceptedClass().(x)2!
+*** /scala/Predef.Class#2I
+*0* 1;refuel/container/provider/IndexedSymbol#acceptedClass().[X]2
+*5* <scala/Boolean#2I
+22 &;refuel/container/provider/IndexedSymbol#acceptedInstance().2
+2
+2 refuel/2L
+2'2 (>refuel/container/provider/IndexedSymbol#acceptedInstance().(x)2
+2*2 -
+scala/Any#2
+202 7scala/Boolean#PZ 8B304688DAFE33929E3A62656E522495

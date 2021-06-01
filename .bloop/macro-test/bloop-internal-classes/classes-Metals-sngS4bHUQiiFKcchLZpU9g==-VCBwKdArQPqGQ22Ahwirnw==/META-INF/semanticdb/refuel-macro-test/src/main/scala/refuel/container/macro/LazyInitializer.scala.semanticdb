@@ -1,0 +1,146 @@
+
+�3Mrefuel-macro-refuel.test/src/main/scala/refuel/container/macro/LazyInitializer.scala*A
+'refuel/container/macro/LazyInitializer.
+ *LazyInitializer�*7
+,refuel/container/macro/LazyInitializer.nw().*nw�*9
+/refuel/container/macro/LazyInitializer.nw().[T]	*T�*G
+6refuel/container/macro/LazyInitializer.nw().(nwSyntax)*nwSyntax�*;
+/refuel/container/macro/LazyInitializer.nw().(q)  *q�*
+local0 �*lll�*
+local1
+ *$anon�*
+local2
+ *$anon�*;
+.refuel/container/macro/LazyInitializer.init().*init�*;
+1refuel/container/macro/LazyInitializer.init().[T]	*T�*=
+2refuel/container/macro/LazyInitializer.init().(ip)*ip�*E
+6refuel/container/macro/LazyInitializer.init().(access)*access�*=
+1refuel/container/macro/LazyInitializer.init().(q)  *q�*
+local3 �*c�2!
+  refuel/container/macro/2
+ refuel/container/2
+ refuel/2-
+" &refuel/container/provider/Body.2-
+" &refuel/container/provider/Body#2-
+( ,refuel/container/provider/Lazy.2-
+( ,refuel/container/provider/Lazy#2,
+. 1refuel/container/provider/Mix.2(
+  refuel/container/provider/2
+ refuel/container/2
+ 
+refuel/21
+! )#sun/reflect/generics/tree/TypeTree.21
+! )#sun/reflect/generics/tree/TypeTree#2(
+  sun/reflect/generics/tree/2#
+ sun/reflect/generics/2
+ sun/reflect/2
+ 
+sun/2 
+ scala/quoted/Expr.2 
+ scala/quoted/Expr#2"
+ !scala/quoted/Quotes.2 
+# 'scala/quoted/Type.2 
+# 'scala/quoted/Type#2
+
+ 
+scala/quoted/2
+ scala/25
+ 'refuel/container/macro/LazyInitializer.2:
+22 ,refuel/container/macro/LazyInitializer.nw().2=
+2	2 
+/refuel/container/macro/LazyInitializer.nw().[T]2D
+22 6refuel/container/macro/LazyInitializer.nw().(nwSyntax)2 
+22  scala/quoted/Expr#2=
+2!2 "/refuel/container/macro/LazyInitializer.nw().[T]2 
+22 scala/quoted/Type#2=
+22 /refuel/container/macro/LazyInitializer.nw().[T]2=
+2+2 ,/refuel/container/macro/LazyInitializer.nw().(q)2"
+2.2 4scala/quoted/Quotes#2 
+272 ;scala/quoted/Expr#2-
+2<2 @refuel/container/provider/Body#2*
+3
+3 scala/quoted/Quotes#reflect.2=
+33 /refuel/container/macro/LazyInitializer.nw().(q)2
+44 local02 
+4
+4 scala/quoted/Expr#2-
+44 refuel/container/provider/Body#2-
+454 5scala/ContextFunction1#apply().20
+44 "scala/quoted/runtime/Expr.quote().28
+4%4 %*refuel/container/provider/Body#`<init>`().2-
+4!4 %refuel/container/provider/Body#2,
+424 5refuel/container/provider/Mix#2=
+44 /refuel/container/macro/LazyInitializer.nw().(q)2'
+55 scala/Predef.println(+1).2C
+55 5scala/quoted/Quotes#reflectModule#TreeMethods#show().29
+55 +scala/quoted/Quotes#reflectModule#asTerm().2
+55 local02N
+5*5 7@scala/quoted/Quotes#reflectModule#PrinterModule#TreeStructure().28
+5"5 )*scala/quoted/Quotes#reflectModule#Printer.2-
+66 scala/ContextFunction1#apply().20
+66 "scala/quoted/runtime/Expr.quote().28
+66 *refuel/container/provider/Body#`<init>`().2-
+66 refuel/container/provider/Body#2,
+66 refuel/container/provider/Mix#2=
+66 /refuel/container/macro/LazyInitializer.nw().(q)2<
+88 
+.refuel/container/macro/LazyInitializer.init().2?
+88 1refuel/container/macro/LazyInitializer.init().[T]2@
+88 2refuel/container/macro/LazyInitializer.init().(ip)2 
+88 scala/quoted/Expr#2"
+88 #scala/Predef.String#2D
+8&8 ,6refuel/container/macro/LazyInitializer.init().(access)2 
+8.8 2scala/quoted/Expr#2 
+88 scala/quoted/Type#2?
+88 1refuel/container/macro/LazyInitializer.init().[T]2?
+8=8 >1refuel/container/macro/LazyInitializer.init().(q)2"
+8@8 Fscala/quoted/Quotes#2 
+8I8 Mscala/quoted/Expr#2-
+8N8 Rrefuel/container/provider/Lazy#2?
+8S8 T1refuel/container/macro/LazyInitializer.init().[T]2*
+9
+9 scala/quoted/Quotes#reflect.2?
+99 1refuel/container/macro/LazyInitializer.init().(q)2D
+HH 6scala/quoted/Quotes#reflectModule#reportModule#info().27
+HH 
+)scala/quoted/Quotes#reflectModule#report.2.
+HaH i scala/collection/Seq#toString().24
+HNH Q&scala/collection/immutable/List#map().2K
+HH =scala/quoted/Quotes#reflectModule#SymbolMethods#paramSymss().2S
+HH Escala/quoted/Quotes#reflectModule#SymbolMethods#primaryConstructor().2E
+HH 7scala/quoted/Quotes#reflectModule#TreeMethods#symbol().2D
+H#H %6scala/quoted/Quotes#reflectModule#TypeTreeModule#of().29
+HH "+scala/quoted/Quotes#reflectModule#TypeTree.2*
+HH scala/quoted/Quotes#reflect.2?
+HH 1refuel/container/macro/LazyInitializer.init().(q)2?
+H&H '1refuel/container/macro/LazyInitializer.init().[T]24
+HTH W&scala/collection/immutable/List#map().2E
+HXH X7scala/quoted/Quotes#reflectModule#SymbolMethods#tree().2
+QQ 	local32G
+QQ 9scala/quoted/Quotes#reflectModule#TreeMethods#asExprOf().2J
+QQ <scala/quoted/Quotes#reflectModule#SelectModule#overloaded().27
+QQ )scala/quoted/Quotes#reflectModule#Select.2B
+Q!Q !4scala/quoted/Quotes#reflectModule#NewModule#apply().24
+QQ !&scala/quoted/Quotes#reflectModule#New.2D
+Q5Q 76scala/quoted/Quotes#reflectModule#TypeTreeModule#of().29
+Q,Q 4+scala/quoted/Quotes#reflectModule#TypeTree.2*
+Q$Q +scala/quoted/Quotes#reflect.2?
+Q"Q #1refuel/container/macro/LazyInitializer.init().(q)2?
+Q8Q 91refuel/container/macro/LazyInitializer.init().[T]2 
+QGQ Jscala/package.Nil.27
+QPQ P)scala/collection/IterableFactory#apply().2!
+QLQ Pscala/package.List.29
+QTQ Z+scala/quoted/Quotes#reflectModule#asTerm().2@
+QQQ S2refuel/container/macro/LazyInitializer.init().(ip)2?
+QfQ g1refuel/container/macro/LazyInitializer.init().[T]2-
+^^ scala/ContextFunction1#apply().20
+^
+^ 
+"scala/quoted/runtime/Expr.quote().25
+^^ 'refuel/container/provider/Lazy.apply().2-
+^
+^ refuel/container/provider/Lazy.2?
+^^ 1refuel/container/macro/LazyInitializer.init().[T]27
+\\ )scala/quoted/runtime/Expr.nestedSplice().2?
+\\ 1refuel/container/macro/LazyInitializer.init().(q)2
+^^ local3PZ CA31AEA4BB72083FF6B5FA66B2330339

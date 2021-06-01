@@ -1,0 +1,18 @@
+
+�Crefuel-macro-refuel.test/src/main/scala/refuel/inject/AutoInjectBase.scala*4
+refuel/inject/AutoInjectBase#*AutoInjectBase�*:
+(refuel/inject/AutoInjectBase#`<init>`(). �@*<init>�2
+ refuel/inject/2
+ refuel/2)
+ !refuel/container/Container.2
+ refuel/container/2
+ 
+refuel/21
+ )#refuel/container/DependencyPoolRef.2
+ refuel/container/2
+ 
+refuel/2+
+ refuel/inject/AutoInjectBase#26
+ (refuel/inject/AutoInjectBase#`<init>`().21
+ .#refuel/container/DependencyPoolRef#2)
+/ 8refuel/container/Container#PZ 36F5003CD47F15DB8C57C7DE55BF81FA

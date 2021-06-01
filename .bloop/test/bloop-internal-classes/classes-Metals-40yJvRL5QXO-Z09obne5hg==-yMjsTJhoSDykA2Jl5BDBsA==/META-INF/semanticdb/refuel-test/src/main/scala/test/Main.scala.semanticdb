@@ -1,0 +1,101 @@
+
+�*refuel-refuel.test/src/main/scala/refuel.test/Main.scala*
+
+refuel.test/Main.
+ *Main�*!
+test/Main.local. �*local�* 
+test/Main.hello().*hello�*$
+test/Main.Runnter.
+ *Runnter�**
+test/Main.Runnter.inject().*inject�*(
+refuel.test/Main.Runnter.inject().[T]	*T�*,
+ refuel.test/Main.Runnter.inject().(str)*str�**
+refuel.test/Main.Runnter.inject().(an)*an�*
+
+refuel.test/Testing#*Testing�**
+test/Testing#`<init>`(). �@*<init>�*
+test/Testing#aa().*aa�*
+	refuel.test/Foo#
+ *Foo�*&
+test/Foo#`<init>`(). �@*<init>�*
+	refuel.test/Mix#*Mix�*&
+test/Mix#`<init>`(). �@*<init>�*
+refuel.test/hello#
+ *hello�*(
+test/hello#`<init>`(). �@*<init>�*"
+test/hello#main(). � *main�*%
+test/hello#main().(args)*args�*
+local0 �*error�2
+ test/25
+  /'refuel/container/macro/LazyInitializer.2%
+ refuel/container/macro/2
+ refuel/container/2
+ 
+refuel/2(
+  refuel/container/provider/2
+ refuel/container/2
+ 
+refuel/2'
+  refuel/inject/AutoInject.2.
+" 3 refuel/inject/InjectionPriority.2.
+" 3 refuel/inject/InjectionPriority#2
+ refuel/inject/2
+ 
+refuel/2
+ 
+refuel.test/Main.2
+ 
+scala/App#2
+ $
+refuel.test/Testing#2'
+* 4refuel/inject/AutoInject#2
+ test/Main.local.2"
+
+ scala/Predef.String#2
+ scala/main#2 
+ test/Main.hello().2
+ scala/Unit#2'
+		 scala/Predef.println(+1).2 
+		 test/Testing#aa().2 
+ test/Main.hello().2 
+
+	
+ test/Main.Runnter.2)
+ test/Main.Runnter.inject().2,
+ refuel.test/Main.Runnter.inject().[T]2.
+  # refuel.test/Main.Runnter.inject().(str)2"
+% +scala/Predef.String#2-
+- /refuel.test/Main.Runnter.inject().(an)2
+1 4
+scala/Any#2-
+7 ;refuel/container/provider/Lazy#2"
+< Bscala/Predef.String#21
+ #scala/quoted/runtime/Expr.splice().2=
+ /refuel/container/macro/LazyInitializer.initi().25
+ 'refuel/container/macro/LazyInitializer.2,
+ refuel.test/Main.Runnter.inject().[T]2-
+! !scala/ContextFunction1#apply().2-
+' 'scala/ContextFunction1#apply().2%
++ +scala/quoted/Type.of().2
+ 
+
+refuel.test/Testing#2&
+ test/Testing#`<init>`().2%
+ refuel/inject/Injector#2 
+ test/Testing#aa().2
+
+ 
+	refuel.test/Foo#2E
+ 7refuel/container/provider/package._implicitProviding().2.
+  refuel/inject/Injector#inject().2
+ 	refuel.test/Foo#2
+   	refuel.test/Foo#2"
+   test/Foo#`<init>`().2'
+   $refuel/inject/AutoInject#2
+!! 		refuel.test/Mix#2
+!!test/Mix#`<init>`().2
+ refuel.test/hello#2$
+ test/hello#`<init>`().2 
+ test/Main.hello().27
+ )scala/util/CommandLineParser.showError().2
+ local0PZ EB4E3F493C326F681989F0A4C3D114C3
