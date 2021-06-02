@@ -1,6 +1,5 @@
 package refuel.container.`macro`
 
-import refuel.container.InjectionPool
 import refuel.container.provider.{Lazy, Accessor}
 import refuel.container.`macro`.LazyInitializer
 

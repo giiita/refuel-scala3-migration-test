@@ -65,7 +65,7 @@ private[refuel] class ContainerImpl private (val lights: Vector[Container] = Vec
       case Some(r) =>
         r.filter(_.accepted(requestFrom)).toSeq match {
           case Nil => None
-          case x   => Some(x.minBy(_.priority.v)).map(_.value.asInstanceOf[T])
+          case x   => x.minByOption(_.priority.v).map(_.value.asInstanceOf[T])
         }
     }
   }
@@ -85,7 +85,6 @@ private[refuel] class ContainerImpl private (val lights: Vector[Container] = Vec
 //    }
     val key = IndexedKey.fromClass(clazz)
     import refuel.container.`macro`.given
-    println(s"Find by $key")
     find[T, Accessor[_]](key, any).orElse(lights.lastOption.flatMap(_.find[T, Accessor[_]](key, any)))
   }
 
@@ -123,16 +122,16 @@ private[refuel] class ContainerImpl private (val lights: Vector[Container] = Vec
     )
   }
 
-  private[refuel] def fully[T](clazz: Class[T]): Iterable[T] = {
+  private[refuel] def fully[T, A: TypedAcceptContext](key: IndexedKey, requestFrom: A): Iterable[T] = {
 //    val key = staging.run { q ?=>
 //      import q.reflect._
 //      given Type[T] = q.reflect.TypeRepr.typeConstructorOf(clazz).asType.asInstanceOf[Type[T]]
 //      IndexedKey.from[T]
 //    }
-    val key = IndexedKey.fromClass(clazz)
     _buffer.snapshot().get(key) match {
-      case None    => None
-      case Some(r) => r.map(_.value.asInstanceOf[T])
+      case None => None
+      case Some(r) =>
+        r.filter(_.accepted(requestFrom)).toSeq.groupBy(_.priority.v).minBy(_._1)._2
     }
   }
 }

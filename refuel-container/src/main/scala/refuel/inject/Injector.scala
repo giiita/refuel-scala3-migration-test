@@ -1,7 +1,7 @@
 package refuel.inject
 
 import refuel.container.`macro`.Macro
-import refuel.container.{Container, ContainerImpl, ContainerLifecycle, DependencyPoolRef, IndexedKey, Indexer, InjectionPool}
+import refuel.container.{Container, ContainerImpl, ContainerLifecycle, DependencyPoolRef, IndexedKey, Indexer}
 import refuel.container.provider.Accessor
 import refuel.inject.Types.LocalizedContainer
 import refuel.container.provider.{Accessor, Lazy}
@@ -18,13 +18,6 @@ trait Injector extends DependencyPoolRef[Container] { me =>
    * @return
    */
   protected given __refuel_accessor: Accessor[_] = Accessor(me)
-
-  /**
-   * Implicitly injection pool
-   *
-   * @return
-   */
-  protected given __refuel_ip: InjectionPool = null
 
   /**
    * Manually register the new dependency.

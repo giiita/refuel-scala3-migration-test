@@ -20,10 +20,8 @@
     *
     * @return [[ExcludingRuntime]] or [[ConfirmedCands]]
     */
-   def searchInjectionCandidates[T: Type](using q: Quotes): (Iterable[q.reflect.TypeTree], Boolean) = {
+   def searchInjectionCandidates[T: Type](using q: Quotes)(uncheck: Boolean = false): Iterable[q.reflect.TypeTree] = {
      import q.reflect._
-
-     val allowRuntimeRepr = TypeRepr.of[refuel.inject.AllowRuntime]
 
      val x                     = getList
      val compileTimeCandidates = InjectableSymbolHandler.filterTargetSymbols[T](x)
@@ -33,18 +31,14 @@
          case _ => None
        }
      }
-     if (annos.exists(_.tpe =:= allowRuntimeRepr)) {
-       // If a @AllowRuntime had been granted
-       compileTimeCandidates -> true
-     } else if (compileTimeCandidates.isEmpty) {
+     if (uncheck && compileTimeCandidates.isEmpty) {
        // If a @AllowRuntime had not been granted and no candidate is found
-       report.error(
+       report.throwError(
          s"Can't find a dependency registration of ${q.reflect.TypeTree.of[T].symbol.fullName}. Injection from runtime classpath must be given @RecognizedDynamicInjection."
        )
-       Vector.empty -> true
      } else {
        // If a @AllowRuntime had not been granted and a candidate is found
-       compileTimeCandidates -> false
+       compileTimeCandidates
      }
    }
 

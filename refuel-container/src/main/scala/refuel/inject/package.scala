@@ -1,6 +1,6 @@
 package refuel.inject
 
-import refuel.container.{Container, ContainerImpl, ContainerLifecycle, InjectionPool}
+import refuel.container.{Container, ContainerImpl, ContainerLifecycle}
 import refuel.container.provider.Lazy
 
 import scala.language.implicitConversions
@@ -16,10 +16,8 @@ given _explicitProviding[X](using x: Lazy[X]): scala.Conversion[Lazy[X], X] = ne
 
 private[refuel] given ContainerLifecycleImpl: ContainerLifecycle with {
   private[this] lazy val _container: Container = ContainerImpl()
-  private[this] lazy val _ip: InjectionPool = null
 
   def container: Container = _container
-  def ip: InjectionPool = _ip
 }
 
 /**
