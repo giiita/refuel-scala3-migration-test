@@ -1,7 +1,7 @@
 package refuel.test
 
 import refuel.container.provider.Lazy
-import refuel.container.`macro`.LazyInitializer
+import refuel.container.`macro`.LazyMaybeInitializer
 import refuel.container.`macro`.Macro.inject
 import refuel.inject.{AutoInject, InjectionPriority, Injector}
 import refuel.container.provider.Accessor
@@ -14,6 +14,7 @@ object Main extends Testing with AutoInject {
      println(aa.getClass.getName)
     println(bb)
   }
+  Seq("").fold
 
 //  object Runnter {
 //    inline def inject[T](inline str: String, an: Any): Lazy[String] =

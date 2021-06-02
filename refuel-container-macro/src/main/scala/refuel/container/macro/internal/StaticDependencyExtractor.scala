@@ -20,26 +20,11 @@
     *
     * @return [[ExcludingRuntime]] or [[ConfirmedCands]]
     */
-   def searchInjectionCandidates[T: Type](using q: Quotes)(uncheck: Boolean = false): Iterable[q.reflect.TypeTree] = {
+   def searchInjectionCandidates[T: Type](using q: Quotes): Iterable[q.reflect.TypeTree] = {
      import q.reflect._
 
      val x                     = getList
-     val compileTimeCandidates = InjectableSymbolHandler.filterTargetSymbols[T](x)
-     val annos = compileTimeCandidates.flatMap(_.symbol.annotations) ++ q.reflect.TypeTree.of[T].symbol.annotations ++ {
-       q.reflect.TypeTree.of[T].tpe match {
-         case AnnotatedType (_, anno) => Some (anno)
-         case _ => None
-       }
-     }
-     if (uncheck && compileTimeCandidates.isEmpty) {
-       // If a @AllowRuntime had not been granted and no candidate is found
-       report.throwError(
-         s"Can't find a dependency registration of ${q.reflect.TypeTree.of[T].symbol.fullName}. Injection from runtime classpath must be given @RecognizedDynamicInjection."
-       )
-     } else {
-       // If a @AllowRuntime had not been granted and a candidate is found
-       compileTimeCandidates
-     }
+     InjectableSymbolHandler.filterTargetSymbols[T](x)
    }
 
    private[this] def getList(using q: Quotes): Iterable[q.reflect.TypeTree] = {
@@ -96,7 +81,13 @@
        case _ =>
          val (packages, modules) = selfPackages.flatMap(_.declarations).distinct.collect {
            // duplicated || blacklist cases
-           case x if selfPackages.contains(x) || unloads.contains(x.fullName) =>
+           case x if {
+             if(x.fullName == "org.scalatest.tools.ScalaTestAntTask") {
+               println(x.fullName)
+               println(try {x.tree} catch { case e => "er"})
+             }
+             selfPackages.contains(x) || unloads.contains(x.fullName)
+           } =>
              None -> None
            // other packages
            case x if x.isPackageDef =>
@@ -115,7 +106,7 @@
              // [info]    |                    isDefDef           false : false : false
              // [info]    |                    isBind             false : false : false
              if maybeCandidates(x) =>
-             None -> Some(x)
+               None -> Some(x)
          } match {
            case x => x.flatMap(_._1) -> x.flatMap(_._2)
          }
@@ -156,7 +147,6 @@
        case accessibleSymbol if accessibleSymbol.isEmpty => injectableSymbols
        case accessibleSymbol =>
          val selection: Iterable[q.reflect.TypeTree] = accessibleSymbol.flatMap { x =>
-           val log = s"${x.fullName} ${x.flags.is(q.reflect.Flags.Trait)} || ${x.flags.show}"
            x.tree match {
              // (String, TypeTree, Option[Term])
              case ValDef(_, ttree, _) if ttree.tpe.<:<(InjectableTag()) =>

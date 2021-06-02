@@ -131,7 +131,7 @@ private[refuel] class ContainerImpl private (val lights: Vector[Container] = Vec
     _buffer.snapshot().get(key) match {
       case None => None
       case Some(r) =>
-        r.filter(_.accepted(requestFrom)).toSeq.groupBy(_.priority.v).minBy(_._1)._2
+        r.filter(_.accepted(requestFrom)).toSeq.groupBy(_.priority.v).minBy(_._1)._2.map(_.value.asInstanceOf[T])
     }
   }
 }

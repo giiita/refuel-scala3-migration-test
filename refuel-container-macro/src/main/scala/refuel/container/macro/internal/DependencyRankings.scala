@@ -11,43 +11,57 @@ import scala.quoted._
 
 object DependencyRankings extends LowLevelAPIConversionAlias {
   /* Injection priority config type tag */
-  private[this] def InjectionPriorityConfigType(using q: Quotes) = q.reflect.TypeRepr.of[Inject[?]]
-  private[this] def DefaultType(using q: Quotes)                 = q.reflect.TypeRepr.of[Default]
+  private[this] def InjectionPriorityConfigType(using q: Quotes): q.reflect.TypeRepr = q.reflect.TypeRepr.of[Inject[?]]
+  private[this] def DefaultType(using q: Quotes): q.reflect.TypeRepr                 = q.reflect.TypeRepr.of[Default]
 
-  def apply(using q: Quotes)(cands: Iterable[q.reflect.TypeTree]): (Expr[InjectionPriority], Iterable[q.reflect.TypeTree]) = {
+  def apply(using q: Quotes)(cands: Iterable[q.reflect.TypeTree]): Option[(Expr[InjectionPriority], Iterable[q.reflect.TypeTree])] = {
     import q.reflect._
-    val (priorityGroup, pAndSyms) = cands.map { sym =>
-      sym.symbol.annotations.find(_.tpe <:< InjectionPriorityConfigType)
-        .flatMap(_.tpe match {
-          case AppliedType(_, List(x)) => Some(x)
-          case _ => None
-        }).getOrElse(DefaultType) -> sym
-    }.groupBy(_._1).reduce { (a, b) =>
-      val maybe = {
-        a._1.baseType(b._1.typeSymbol) match {
-          case x if x.typeSymbol.isNoSymbol => b._1.baseType(a._1.typeSymbol)
-          case x => x
+    cands.map { sym =>
+      {
+        sym.symbol.annotations.find(_.tpe <:< InjectionPriorityConfigType)
+          .flatMap(_.tpe match {
+            case q.reflect.AppliedType(_, List(x)) => Some(x)
+            case _ => None
+          }).getOrElse(DefaultType)
+      } -> sym
+    }.groupBy(_._1).foldLeft[Option[(q.reflect.TypeRepr, Iterable[(q.reflect.TypeRepr, q.reflect.TypeTree)])]](None) { (a, b) =>
+      a.fold(Some(b)) { prev =>
+        val maybe = {
+          prev._1.baseType(b._1.typeSymbol) match {
+            case x if x.typeSymbol.isNoSymbol => b._1.baseType(prev._1.typeSymbol)
+            case x => x
+          }
         }
+        Some(
+          if (maybe =:= prev._1) prev else b
+        )
       }
-      if (maybe =:= a._1) a else b
+    }.flatMap {
+      case (priorityGroup, pAndSyms) =>
+        Some(
+          {
+            priorityGroup.typeSymbol.companionModule.tree match {
+              case ValDef(_, tree, _) =>
+                This(tree.symbol).asExpr.asExprOf[InjectionPriority]
+            }
+          } -> pAndSyms.map(_._2)
+        )
     }
 
-    {
-      priorityGroup.typeSymbol.companionModule.tree match {
-        case ValDef(_, tree, _) =>
-          This(tree.symbol).asExpr.asExprOf[InjectionPriority]
-      }
-    } -> pAndSyms.map(_._2)
   }
 
-  def generateExpr[T: Type](using q: Quotes)(samePriorities: Iterable[q.reflect.TypeTree]): Expr[T] = {
+  def generateExprOne[T: Type](using q: Quotes)(samePriority: q.reflect.TypeTree): Expr[T] = {
     import q.reflect._
-    if (samePriorities.size > 1) {
-      report.throwError(s"Invalid dependency definition. There must be one automatic injection per priority. But found [${samePriorities.map(_.symbol.fullName).mkString(", ")}]")
-    } else {
-      report.info(s"${samePriorities.head.symbol.fullName} will be used.")
-      build[T](samePriorities.head.symbol)
-    }
+    report.info(s"${samePriority.symbol.fullName} will be used.")
+    build[T](samePriority.symbol)
+  }
+
+  def generateExpr[T: Type](using q: Quotes)(samePriorities: Iterable[q.reflect.TypeTree], uncheck: Boolean = false): Expr[Iterable[T]] = {
+    import q.reflect._
+    report.info(s"${samePriorities.map(_.symbol.fullName).mkString(" & ")} will be used.")
+    Expr.ofSeq(
+      samePriorities.map(x => build[T](x.symbol)).toSeq
+    )
   }
 
   @tailrec

@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(container/test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: container / Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5ed48fd4, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/giiita/src/refuel-scala3-migration-test/refuel-container-macro/target/scala-3.0.0/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/giiita/src/refuel-scala3-migration-test/refuel-container/target/scala-3.0.0/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/giiita/src/refuel-scala3-migration-test/refuel-container/src/test/scala/refuel/inject/InjectorTest.scala:16:25 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m16 |[0m      [33mval[0m [36mresult[0m = inject[[35mModuleBase[0m][0m
+[0m[[0m[31merror[0m] [0m[0m   |                   [31m^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |undefined: [33mnew [0m[35morg.apache.tools.ant.Task[0m # -1: TermRef(TypeRef(TermRef(ThisType(TypeRef(NoPrefix,module class tools)),object ant),Task),<init>) at typer[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m-- Info: /Users/giiita/src/refuel-scala3-migration-test/refuel-container/src/test/scala/refuel/inject/InjectorTest.scala:16:25 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m16 |[0m      [33mval[0m [36mresult[0m = inject[[35mModuleBase[0m][0m
+[0m[[0m[0minfo[0m] [0m[0m   |                   [34m^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m   |                   refuel.inject.Xxx$.Module$ will be used.[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(container / Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 4 s, completed 2021/06/02 20:27:26[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

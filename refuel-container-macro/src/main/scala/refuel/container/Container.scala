@@ -63,5 +63,5 @@ trait Container {
 
   private[refuel] def shading: Container @@ Localized
 
-  private[refuel] def fully[T](clazz: Class[T]): Iterable[T]
+  private[refuel] def fully[T, A: TypedAcceptContext](key: IndexedKey, requestFrom: A): Iterable[T]
 }
